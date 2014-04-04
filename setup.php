@@ -9,3 +9,5 @@ include_once('vendor/autoload.php');
 // S E T T I N G S
 
 $wiki = "wiki.local";
+
+$elasticIndexDir = "/tmp/elasticindex";
