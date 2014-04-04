@@ -36,9 +36,9 @@
     ),
     "analyzer" => array (
       "skos" => array (
-        "type" => "string",
-        "index_analyzer" => "skos",
-        "search_analyzer" => "standard"
+        "type" => "custom",
+        "tokenizer" => "keyword",
+        "filter" => "skosfilter"
       )
     )
   );

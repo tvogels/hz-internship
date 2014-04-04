@@ -30,8 +30,10 @@
     $attributes = array();
     $attributes[] = "skos:prefLabel \"{$concept->fulltext}\"";
 
-    foreach ($concept->printouts->{'Skos:definition'} as $label)
-      $attributes[] = "skos:definition \"{$label}\"";
+    foreach ($concept->printouts->{'Skos:definition'} as $label) {
+      $def = trim(preg_replace('/\s+/', ' ', $label));
+      $attributes[] = "skos:definition \"{$def}\"";
+    }
 
     foreach ($concept->printouts->{'Skos:altLabel'} as $label)
       $attributes[] = "skos:altLabel \"{$label}\"";

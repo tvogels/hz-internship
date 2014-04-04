@@ -26,7 +26,7 @@
 
 <http://wiki.local/index.php/Aansluitingsconstructie> rdf:type skos:Concept ;
   skos:prefLabel "Aansluitingsconstructie" ;
-  skos:definition "Gehele dwars- en lengteprofiel van een  grondconstructie in zijn afwijkende vorm, bij de overgang naar een duin, hoge gronden of een kunstwerk." ;
+  skos:definition "Gehele dwars- en lengteprofiel van een grondconstructie in zijn afwijkende vorm, bij de overgang naar een duin, hoge gronden of een kunstwerk." ;
   skos:inScheme <http://wiki.local/index.php/Waterveiligheid> ;
   skos:partOf <http://wiki.local/index.php/Duin> ;
   skos:partOf <http://wiki.local/index.php/Hoge_gronden> ;
@@ -70,8 +70,7 @@
 
 <http://wiki.local/index.php/Afslagprofiel> rdf:type skos:Concept ;
   skos:prefLabel "Afslagprofiel" ;
-  skos:definition "1. Evenwichtsprofiel van een duin tijdens de maatgevende storm.
-2. Resterende profiel van een hoog voorland, inclusief dijk, na aanzienlijke buitendijkse erosie." ;
+  skos:definition "1. Evenwichtsprofiel van een duin tijdens de maatgevende storm. 2. Resterende profiel van een hoog voorland, inclusief dijk, na aanzienlijke buitendijkse erosie." ;
   skos:inScheme <http://wiki.local/index.php/Waterveiligheid> ;
   skos:related <http://wiki.local/index.php/Duinafslag> .
 
@@ -168,8 +167,7 @@
 
 <http://wiki.local/index.php/Benedenrivierengebied> rdf:type skos:Concept ;
   skos:prefLabel "Benedenrivierengebied" ;
-  skos:definition "(1)Door Rijn en Maas gevoede rivierengebied, waarbij tijdens grote afvoergolven de waterstanden een significante invloed ondervinden van de waterstand op de Noordzee als gevolg van een zware storm De getijhoogwaterstijging is hier van belang.
-(2)Het rivierengebied ten westen van de lijn Schoonhoven -Werkendam Dongemond, inclusief Hollands Diep en Haringvliet, maar zonder de Hollandsche IJssel. De combinatie van waterstanden op zee en rivierafvoeren veroorzaakt in dit gebied de hoge waterstanden." ;
+  skos:definition "(1)Door Rijn en Maas gevoede rivierengebied, waarbij tijdens grote afvoergolven de waterstanden een significante invloed ondervinden van de waterstand op de Noordzee als gevolg van een zware storm De getijhoogwaterstijging is hier van belang. (2)Het rivierengebied ten westen van de lijn Schoonhoven -Werkendam Dongemond, inclusief Hollands Diep en Haringvliet, maar zonder de Hollandsche IJssel. De combinatie van waterstanden op zee en rivierafvoeren veroorzaakt in dit gebied de hoge waterstanden." ;
   skos:inScheme <http://wiki.local/index.php/Waterveiligheid> ;
   skos:broader <http://wiki.local/index.php/Rivierengebied> .
 
@@ -192,8 +190,7 @@
 
 <http://wiki.local/index.php/Beschermingszone> rdf:type skos:Concept ;
   skos:prefLabel "Beschermingszone" ;
-  skos:definition "(1)In de legger aangegeven beheerszone ter weerszijde van de waterkering.
-(2)Stroken grond aan weerszijden van de kernzone, die bijdragen aan de stabiliteit van de waterkering." ;
+  skos:definition "(1)In de legger aangegeven beheerszone ter weerszijde van de waterkering. (2)Stroken grond aan weerszijden van de kernzone, die bijdragen aan de stabiliteit van de waterkering." ;
   skos:inScheme <http://wiki.local/index.php/Waterveiligheid> ;
   skos:partOf <http://wiki.local/index.php/Legger> ;
   skos:partOf <http://wiki.local/index.php/Waterkering> .
@@ -206,10 +203,7 @@
 
 <http://wiki.local/index.php/Betonzuil> rdf:type skos:Concept ;
   skos:prefLabel "Betonzuil" ;
-  skos:definition "Waterkerend kunstwerk
-Constructie die onderdeel uitmaakt van een waterkering of de waterkering vervangt, maar is aangelegd ten behoeve van een andere functie, die de waterkering kruist (bijvoorbeeld schutten, spuien)
-
-1)" .
+  skos:definition "Waterkerend kunstwerk Constructie die onderdeel uitmaakt van een waterkering of de waterkering vervangt, maar is aangelegd ten behoeve van een andere functie, die de waterkering kruist (bijvoorbeeld schutten, spuien) 1)" .
 
 <http://wiki.local/index.php/Betrekkingslijn> rdf:type skos:Concept ;
   skos:prefLabel "Betrekkingslijn" ;
@@ -224,16 +218,14 @@ Constructie die onderdeel uitmaakt van een waterkering of de waterkering vervang
 
 <http://wiki.local/index.php/Binnendijks> rdf:type skos:Concept ;
   skos:prefLabel "Binnendijks" ;
-  skos:definition "(1)Aan de kant van het land of het binnenwater. 	
-(2)Gebied landwaarts van de waterkering waarvoor een wettelijke veiligheidsnorm is gedefinieerd. De landwaartse grens van de waterkering is de grens met het dijkringgebied. Ook wel de grens tussen binnendijks en buitendijks genoemd." ;
+  skos:definition "(1)Aan de kant van het land of het binnenwater. (2)Gebied landwaarts van de waterkering waarvoor een wettelijke veiligheidsnorm is gedefinieerd. De landwaartse grens van de waterkering is de grens met het dijkringgebied. Ook wel de grens tussen binnendijks en buitendijks genoemd." ;
   skos:inScheme <http://wiki.local/index.php/Waterveiligheid> ;
   skos:related <http://wiki.local/index.php/Achterland> ;
   skos:related <http://wiki.local/index.php/Waterkering> .
 
 <http://wiki.local/index.php/Binnentalud> rdf:type skos:Concept ;
   skos:prefLabel "Binnentalud" ;
-  skos:definition "(1)Hellend vlak van het dijklichaam aan de binnendijkse zijde van de dijk. 	
-(2)Het schuin aflopende deel aan de landzijde van de dijk." ;
+  skos:definition "(1)Hellend vlak van het dijklichaam aan de binnendijkse zijde van de dijk. (2)Het schuin aflopende deel aan de landzijde van de dijk." ;
   skos:inScheme <http://wiki.local/index.php/Waterveiligheid> ;
   skos:broader <http://wiki.local/index.php/Talud> .
 
@@ -245,10 +237,7 @@ Constructie die onderdeel uitmaakt van een waterkering of de waterkering vervang
 
 <http://wiki.local/index.php/Binnenwater> rdf:type skos:Concept ;
   skos:prefLabel "Binnenwater" ;
-  skos:definition "De binnenwateren van een land bestaan uit alle wateren aan de landzijde van de basislijn. Dit ter onderscheid van de zee.
-De binnenwateren zijn in twee groepen te verdelen:
-*rivieren, kanalen en meren die voor binnenvaartschepen bevaarbaar zijn (meestal aangeduid als vaarweg); 
-*alle maritieme wateren achter de basislijn: baaien, mondingen en zeehavens." ;
+  skos:definition "De binnenwateren van een land bestaan uit alle wateren aan de landzijde van de basislijn. Dit ter onderscheid van de zee. De binnenwateren zijn in twee groepen te verdelen: *rivieren, kanalen en meren die voor binnenvaartschepen bevaarbaar zijn (meestal aangeduid als vaarweg); *alle maritieme wateren achter de basislijn: baaien, mondingen en zeehavens." ;
   skos:inScheme <http://wiki.local/index.php/Waterveiligheid> ;
   skos:broader <http://wiki.local/index.php/Oppervlaktewater> .
 
@@ -267,8 +256,7 @@ De binnenwateren zijn in twee groepen te verdelen:
 
 <http://wiki.local/index.php/Bovenrivierengebied> rdf:type skos:Concept ;
   skos:prefLabel "Bovenrivierengebied" ;
-  skos:definition "(1)Door Rijn en Maas gevoede rivierengebied (inclusief de IJssel), waarbij de waterstanden geen significante invloed ondervinden van de waterstand op de Noordzee en het IJsselmeer als gevolg van een zware storm. De getijhoogwaterstijging speelt hier geen rol.
-(2)Het door Rijn en Maas gevoede rivierengebied ten oosten van de lijn Schoonhoven - Werkendam – Dongemond. Hoge rivierafvoer veroorzaakt de hoge waterstanden in dit gebied." ;
+  skos:definition "(1)Door Rijn en Maas gevoede rivierengebied (inclusief de IJssel), waarbij de waterstanden geen significante invloed ondervinden van de waterstand op de Noordzee en het IJsselmeer als gevolg van een zware storm. De getijhoogwaterstijging speelt hier geen rol. (2)Het door Rijn en Maas gevoede rivierengebied ten oosten van de lijn Schoonhoven - Werkendam – Dongemond. Hoge rivierafvoer veroorzaakt de hoge waterstanden in dit gebied." ;
   skos:inScheme <http://wiki.local/index.php/Waterveiligheid> ;
   skos:broader <http://wiki.local/index.php/Rivierengebied> .
 
@@ -305,9 +293,7 @@ De binnenwateren zijn in twee groepen te verdelen:
 
 <http://wiki.local/index.php/Buitendijks> rdf:type skos:Concept ;
   skos:prefLabel "Buitendijks" ;
-  skos:definition "-
-*Aan de kant van het te keren (buiten)water 1)
-*Gebied zeewaarts van de waterkering waarvoor geen wettelijke veiligheidsnorm is gedefinieerd. De landwaartse grens van de waterkering is de grens met het dijkringgebied. Ook wel de grens tussen binnendijks en buitendijks genoemd. 2)" ;
+  skos:definition "- *Aan de kant van het te keren (buiten)water 1) *Gebied zeewaarts van de waterkering waarvoor geen wettelijke veiligheidsnorm is gedefinieerd. De landwaartse grens van de waterkering is de grens met het dijkringgebied. Ook wel de grens tussen binnendijks en buitendijks genoemd. 2)" ;
   skos:inScheme <http://wiki.local/index.php/Waterveiligheid> ;
   skos:related <http://wiki.local/index.php/Voorland> ;
   skos:related <http://wiki.local/index.php/Waterkering> .
@@ -321,8 +307,7 @@ De binnenwateren zijn in twee groepen te verdelen:
 
 <http://wiki.local/index.php/Buitentalud> rdf:type skos:Concept ;
   skos:prefLabel "Buitentalud" ;
-  skos:definition "(1)Hellend vlak van het dijklichaam aan de kerende zijde.
-(2)Het schuin aflopende deel aan de rivierzijde van de dijk." ;
+  skos:definition "(1)Hellend vlak van het dijklichaam aan de kerende zijde. (2)Het schuin aflopende deel aan de rivierzijde van de dijk." ;
   skos:inScheme <http://wiki.local/index.php/Waterveiligheid> ;
   skos:broader <http://wiki.local/index.php/Talud> .
 
@@ -389,7 +374,7 @@ De binnenwateren zijn in twee groepen te verdelen:
 
 <http://wiki.local/index.php/Crisis> rdf:type skos:Concept ;
   skos:prefLabel "Crisis" ;
-  skos:definition "Een serie gebeurtenissen of rampen. Een crisis tast de economie of de openbare orde ernstig aan. Ze treft vaak een groot gebied en vraagt om zware bestuurlijke coördinatie, beheersing en voorlichting. 	Voorschriften Toetsen op Veiligheid Primaire Waterkeringen (VTV2006). Ministerie van Verkeer en Waterstaat, september 2007" ;
+  skos:definition "Een serie gebeurtenissen of rampen. Een crisis tast de economie of de openbare orde ernstig aan. Ze treft vaak een groot gebied en vraagt om zware bestuurlijke coördinatie, beheersing en voorlichting. Voorschriften Toetsen op Veiligheid Primaire Waterkeringen (VTV2006). Ministerie van Verkeer en Waterstaat, september 2007" ;
   skos:inScheme <http://wiki.local/index.php/Waterveiligheid> ;
   skos:related <http://wiki.local/index.php/Gevolgen> ;
   skos:related <http://wiki.local/index.php/Veiligheidsketen> .
@@ -414,8 +399,7 @@ De binnenwateren zijn in twee groepen te verdelen:
 
 <http://wiki.local/index.php/Delta> rdf:type skos:Concept ;
   skos:prefLabel "Delta" ;
-  skos:definition "(1)Mondingsgebied van rivieren, gekenmerkt door splitsende zijarmen.
-(2)Uitmonding van een rivier als een stelsel van aftakkingen." ;
+  skos:definition "(1)Mondingsgebied van rivieren, gekenmerkt door splitsende zijarmen. (2)Uitmonding van een rivier als een stelsel van aftakkingen." ;
   skos:inScheme <http://wiki.local/index.php/Waterveiligheid> ;
   skos:partOf <http://wiki.local/index.php/Rivier> ;
   skos:partOf <http://wiki.local/index.php/Deltagebied> .
@@ -442,7 +426,7 @@ De binnenwateren zijn in twee groepen te verdelen:
 
 <http://wiki.local/index.php/Deltaveiligheid> rdf:type skos:Concept ;
   skos:prefLabel "Deltaveiligheid" ;
-  skos:definition "Deltaveiligheid	 Veiligheidsnorm tegen overstroming, zoals vastgelegd in de Deltawet" ;
+  skos:definition "Deltaveiligheid Veiligheidsnorm tegen overstroming, zoals vastgelegd in de Deltawet" ;
   skos:inScheme <http://wiki.local/index.php/Waterveiligheid> ;
   skos:related <http://wiki.local/index.php/Deltahoogte> ;
   skos:related <http://wiki.local/index.php/Waterwet> .
@@ -489,8 +473,7 @@ De binnenwateren zijn in twee groepen te verdelen:
 
 <http://wiki.local/index.php/Dijkringgebied> rdf:type skos:Concept ;
   skos:prefLabel "Dijkringgebied" ;
-  skos:definition "(1)Gebied dat door een stelsel van waterkeringen of hoge gronden moet zijn beveiligd tegen overstroming, in het bijzonder bij hoge stormvloed, bij hoge waterstand op een van de grote rivieren, bij hoog water van het IJsselmeer of Markermeer of bij een combinatie daarvan.
-(2)Een gebied dat door een stelsel van waterkeringen, of hoge gronden beveiligd moet zijn tegen overstromingen." ;
+  skos:definition "(1)Gebied dat door een stelsel van waterkeringen of hoge gronden moet zijn beveiligd tegen overstroming, in het bijzonder bij hoge stormvloed, bij hoge waterstand op een van de grote rivieren, bij hoog water van het IJsselmeer of Markermeer of bij een combinatie daarvan. (2)Een gebied dat door een stelsel van waterkeringen, of hoge gronden beveiligd moet zijn tegen overstromingen." ;
   skos:inScheme <http://wiki.local/index.php/Waterveiligheid> ;
   skos:partOf <http://wiki.local/index.php/Dijkring> .
 
@@ -563,8 +546,7 @@ De binnenwateren zijn in twee groepen te verdelen:
 
 <http://wiki.local/index.php/Duinvoet> rdf:type skos:Concept ;
   skos:prefLabel "Duinvoet" ;
-  skos:definition "Overgang van strand naar duin. De positie van de duinvoet in een dwarsprofiel wordt door veel beheerders gedefinieerd met behulp van een in de tijd constante hoogtelijn (bijvoorbeeld NAP +3 m).
-De benedenrand van een duin. Meestal wordt de duinvoet aan de zeezijde bedoeld. Voor de berekening van de Basiskustlijn (BKL) is de duinvoet vastgesteld op NAP + 3 meter." ;
+  skos:definition "Overgang van strand naar duin. De positie van de duinvoet in een dwarsprofiel wordt door veel beheerders gedefinieerd met behulp van een in de tijd constante hoogtelijn (bijvoorbeeld NAP +3 m). De benedenrand van een duin. Meestal wordt de duinvoet aan de zeezijde bedoeld. Voor de berekening van de Basiskustlijn (BKL) is de duinvoet vastgesteld op NAP + 3 meter." ;
   skos:inScheme <http://wiki.local/index.php/Waterveiligheid> ;
   skos:partOf <http://wiki.local/index.php/Duin> .
 
@@ -590,9 +572,7 @@ De benedenrand van een duin. Meestal wordt de duinvoet aan de zeezijde bedoeld. 
 
 <http://wiki.local/index.php/Estuarium> rdf:type skos:Concept ;
   skos:prefLabel "Estuarium" ;
-  skos:definition "(1)Wijde trechtervormige riviermond, waarin het getij zich sterk doet gevoelen. 
-	
-(2)Een overgangsgebied waar rivieren uitmonden in zee en waar de invloed van het getij merkbaar is." ;
+  skos:definition "(1)Wijde trechtervormige riviermond, waarin het getij zich sterk doet gevoelen. (2)Een overgangsgebied waar rivieren uitmonden in zee en waar de invloed van het getij merkbaar is." ;
   skos:inScheme <http://wiki.local/index.php/Waterveiligheid> ;
   skos:related <http://wiki.local/index.php/Kustgebied> ;
   skos:partOf <http://wiki.local/index.php/Delta> ;
@@ -725,16 +705,14 @@ De benedenrand van een duin. Meestal wordt de duinvoet aan de zeezijde bedoeld. 
 
 <http://wiki.local/index.php/Golflengte> rdf:type skos:Concept ;
   skos:prefLabel "Golflengte" ;
-  skos:definition "De golflengte (symbool: λ) van een periodiek verschijnsel is de lengte van een golf. Dat wil zeggen de afstand tussen twee opeenvolgende punten met dezelfde fase, zoals de toppen van een sinusvormige golf.
-Er is een directe relatie tussen de golflengte λ (in m), de frequentie f (in Hz) en de voortplantingssnelheid v van de golf (in m/s) in het betrokken medium." ;
+  skos:definition "De golflengte (symbool: λ) van een periodiek verschijnsel is de lengte van een golf. Dat wil zeggen de afstand tussen twee opeenvolgende punten met dezelfde fase, zoals de toppen van een sinusvormige golf. Er is een directe relatie tussen de golflengte λ (in m), de frequentie f (in Hz) en de voortplantingssnelheid v van de golf (in m/s) in het betrokken medium." ;
   skos:inScheme <http://wiki.local/index.php/Waterveiligheid> ;
   skos:partOf <http://wiki.local/index.php/Hydraulische_condities> ;
   skos:partOf <http://wiki.local/index.php/Golven> .
 
 <http://wiki.local/index.php/Golfoploop> rdf:type skos:Concept ;
   skos:prefLabel "Golfoploop" ;
-  skos:definition "(1)Het tegen het talud oplopen van golven. 
-(2)De hoogte van de golven boven de waterstand, die tegen het talud oplopen." ;
+  skos:definition "(1)Het tegen het talud oplopen van golven. (2)De hoogte van de golven boven de waterstand, die tegen het talud oplopen." ;
   skos:inScheme <http://wiki.local/index.php/Waterveiligheid> ;
   skos:related <http://wiki.local/index.php/Talud> .
 
@@ -746,8 +724,7 @@ Er is een directe relatie tussen de golflengte λ (in m), de frequentie f (in Hz
 
 <http://wiki.local/index.php/Golfoverslag> rdf:type skos:Concept ;
   skos:prefLabel "Golfoverslag" ;
-  skos:definition "(1)Hoeveelheid water die door golven per strekkende meter gemiddeld per tijdseenheid over de waterkering slaat.
-(2)De hoeveelheid water, die over een waterkering heen slaat." ;
+  skos:definition "(1)Hoeveelheid water die door golven per strekkende meter gemiddeld per tijdseenheid over de waterkering slaat. (2)De hoeveelheid water, die over een waterkering heen slaat." ;
   skos:inScheme <http://wiki.local/index.php/Waterveiligheid> ;
   skos:related <http://wiki.local/index.php/Golfoploophoogte> ;
   skos:related <http://wiki.local/index.php/Waakhoogte> ;
@@ -790,13 +767,7 @@ Er is een directe relatie tussen de golflengte λ (in m), de frequentie f (in Hz
 
 <http://wiki.local/index.php/Golven> rdf:type skos:Concept ;
   skos:prefLabel "Golven" ;
-  skos:definition "Vloeistofdynamica 
-Oppervlaktegolf (vloeistofdynamica), een golf op het wateroppervlak onder invloed van de zwaartekracht en oppervlaktespanning, zoals: 
-*Getijgolf, een golf die ontstaat onder invloed van de zwaartekracht van de Maan en ook wel de Zon 
-*Tsunami, een vloedgolf uit zee die de kuststrook overspoelt 
-*Zeegang en zeedeining, door de wind opgewekt in oceanen en zeeën 
-*Scheepsgolf, boeggolf en hekgolf, golfpatroon opgewekt door een varend schip 
-*Rimpeling of capillaire golf ten gevolge van een steen, regendruppels of een windvlaagje, en onder invloed van oppervlaktespanning" ;
+  skos:definition "Vloeistofdynamica Oppervlaktegolf (vloeistofdynamica), een golf op het wateroppervlak onder invloed van de zwaartekracht en oppervlaktespanning, zoals: *Getijgolf, een golf die ontstaat onder invloed van de zwaartekracht van de Maan en ook wel de Zon *Tsunami, een vloedgolf uit zee die de kuststrook overspoelt *Zeegang en zeedeining, door de wind opgewekt in oceanen en zeeën *Scheepsgolf, boeggolf en hekgolf, golfpatroon opgewekt door een varend schip *Rimpeling of capillaire golf ten gevolge van een steen, regendruppels of een windvlaagje, en onder invloed van oppervlaktespanning" ;
   skos:inScheme <http://wiki.local/index.php/Waterveiligheid> ;
   skos:partOf <http://wiki.local/index.php/Hydraulische_condities> ;
   skos:partOf <http://wiki.local/index.php/Oppervlaktewater> .
@@ -852,7 +823,7 @@ Oppervlaktegolf (vloeistofdynamica), een golf op het wateroppervlak onder invloe
 
 <http://wiki.local/index.php/Grote_rivieren> rdf:type skos:Concept ;
   skos:prefLabel "Grote rivieren" ;
-  skos:definition "De grote riviren van Nederland: De Rijn, Waal, Maas, IJssel.  (Eems en Schelde zijn grensrivieren)" ;
+  skos:definition "De grote riviren van Nederland: De Rijn, Waal, Maas, IJssel. (Eems en Schelde zijn grensrivieren)" ;
   skos:inScheme <http://wiki.local/index.php/Waterveiligheid> ;
   skos:partOf <http://wiki.local/index.php/Rivierengebied> .
 
@@ -894,8 +865,7 @@ Oppervlaktegolf (vloeistofdynamica), een golf op het wateroppervlak onder invloe
 
 <http://wiki.local/index.php/Hoge_gronden> rdf:type skos:Concept ;
   skos:prefLabel "Hoge gronden" ;
-  skos:definition "(1)Hoge gronden zijn natuurlijke hoge delen van Nederland die niet overstromen bij maatgevend hoogwater én die als zodanig zijn aangegeven op bijlagen I en IA van de Wet op de waterkering. Hoge gronden vormen samen met primaire waterkeringen het stelsel dat een dijkringgebied omsluit.
-(2)De natuurlijke hoge delen van Nederland. Deze zijn in de Wet op de waterkering vastgelegd." ;
+  skos:definition "(1)Hoge gronden zijn natuurlijke hoge delen van Nederland die niet overstromen bij maatgevend hoogwater én die als zodanig zijn aangegeven op bijlagen I en IA van de Wet op de waterkering. Hoge gronden vormen samen met primaire waterkeringen het stelsel dat een dijkringgebied omsluit. (2)De natuurlijke hoge delen van Nederland. Deze zijn in de Wet op de waterkering vastgelegd." ;
   skos:inScheme <http://wiki.local/index.php/Waterveiligheid> .
 
 <http://wiki.local/index.php/Hoogwatergolf> rdf:type skos:Concept ;
@@ -918,8 +888,7 @@ Oppervlaktegolf (vloeistofdynamica), een golf op het wateroppervlak onder invloe
 
 <http://wiki.local/index.php/Hydraulische_belasting> rdf:type skos:Concept ;
   skos:prefLabel "Hydraulische belasting" ;
-  skos:definition "(1)Belasting op de waterkering als gevolg van de lokale waterstand en bijbehorende golven.
-(2)De belastende druk die hydraulische condities op een waterkering uitoefenen." ;
+  skos:definition "(1)Belasting op de waterkering als gevolg van de lokale waterstand en bijbehorende golven. (2)De belastende druk die hydraulische condities op een waterkering uitoefenen." ;
   skos:inScheme <http://wiki.local/index.php/Waterveiligheid> ;
   skos:related <http://wiki.local/index.php/Waterkering> ;
   skos:related <http://wiki.local/index.php/Hydraulische_condities> .
@@ -933,7 +902,7 @@ Oppervlaktegolf (vloeistofdynamica), een golf op het wateroppervlak onder invloe
 
 <http://wiki.local/index.php/Hydraulische_grondbreuk> rdf:type skos:Concept ;
   skos:prefLabel "Hydraulische grondbreuk" ;
-  skos:definition "Verlies van korrelcontact in de grond als gevolg van te hoge wateroverspanningen; in geval van een cohesieve afdekkende grondlaag leidt dit tot opdrijven en opbarsten, in geval van een nietcohesieve grondlaag tot heave. 	." ;
+  skos:definition "Verlies van korrelcontact in de grond als gevolg van te hoge wateroverspanningen; in geval van een cohesieve afdekkende grondlaag leidt dit tot opdrijven en opbarsten, in geval van een nietcohesieve grondlaag tot heave. ." ;
   skos:inScheme <http://wiki.local/index.php/Waterveiligheid> ;
   skos:related <http://wiki.local/index.php/Heave> .
 
@@ -1062,8 +1031,7 @@ Oppervlaktegolf (vloeistofdynamica), een golf op het wateroppervlak onder invloe
 
 <http://wiki.local/index.php/Kernzone> rdf:type skos:Concept ;
   skos:prefLabel "Kernzone" ;
-  skos:definition "(1)Waterkering plus het gebied dat zich uitstrekt tot waar bezwijkmechanismen van de waterkering reiken. Denk hierbij aan het uittreepunt in het maaiveld van een glijcirkel.
-(2)De belangrijkste zone van de waterkering. Voor de duinen is dit de zone die na een maatgevende storm moet blijven staan. Wettelijke afbakening is opgenomen in de legger." ;
+  skos:definition "(1)Waterkering plus het gebied dat zich uitstrekt tot waar bezwijkmechanismen van de waterkering reiken. Denk hierbij aan het uittreepunt in het maaiveld van een glijcirkel. (2)De belangrijkste zone van de waterkering. Voor de duinen is dit de zone die na een maatgevende storm moet blijven staan. Wettelijke afbakening is opgenomen in de legger." ;
   skos:inScheme <http://wiki.local/index.php/Waterveiligheid> ;
   skos:related <http://wiki.local/index.php/Faalmechanisme> ;
   skos:partOf <http://wiki.local/index.php/Profiel_van_vrije_ruimte> ;
@@ -1071,8 +1039,7 @@ Oppervlaktegolf (vloeistofdynamica), een golf op het wateroppervlak onder invloe
 
 <http://wiki.local/index.php/Keur> rdf:type skos:Concept ;
   skos:prefLabel "Keur" ;
-  skos:definition "(1)Verordening van het waterschap, waarin gebods- en verbodsbepalingen zijn opgenomen en waarvan de naleving door sancties kan worden afgedwongen. 	
-(2)Verordening met gebods- en verbodsbepalingen van een waterschap of hoogheemraadschap die gelden in de keurzone." ;
+  skos:definition "(1)Verordening van het waterschap, waarin gebods- en verbodsbepalingen zijn opgenomen en waarvan de naleving door sancties kan worden afgedwongen. (2)Verordening met gebods- en verbodsbepalingen van een waterschap of hoogheemraadschap die gelden in de keurzone." ;
   skos:inScheme <http://wiki.local/index.php/Waterveiligheid> ;
   skos:related <http://wiki.local/index.php/Keurzone> ;
   skos:related <http://wiki.local/index.php/Waterkering> .
@@ -1129,8 +1096,7 @@ Oppervlaktegolf (vloeistofdynamica), een golf op het wateroppervlak onder invloe
 
 <http://wiki.local/index.php/Kruin> rdf:type skos:Concept ;
   skos:prefLabel "Kruin" ;
-  skos:definition "(1) 1. Strook tussen buitenkruinlijn en binnenkruinlijn; 2. Hoogste punt in het dwarsprofiel van het dijklichaam; 3. Buitenkruinlijn 	
-(2)Het hoogste punt van het dijklichaam." ;
+  skos:definition "(1) 1. Strook tussen buitenkruinlijn en binnenkruinlijn; 2. Hoogste punt in het dwarsprofiel van het dijklichaam; 3. Buitenkruinlijn (2)Het hoogste punt van het dijklichaam." ;
   skos:inScheme <http://wiki.local/index.php/Waterveiligheid> ;
   skos:related <http://wiki.local/index.php/Overlopen> ;
   skos:partOf <http://wiki.local/index.php/Dijk> .
@@ -1241,7 +1207,7 @@ Oppervlaktegolf (vloeistofdynamica), een golf op het wateroppervlak onder invloe
 
 <http://wiki.local/index.php/Kwelweglengte> rdf:type skos:Concept ;
   skos:prefLabel "Kwelweglengte" ;
-  skos:definition "Lengte van de kwelweg 	Ministerie van Verkeer en Waterstaat, Directoraat-Generaal Water; Waterveiligheid, Begrippen begrijpen, november 2007." ;
+  skos:definition "Lengte van de kwelweg Ministerie van Verkeer en Waterstaat, Directoraat-Generaal Water; Waterveiligheid, Begrippen begrijpen, november 2007." ;
   skos:inScheme <http://wiki.local/index.php/Waterveiligheid> ;
   skos:partOf <http://wiki.local/index.php/Kwelweg> .
 
@@ -1252,8 +1218,7 @@ Oppervlaktegolf (vloeistofdynamica), een golf op het wateroppervlak onder invloe
 
 <http://wiki.local/index.php/Legger> rdf:type skos:Concept ;
   skos:prefLabel "Legger" ;
-  skos:definition "(1)Document, waarin de beschrijving is opgenomen van de minimale eisen waaraan de (primaire) waterkering moet voldoen naar richting, vorm, afmeting en constructie en waarin de keurbegrenzingen worden aangegeven.
-(2)Een kaart met juridische status die waterkeringbeheerders opstellen. Hierop staat de exacte ligging van de waterkering en de daarin te onderscheiden zones (kernzone, beschermingszone en buitenbeschermingszone)." ;
+  skos:definition "(1)Document, waarin de beschrijving is opgenomen van de minimale eisen waaraan de (primaire) waterkering moet voldoen naar richting, vorm, afmeting en constructie en waarin de keurbegrenzingen worden aangegeven. (2)Een kaart met juridische status die waterkeringbeheerders opstellen. Hierop staat de exacte ligging van de waterkering en de daarin te onderscheiden zones (kernzone, beschermingszone en buitenbeschermingszone)." ;
   skos:inScheme <http://wiki.local/index.php/Waterveiligheid> ;
   skos:related <http://wiki.local/index.php/Keurzone> ;
   skos:related <http://wiki.local/index.php/Waterkering> ;
@@ -1392,8 +1357,7 @@ Oppervlaktegolf (vloeistofdynamica), een golf op het wateroppervlak onder invloe
 
 <http://wiki.local/index.php/Niet-waterkerend_object> rdf:type skos:Concept ;
   skos:prefLabel "Niet-waterkerend object" ;
-  skos:definition "Object dat in of op de waterkering aanwezig is, maar geen rol speelt in de functie en sterkte van de waterkering.
-Hierbij moet gedacht worden aan kabels en leidingen; bomen en begroeiing; bouwwerken en woningen." ;
+  skos:definition "Object dat in of op de waterkering aanwezig is, maar geen rol speelt in de functie en sterkte van de waterkering. Hierbij moet gedacht worden aan kabels en leidingen; bomen en begroeiing; bouwwerken en woningen." ;
   skos:inScheme <http://wiki.local/index.php/Waterveiligheid> ;
   skos:partOf <http://wiki.local/index.php/Waterkering> .
 
@@ -1426,8 +1390,7 @@ Hierbij moet gedacht worden aan kabels en leidingen; bomen en begroeiing; bouwwe
 
 <http://wiki.local/index.php/Onderloopsheid> rdf:type skos:Concept ;
   skos:prefLabel "Onderloopsheid" ;
-  skos:definition "(1)Lekstroom onder een constructie door.
-(2)De stroming van water onder de dijk door meevoering van zand en aarde. De dijk verliest hierdoor stabiliteit." ;
+  skos:definition "(1)Lekstroom onder een constructie door. (2)De stroming van water onder de dijk door meevoering van zand en aarde. De dijk verliest hierdoor stabiliteit." ;
   skos:inScheme <http://wiki.local/index.php/Waterveiligheid> .
 
 <http://wiki.local/index.php/Onderwateroever> rdf:type skos:Concept ;
@@ -1453,13 +1416,13 @@ Hierbij moet gedacht worden aan kabels en leidingen; bomen en begroeiing; bouwwe
 
 <http://wiki.local/index.php/Ontwerpafslagzone> rdf:type skos:Concept ;
   skos:prefLabel "Ontwerpafslagzone" ;
-  skos:definition "Gedeelte van het duingebied dat tijdens ontwerpomstandigheden (ontwerpstormvloed) zal afslaan. 	Ministerie van Verkeer en Waterstaat, Directoraat-Generaal Water; Waterveiligheid, Begrippen begrijpen, november 2007." ;
+  skos:definition "Gedeelte van het duingebied dat tijdens ontwerpomstandigheden (ontwerpstormvloed) zal afslaan. Ministerie van Verkeer en Waterstaat, Directoraat-Generaal Water; Waterveiligheid, Begrippen begrijpen, november 2007." ;
   skos:inScheme <http://wiki.local/index.php/Waterveiligheid> ;
   skos:related <http://wiki.local/index.php/Maatgevende_omstandigheden> .
 
 <http://wiki.local/index.php/Ontwerpkwaliteit> rdf:type skos:Concept ;
   skos:prefLabel "Ontwerpkwaliteit" ;
-  skos:definition "Het voldoen aan ontwerpcriteria bij gebruik van vastgestelde uitgangspunten en randvoorwaarden Ontwerpkwaliteit bij toetsen: de waterkering voldoet aan ontwerpcriteria met gebruikmaking van toetsuitgangspunten en toetsrandvoorwaarden 	Ministerie van Verkeer en Waterstaat, Directoraat-Generaal Water; Waterveiligheid, Begrippen begrijpen, november 2007." ;
+  skos:definition "Het voldoen aan ontwerpcriteria bij gebruik van vastgestelde uitgangspunten en randvoorwaarden Ontwerpkwaliteit bij toetsen: de waterkering voldoet aan ontwerpcriteria met gebruikmaking van toetsuitgangspunten en toetsrandvoorwaarden Ministerie van Verkeer en Waterstaat, Directoraat-Generaal Water; Waterveiligheid, Begrippen begrijpen, november 2007." ;
   skos:inScheme <http://wiki.local/index.php/Waterveiligheid> ;
   skos:related <http://wiki.local/index.php/Ontwerp> .
 
@@ -1471,8 +1434,7 @@ Hierbij moet gedacht worden aan kabels en leidingen; bomen en begroeiing; bouwwe
 
 <http://wiki.local/index.php/Ontwerppeil> rdf:type skos:Concept ;
   skos:prefLabel "Ontwerppeil" ;
-  skos:definition "(1)Een waterstand met een bepaalde kans van overschrijden vermeerderd met de verwachte waterstandstijging (inclusief NAP-daling) tot aan het eind van de ontwerplevensduur (planperiode).
-(2)Ook ontwerp-waterstand of maatgevende hoogwaterstand (MHW) genoemd. Het is een waterstand die eens in de zoveel jaar voorkomt. Een waterstand waarop de waterkeringen zijn ontworpen en waarmee de waterkering aan de norm voldoet." ;
+  skos:definition "(1)Een waterstand met een bepaalde kans van overschrijden vermeerderd met de verwachte waterstandstijging (inclusief NAP-daling) tot aan het eind van de ontwerplevensduur (planperiode). (2)Ook ontwerp-waterstand of maatgevende hoogwaterstand (MHW) genoemd. Het is een waterstand die eens in de zoveel jaar voorkomt. Een waterstand waarop de waterkeringen zijn ontworpen en waarmee de waterkering aan de norm voldoet." ;
   skos:inScheme <http://wiki.local/index.php/Waterveiligheid> .
 
 <http://wiki.local/index.php/Ontwerpsterkte> rdf:type skos:Concept ;
@@ -1483,7 +1445,7 @@ Hierbij moet gedacht worden aan kabels en leidingen; bomen en begroeiing; bouwwe
 
 <http://wiki.local/index.php/Ontwerpwaarde> rdf:type skos:Concept ;
   skos:prefLabel "Ontwerpwaarde" ;
-  skos:definition "In het ontwerp te hanteren waarde van een belasting- of sterkteparameter (rekenwaarde) 	Ministerie van Verkeer en Waterstaat, Directoraat-Generaal Water; Waterveiligheid, Begrippen begrijpen, november 2007." ;
+  skos:definition "In het ontwerp te hanteren waarde van een belasting- of sterkteparameter (rekenwaarde) Ministerie van Verkeer en Waterstaat, Directoraat-Generaal Water; Waterveiligheid, Begrippen begrijpen, november 2007." ;
   skos:inScheme <http://wiki.local/index.php/Waterveiligheid> ;
   skos:related <http://wiki.local/index.php/Ontwerpsterkte> ;
   skos:partOf <http://wiki.local/index.php/Ontwerp> .
@@ -1495,7 +1457,7 @@ Hierbij moet gedacht worden aan kabels en leidingen; bomen en begroeiing; bouwwe
 
 <http://wiki.local/index.php/Opbarsten> rdf:type skos:Concept ;
   skos:prefLabel "Opbarsten" ;
-  skos:definition "Bezwijken van de grond, door het ontbreken van verticaal evenwicht in de grond, onder invloed van wateroverdrukken. 	Ministerie van Verkeer en Waterstaat, Directoraat-Generaal Water; Waterveiligheid, Begrippen begrijpen, november 2007." ;
+  skos:definition "Bezwijken van de grond, door het ontbreken van verticaal evenwicht in de grond, onder invloed van wateroverdrukken. Ministerie van Verkeer en Waterstaat, Directoraat-Generaal Water; Waterveiligheid, Begrippen begrijpen, november 2007." ;
   skos:inScheme <http://wiki.local/index.php/Waterveiligheid> ;
   skos:related <http://wiki.local/index.php/Grond> .
 
@@ -1515,8 +1477,7 @@ Hierbij moet gedacht worden aan kabels en leidingen; bomen en begroeiing; bouwwe
 
 <http://wiki.local/index.php/Open_keerhoogte> rdf:type skos:Concept ;
   skos:prefLabel "Open keerhoogte" ;
-  skos:definition "1. De kerende hoogte van een waterkering met beweegbare afsluitmiddelen bij open afsluitmiddel; 
-2. De kerende hoogte van de kaden langs het achterliggende (binnen)watersysteem wanneer dit bij open afsluitmiddel in directe verbinding staat met het buitenwater." ;
+  skos:definition "1. De kerende hoogte van een waterkering met beweegbare afsluitmiddelen bij open afsluitmiddel; 2. De kerende hoogte van de kaden langs het achterliggende (binnen)watersysteem wanneer dit bij open afsluitmiddel in directe verbinding staat met het buitenwater." ;
   skos:inScheme <http://wiki.local/index.php/Waterveiligheid> ;
   skos:related <http://wiki.local/index.php/Kade> ;
   skos:related <http://wiki.local/index.php/Stormvloedkering> .
@@ -1530,8 +1491,7 @@ Hierbij moet gedacht worden aan kabels en leidingen; bomen en begroeiing; bouwwe
 
 <http://wiki.local/index.php/Oppervlaktewater> rdf:type skos:Concept ;
   skos:prefLabel "Oppervlaktewater" ;
-  skos:definition "Oppervlaktewater is al het water dat zich in vloeibare vorm aan de oppervlakte van een planeet bevindt. Het staat hiermee in tegenstelling tot het grondwater dat bij bronnen opwelt, het op de polen en in gletsjers in de vorm van ijs gebonden water en waterdamp in de dampkring. Tezamen vormen al deze vormen van water de hydrosfeer van de Aarde.
-Oppervlaktewateren kunnen natuurlijke of kunstmatige wateren en watergangen zijn. Grote wateren zijn plaatselijk van invloed op de temperatuur en het weer. Hoe groter de oppervlakte, hoe meer de wind kan toenemen, maar ook smallere stroken water kunnen net als bergen een barrière vormen tussen meteorologische weerfronten" ;
+  skos:definition "Oppervlaktewater is al het water dat zich in vloeibare vorm aan de oppervlakte van een planeet bevindt. Het staat hiermee in tegenstelling tot het grondwater dat bij bronnen opwelt, het op de polen en in gletsjers in de vorm van ijs gebonden water en waterdamp in de dampkring. Tezamen vormen al deze vormen van water de hydrosfeer van de Aarde. Oppervlaktewateren kunnen natuurlijke of kunstmatige wateren en watergangen zijn. Grote wateren zijn plaatselijk van invloed op de temperatuur en het weer. Hoe groter de oppervlakte, hoe meer de wind kan toenemen, maar ook smallere stroken water kunnen net als bergen een barrière vormen tussen meteorologische weerfronten" ;
   skos:inScheme <http://wiki.local/index.php/Waterveiligheid> ;
   skos:broader <http://wiki.local/index.php/Water> .
 
@@ -1549,15 +1509,13 @@ Oppervlaktewateren kunnen natuurlijke of kunstmatige wateren en watergangen zijn
 
 <http://wiki.local/index.php/Overhoogte> rdf:type skos:Concept ;
   skos:prefLabel "Overhoogte" ;
-  skos:definition "(1)Extra hoeveelheid grond die wordt aangebracht met het doel om na zetting van de ondergrond en klink van de aangebrachte grond het gewenste profiel te bereiken.
-(2)Extra hoogte van een waterkering boven de maatgevende hoogwaterstand, waardoor het beschermingsniveau hoger is dan de norm." ;
+  skos:definition "(1)Extra hoeveelheid grond die wordt aangebracht met het doel om na zetting van de ondergrond en klink van de aangebrachte grond het gewenste profiel te bereiken. (2)Extra hoogte van een waterkering boven de maatgevende hoogwaterstand, waardoor het beschermingsniveau hoger is dan de norm." ;
   skos:inScheme <http://wiki.local/index.php/Waterveiligheid> ;
   skos:partOf <http://wiki.local/index.php/Veiligheidsnorm> .
 
 <http://wiki.local/index.php/Overlopen> rdf:type skos:Concept ;
   skos:prefLabel "Overlopen" ;
-  skos:definition "(1)Verschijnsel waarbij water over de kruin van de dijk het achterland inloopt omdat de te keren waterstand hoger is dan de kruin. 
-(2)Het over de waterkering heen stromen van water, als de waterstand hoger is dan de waterkering." ;
+  skos:definition "(1)Verschijnsel waarbij water over de kruin van de dijk het achterland inloopt omdat de te keren waterstand hoger is dan de kruin. (2)Het over de waterkering heen stromen van water, als de waterstand hoger is dan de waterkering." ;
   skos:inScheme <http://wiki.local/index.php/Waterveiligheid> ;
   skos:related <http://wiki.local/index.php/Kruin> .
 
@@ -1643,9 +1601,7 @@ Oppervlaktewateren kunnen natuurlijke of kunstmatige wateren en watergangen zijn
 
 <http://wiki.local/index.php/Piping> rdf:type skos:Concept ;
   skos:prefLabel "Piping" ;
-  skos:definition "(1)Verschijnsel dat onder een waterkering een holle pijpvormige ruimte ontstaat doordat het erosieproces van een zandmeevoerende wel niet stopt.
-(2)Lekstroom onder een constructie door. 	
-(3)De stroming van water onder de dijk door meevoering van zand en aarde. De dijk verliest hierdoor stabiliteit." ;
+  skos:definition "(1)Verschijnsel dat onder een waterkering een holle pijpvormige ruimte ontstaat doordat het erosieproces van een zandmeevoerende wel niet stopt. (2)Lekstroom onder een constructie door. (3)De stroming van water onder de dijk door meevoering van zand en aarde. De dijk verliest hierdoor stabiliteit." ;
   skos:altLabel "Onderloopsheid" ;
   skos:inScheme <http://wiki.local/index.php/Waterveiligheid> ;
   skos:related <http://wiki.local/index.php/Kwel> ;
@@ -1653,7 +1609,7 @@ Oppervlaktewateren kunnen natuurlijke of kunstmatige wateren en watergangen zijn
 
 <http://wiki.local/index.php/Planperiode> rdf:type skos:Concept ;
   skos:prefLabel "Planperiode" ;
-  skos:definition "Periode waarvoor de voorziene wijzigingen in omstandigheden worden meegenomen in het ontwerp van een waterkering (voor dijken meestal 50 jaar; voor kunstwerken meestal 100 of 200 jaar) 	Ministerie van Verkeer en Waterstaat, Directoraat-Generaal Water; Waterveiligheid, Begrippen begrijpen, november 2007." ;
+  skos:definition "Periode waarvoor de voorziene wijzigingen in omstandigheden worden meegenomen in het ontwerp van een waterkering (voor dijken meestal 50 jaar; voor kunstwerken meestal 100 of 200 jaar) Ministerie van Verkeer en Waterstaat, Directoraat-Generaal Water; Waterveiligheid, Begrippen begrijpen, november 2007." ;
   skos:inScheme <http://wiki.local/index.php/Waterveiligheid> ;
   skos:related <http://wiki.local/index.php/Ontwerp> ;
   skos:related <http://wiki.local/index.php/Ontwerplevensduur> .
@@ -1994,8 +1950,7 @@ Oppervlaktewateren kunnen natuurlijke of kunstmatige wateren en watergangen zijn
 
 <http://wiki.local/index.php/Stormvloed> rdf:type skos:Concept ;
   skos:prefLabel "Stormvloed" ;
-  skos:definition "(1)Hoogwaterperiode waarbij te Hoek van Holland het grenspeil (met een gemiddelde overschrijdingsfrequentie van 0,5 per jaar) wordt bereikt of overschreden (voor het grenspeil: zie getijtafels opgesteld door RIKZ: www.getij.nl)
-(2)Zeer hoge waterstand. Er is sprake van stormvloed als in één van de hoofdmeetstations voor de kust een bepaalde waterstandnorm wordt overschreden. Deze worden per locatie bepaald." ;
+  skos:definition "(1)Hoogwaterperiode waarbij te Hoek van Holland het grenspeil (met een gemiddelde overschrijdingsfrequentie van 0,5 per jaar) wordt bereikt of overschreden (voor het grenspeil: zie getijtafels opgesteld door RIKZ: www.getij.nl) (2)Zeer hoge waterstand. Er is sprake van stormvloed als in één van de hoofdmeetstations voor de kust een bepaalde waterstandnorm wordt overschreden. Deze worden per locatie bepaald." ;
   skos:inScheme <http://wiki.local/index.php/Waterveiligheid> ;
   skos:related <http://wiki.local/index.php/Overschrijdingsfrequentie> ;
   skos:related <http://wiki.local/index.php/Overstroming> ;
@@ -2033,10 +1988,7 @@ Oppervlaktewateren kunnen natuurlijke of kunstmatige wateren en watergangen zijn
 
 <http://wiki.local/index.php/Stroming> rdf:type skos:Concept ;
   skos:prefLabel "Stroming" ;
-  skos:definition "Stroming kan verwijzen naar:
-*Zeestroom, de continue bewegingen van het oceaanwater 
-*Getijde (waterbeweging), de wisselende waterstand veroorzaakt door de getijdenwerking van de zon en de maan 
-*De stroming van water in een rivier, een beek of een andere watergang" ;
+  skos:definition "Stroming kan verwijzen naar: *Zeestroom, de continue bewegingen van het oceaanwater *Getijde (waterbeweging), de wisselende waterstand veroorzaakt door de getijdenwerking van de zon en de maan *De stroming van water in een rivier, een beek of een andere watergang" ;
   skos:inScheme <http://wiki.local/index.php/Waterveiligheid> ;
   skos:related <http://wiki.local/index.php/Refractie> ;
   skos:partOf <http://wiki.local/index.php/Hydraulische_condities> .
@@ -2074,9 +2026,7 @@ Oppervlaktewateren kunnen natuurlijke of kunstmatige wateren en watergangen zijn
 
 <http://wiki.local/index.php/Talud> rdf:type skos:Concept ;
   skos:prefLabel "Talud" ;
-  skos:definition "Gedeelte van een dijkprofiel met een helling tussen 1:1 en 1:10.  1)
-
-De schuin aflopende zijden aan de binnen- en buitenkant van een dijk.  2)" ;
+  skos:definition "Gedeelte van een dijkprofiel met een helling tussen 1:1 en 1:10. 1) De schuin aflopende zijden aan de binnen- en buitenkant van een dijk. 2)" ;
   skos:inScheme <http://wiki.local/index.php/Waterveiligheid> ;
   skos:related <http://wiki.local/index.php/Golfoploop> ;
   skos:related <http://wiki.local/index.php/Ondergrond> ;
@@ -2162,8 +2112,7 @@ De schuin aflopende zijden aan de binnen- en buitenkant van een dijk.  2)" ;
 
 <http://wiki.local/index.php/Veiligheidsnorm> rdf:type skos:Concept ;
   skos:prefLabel "Veiligheidsnorm" ;
-  skos:definition "(1)Eis waaraan een primaire waterkering moet voldoen, aangegeven als de gemiddelde overschrijdingskans - per jaar - van de hoogste hoogwaterstand waarop de tot directe kering van het buitenwater bestemde primaire waterkering moet zijn berekend, mede gelet op overige het waterkerend vermogen bepalende factoren. 	
-(2)De wettelijke bescherming van een dijkring tegen overstromen. Deze zijn vastgelegd in de Wet op de waterkering. Ten behoeve van het ontwerpen en toetsen van waterkeringen leidt men per dijkringgebied, uitgaande van de norm, een maatgevende hoogwaterstand af. De waterkering moet tegen het optreden van deze waterstand bestand zijn." ;
+  skos:definition "(1)Eis waaraan een primaire waterkering moet voldoen, aangegeven als de gemiddelde overschrijdingskans - per jaar - van de hoogste hoogwaterstand waarop de tot directe kering van het buitenwater bestemde primaire waterkering moet zijn berekend, mede gelet op overige het waterkerend vermogen bepalende factoren. (2)De wettelijke bescherming van een dijkring tegen overstromen. Deze zijn vastgelegd in de Wet op de waterkering. Ten behoeve van het ontwerpen en toetsen van waterkeringen leidt men per dijkringgebied, uitgaande van de norm, een maatgevende hoogwaterstand af. De waterkering moet tegen het optreden van deze waterstand bestand zijn." ;
   skos:inScheme <http://wiki.local/index.php/Waterveiligheid> ;
   skos:related <http://wiki.local/index.php/Maatgevende_waterstand> ;
   skos:related <http://wiki.local/index.php/Werklijn> ;
@@ -2223,8 +2172,7 @@ De schuin aflopende zijden aan de binnen- en buitenkant van een dijk.  2)" ;
 
 <http://wiki.local/index.php/Vooroever> rdf:type skos:Concept ;
   skos:prefLabel "Vooroever" ;
-  skos:definition "(1)Waterbodem in de zone vlak voor de teen van een dijk.
-(2)Gedeelte van de kuststrook zeewaarts van de laagwaterlijn tot de zeebodem, ook wel onderwateroever genoemd." ;
+  skos:definition "(1)Waterbodem in de zone vlak voor de teen van een dijk. (2)Gedeelte van de kuststrook zeewaarts van de laagwaterlijn tot de zeebodem, ook wel onderwateroever genoemd." ;
   skos:altLabel "Onderwateroever" ;
   skos:inScheme <http://wiki.local/index.php/Waterveiligheid> ;
   skos:partOf <http://wiki.local/index.php/Kustgebied> .
@@ -2255,10 +2203,7 @@ De schuin aflopende zijden aan de binnen- en buitenkant van een dijk.  2)" ;
 
 <http://wiki.local/index.php/Water> rdf:type skos:Concept ;
   skos:prefLabel "Water" ;
-  skos:definition "Water H2O; aqua of aq.; is de chemische verbinding van twee waterstofatomen en een zuurstofatoom. Water komt in de natuur voor in de drie verschillende hoofdfasen: als vloeistof, als vaste stof en als gas. 
-Bij kamertemperatuur is water een vloeistof zonder specifieke kleur en geur. 
-Al het leven op aarde bestaat grotendeels uit en is afhankelijk van water. 
-Water bedekt 71% van het aardoppervlak" ;
+  skos:definition "Water H2O; aqua of aq.; is de chemische verbinding van twee waterstofatomen en een zuurstofatoom. Water komt in de natuur voor in de drie verschillende hoofdfasen: als vloeistof, als vaste stof en als gas. Bij kamertemperatuur is water een vloeistof zonder specifieke kleur en geur. Al het leven op aarde bestaat grotendeels uit en is afhankelijk van water. Water bedekt 71% van het aardoppervlak" ;
   skos:inScheme <http://wiki.local/index.php/Waterveiligheid> .
 
 <http://wiki.local/index.php/Waterbewust_gedrag> rdf:type skos:Concept ;
@@ -2296,9 +2241,7 @@ Water bedekt 71% van het aardoppervlak" ;
 
 <http://wiki.local/index.php/Waterkering> rdf:type skos:Concept ;
   skos:prefLabel "Waterkering" ;
-  skos:definition "Twee definities:
-# Kunstmatige hoogten en die (gedeelten van) natuurlijke hoogten of hooggelegen gronden, met inbegrip van daarin of daaraan aangebrachte werken, die een waterkerende of mede een waterkerende functie hebben, en die als zodanig in de legger zijn aangegeven.
-# Een natuurlijke of kunstmatige verhoging in het landschap om het achterliggende gebied te beschermen tegen overstroming. Deze zijn primair of secundair." ;
+  skos:definition "Twee definities: # Kunstmatige hoogten en die (gedeelten van) natuurlijke hoogten of hooggelegen gronden, met inbegrip van daarin of daaraan aangebrachte werken, die een waterkerende of mede een waterkerende functie hebben, en die als zodanig in de legger zijn aangegeven. # Een natuurlijke of kunstmatige verhoging in het landschap om het achterliggende gebied te beschermen tegen overstroming. Deze zijn primair of secundair." ;
   skos:inScheme <http://wiki.local/index.php/Waterveiligheid> ;
   skos:related <http://wiki.local/index.php/Buitendijks> ;
   skos:related <http://wiki.local/index.php/Binnendijks> ;
@@ -2356,8 +2299,7 @@ Water bedekt 71% van het aardoppervlak" ;
 
 <http://wiki.local/index.php/Waterstandsnorm> rdf:type skos:Concept ;
   skos:prefLabel "Waterstandsnorm" ;
-  skos:definition "(1)Eis waaraan een primaire waterkering moet voldoen, aangegeven als de gemiddelde overschrijdingskans - per jaar - van de hoogste hoogwaterstand waarop de tot directe kering van het buitenwater bestemde primaire waterkering moet zijn berekend, mede gelet op overige het waterkerend vermogen bepalende factoren. 	
-(2)De wettelijke bescherming van een dijkring tegen overstromen. Deze zijn vastgelegd in de Wet op de waterkering. Ten behoeve van het ontwerpen en toetsen van waterkeringen leidt men per dijkringgebied, uitgaande van de norm, een maatgevende hoogwaterstand af. De waterkering moet tegen het optreden van deze waterstand bestand zijn." ;
+  skos:definition "(1)Eis waaraan een primaire waterkering moet voldoen, aangegeven als de gemiddelde overschrijdingskans - per jaar - van de hoogste hoogwaterstand waarop de tot directe kering van het buitenwater bestemde primaire waterkering moet zijn berekend, mede gelet op overige het waterkerend vermogen bepalende factoren. (2)De wettelijke bescherming van een dijkring tegen overstromen. Deze zijn vastgelegd in de Wet op de waterkering. Ten behoeve van het ontwerpen en toetsen van waterkeringen leidt men per dijkringgebied, uitgaande van de norm, een maatgevende hoogwaterstand af. De waterkering moet tegen het optreden van deze waterstand bestand zijn." ;
   skos:inScheme <http://wiki.local/index.php/Waterveiligheid> ;
   skos:related <http://wiki.local/index.php/Veiligheidsnorm> .
 
@@ -2375,8 +2317,7 @@ Water bedekt 71% van het aardoppervlak" ;
 
 <http://wiki.local/index.php/Werklijn> rdf:type skos:Concept ;
   skos:prefLabel "Werklijn" ;
-  skos:definition "(1)Relatie tussen het jaarmaximum van de afvoer en de overschrijdingskans daarvan per jaar.
-(2)De relatie tussen de daadwerkelijke rivierafvoer en de rekenkundig bepaalde overschrijdingsfrequentie van deze afvoer." ;
+  skos:definition "(1)Relatie tussen het jaarmaximum van de afvoer en de overschrijdingskans daarvan per jaar. (2)De relatie tussen de daadwerkelijke rivierafvoer en de rekenkundig bepaalde overschrijdingsfrequentie van deze afvoer." ;
   skos:inScheme <http://wiki.local/index.php/Waterveiligheid> ;
   skos:related <http://wiki.local/index.php/Frequentielijn> ;
   skos:related <http://wiki.local/index.php/Veiligheidsnorm> .
@@ -2425,8 +2366,7 @@ Water bedekt 71% van het aardoppervlak" ;
 
 <http://wiki.local/index.php/Zee> rdf:type skos:Concept ;
   skos:prefLabel "Zee" ;
-  skos:definition "Een zee is een grote hoeveelheid water, die in verbinding staat met een andere zee of met een oceaan, die ook als zee kan worden aangeduid, zij het dat een oceaan een zelfstandig geheel vormt met een eigen circulatie (zeestroom). Een zee daarentegen, heeft een bodem die bij een continent behoort (continentaal plat). Als de verbinding tussen zeeën smal is en uit een of meer zeestraten bestaat, spreekt men van een binnenzee.
-Zeeën worden gevoed door rivieren en door regenwater" ;
+  skos:definition "Een zee is een grote hoeveelheid water, die in verbinding staat met een andere zee of met een oceaan, die ook als zee kan worden aangeduid, zij het dat een oceaan een zelfstandig geheel vormt met een eigen circulatie (zeestroom). Een zee daarentegen, heeft een bodem die bij een continent behoort (continentaal plat). Als de verbinding tussen zeeën smal is en uit een of meer zeestraten bestaat, spreekt men van een binnenzee. Zeeën worden gevoed door rivieren en door regenwater" ;
   skos:inScheme <http://wiki.local/index.php/Waterveiligheid> .
 
 <http://wiki.local/index.php/Zeedijk> rdf:type skos:Concept ;
@@ -2452,8 +2392,7 @@ Zeeën worden gevoed door rivieren en door regenwater" ;
 
 <http://wiki.local/index.php/Zeestand> rdf:type skos:Concept ;
   skos:prefLabel "Zeestand" ;
-  skos:definition "Waterstand op zee, die als gevolg van het getij verandert.
-Gemiddelde zeestand: middenstand ; gemiddeld zeeniveau Def.: het rekenkundig gemiddelde van het peil in een getijgebied over een bepaalde periode." ;
+  skos:definition "Waterstand op zee, die als gevolg van het getij verandert. Gemiddelde zeestand: middenstand ; gemiddeld zeeniveau Def.: het rekenkundig gemiddelde van het peil in een getijgebied over een bepaalde periode." ;
   skos:inScheme <http://wiki.local/index.php/Waterveiligheid> ;
   skos:broader <http://wiki.local/index.php/Waterstand> .
 
