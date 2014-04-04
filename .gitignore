@@ -1,2 +1,4 @@
 rommel
 .DS_Store
+composer.lock
+vendor
