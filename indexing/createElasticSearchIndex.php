@@ -49,6 +49,27 @@
   );
   $elastic->indices()->create($indexParams);
 
+
+  // Add SKOS Concepts
+  $ask = new AskApi($wiki);
+  $concepts = $ask->query('
+    [[Category:SKOS Concept]]
+    |?skos:altLabel
+    |?skos:related
+    |?skosem:narrower
+    |?skosem:broader
+    |?skosem:partOf
+    |?skos:definition
+    |?skos:inScheme
+  ');
+
+  foreach ($concepts as $c) {
+
+    echo "<h3>{$c->fulltext} <small>{$c->fullurl}</small></h3>\n";
+    echo "<p>{$c->printouts->{'Skos:definition'}[0]}</p>";
+
+  }
+
 ?>   
 </div>
 </body>
