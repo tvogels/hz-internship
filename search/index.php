@@ -11,7 +11,7 @@
 
   <div class="container">
 
-    <h1>Search <small>Internship HzBwNature</small></h1>
+    <h1>Basic Search <small>Internship HzBwNature</small></h1>
 
     <form class="form-inline" role="form" id="search-form">
       <div class="form-group">

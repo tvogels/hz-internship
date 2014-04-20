@@ -27,6 +27,7 @@ $ ->
     $results.addClass 'csspinner line no-overlay'
     p = client.search
       index: 'hzbwnature'
+      type: 'intentional_element'
       size: 100
       body:
         query:
