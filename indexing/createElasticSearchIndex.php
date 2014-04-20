@@ -66,7 +66,7 @@
   // Loop through the SKOS concepts and add them to the index /hwbwnature/skos
   echo "<h3>SKOS Concepts</h3>\n";
 
-  $verbose = false;
+  $verbose = true;
 
   if ($verbose) {
     echo "<hr>\n";
@@ -123,7 +123,7 @@
   }
 
   // Retrieve the elements
-  $elements = $ask->query('[[Category:Intentional Element]]|?Concerns|?Context');
+  $elements = $ask->query('[[Category:Intentional Element]][[Context::+]]|?Concerns|?Context|?Category');
 
   // Retrieve all paragraphs and collect them by element
   $paragraphs = $ask->query('[[Paragraph::+]]|?Paragraph|?Paragraph subheading|?Paragraph language|?Paragraph number|?Paragraph back link');
@@ -138,6 +138,9 @@
   }
 
   foreach ($elements as $element) {
+    // Skip SKOS Concepts
+    // if ($element->printouts->{'Category'}[0]->fulltext == 'Category:SKOS Concept') continue;
+
     $pars = getParagraphs($element->fullurl, $elementPars);
 
     // Display
@@ -164,7 +167,9 @@
       "url" => $element->fullurl,
       "title" => $element->fulltext,
       "content" => $content,
+      "concerns_readable" => implode(array_map(function ($a) { return $a->fulltext; }, $element->printouts->{'Concerns'}), " "),
       "concerns" => array_map(function ($a) { return $a->fullurl; }, $element->printouts->{'Concerns'}),
+      "context_readable"=> implode(array_map(function ($a) { return $a->fulltext; }, $element->printouts->{'Context'}), " "),
       "context"=> array_map(function ($a) { return $a->fullurl; }, $element->printouts->{'Context'})
     );
     $params['index'] = 'hzbwnature';
