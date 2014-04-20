@@ -6,6 +6,17 @@ include_once('classes/AskApi.php');
 include_once('vendor/autoload.php');
 
 
+// H E L P E R   F U N C T I O N S
+
+// Helper function to print links
+function prettify($obj) {
+  if (isset($obj->fullurl)) {
+    return "<a href=\"{$obj->fullurl}\" target=\"_blank\">{$obj->fulltext}</a>";
+  } else {
+    return $obj;
+  }
+}
+
 // S E T T I N G S
 
 $wiki = "wiki.local";
