@@ -1,10 +1,19 @@
 <html>
 
 <head>
-  <title>Create ElasticSearch Index</title>
+  <title>Basic Search</title>
   <meta charset="utf-8">
   <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
   <link rel="stylesheet" href="/css/csspinner.css">
+  <style>
+    .context {
+      display:inline;
+      float:right;
+    }
+    .context::before {
+      content: "Context: ";
+    }
+  </style>
 </head>
 
 <body>
@@ -23,7 +32,7 @@
 
     <div class="panel panel-default">
       <div class="panel-heading">
-        <div class="panel-title">Search Results</div>
+        <div class="panel-title">Search Results <div class="context"></div></div>
       </div>
       <div class="panel-body" id="results" style="min-height:20em;">
         
@@ -45,6 +54,7 @@
   <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
   <script src="/bower_components/handlebars/handlebars.min.js"></script>
   <script src="/bower_components/elasticsearch/elasticsearch.jquery.min.js"></script>
+  <script src="/bower_components/underscore/underscore.js"></script>
   <script src="/js/search.js"></script>
 
 </body>
