@@ -54,9 +54,9 @@
       };
       findContext = function(node, weights, minimum) {
         var c, childWeights, maxWeight, weight;
-        weight = function(c) {
-          if (weights[c] != null) {
-            return weights[c];
+        weight = function(context) {
+          if (weights[context] != null) {
+            return weights[context];
           } else {
             return 0;
           }
@@ -113,6 +113,7 @@
         });
         return p.then(function(resp) {
           var c, context, hit, hits, minimum, storage, _l, _len3, _len4, _len5, _m, _n, _ref3;
+          console.log(resp);
           hits = resp.hits.hits;
           $results.html("");
           $results.removeClass('csspinner');

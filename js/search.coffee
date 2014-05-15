@@ -29,6 +29,7 @@ $ ->
     $results.removeClass 'csspinner'
 
     # functions for finding out in which contexts people search
+    # make a dictionary of url and supercontext
     supercontext = {}
     supercontext[a._source.url] = a._source.supercontext for a in e.hits.hits
 
@@ -52,7 +53,7 @@ $ ->
     findContext = (node, weights, minimum) ->
       # console.log 'finding context within', node, 'for weights above', minimum
       # weight function
-      weight = (c) -> if weights[c]? then weights[c] else 0
+      weight = (context) -> if weights[context]? then weights[context] else 0
       # if it has no no kids, node is the one
       return node if !children? || children[node] !instanceof Array
       # find weights of all the children and take the max
@@ -94,6 +95,7 @@ $ ->
                 "context_readable^2"
               ]
       p.then (resp) ->
+        console.log resp
         hits = resp.hits.hits
         $results.html "";
         $results.removeClass 'csspinner'

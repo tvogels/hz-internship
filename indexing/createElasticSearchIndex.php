@@ -21,16 +21,6 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
   // Delete the hzbwnature index
   $deleteParams['index'] = 'hzbwnature';
   try { $elastic->indices()->delete($deleteParams); }
@@ -270,7 +260,7 @@
   foreach ($elements as $element) {
     // Skip SKOS Concepts
     // if ($element->printouts->{'Category'}[0]->fulltext == 'Category:SKOS Concept') continue;
-
+x§
     $pars = getParagraphs($element->fullurl, $elementPars);
 
     // Display
