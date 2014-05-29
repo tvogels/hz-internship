@@ -1,0 +1,2424 @@
+@prefix skos:   <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix wiki:   <http://wiki.local/index.php/> .
+
+<http://wiki.local/index.php/(Het)_Bezwijken> rdf:type skos:Concept ;
+  skos:prefLabel "(Het) Bezwijken" ;
+  skos:definition "Het optreden van verlies van inwendig evenwicht (bijvoorbeeld afschuiven) en/of het optreden van verlies van samenhang in materiaal (bijvoorbeeld het verweken) en/of het optreden van ontoelaatbaar grote vervormingen van de waterkering." ;
+  skos:inScheme <http://wiki.local/index.php/Waterveiligheid> ;
+  skos:related <http://wiki.local/index.php/Overstromingskans> ;
+  skos:related <http://wiki.local/index.php/Invloedsgebied> ;
+  skos:related <http://wiki.local/index.php/Macrostabiliteit> ;
+  skos:related <http://wiki.local/index.php/Bres> ;
+  skos:related <http://wiki.local/index.php/Calamiteit> ;
+  skos:related <http://wiki.local/index.php/Waterkering> ;
+  skos:related <http://wiki.local/index.php/Golfoverslagdebiet> ;
+  skos:related <http://wiki.local/index.php/Schadefactor> ;
+  skos:related <http://wiki.local/index.php/Parti%C3%ABle_factor> ;
+  skos:partOf <http://wiki.local/index.php/Ramp> .
+
+<http://wiki.local/index.php/Aanleghoogte> rdf:type skos:Concept ;
+  skos:prefLabel "Aanleghoogte" ;
+  skos:definition "Kruinhoogte van de waterkering onmiddellijk na het gereedkomen ervan." ;
+  skos:inScheme <http://wiki.local/index.php/Waterveiligheid> ;
+  skos:partOf <http://wiki.local/index.php/Kruin> .
+
+<http://wiki.local/index.php/Aansluitingsconstructie> rdf:type skos:Concept ;
+  skos:prefLabel "Aansluitingsconstructie" ;
+  skos:definition "Gehele dwars- en lengteprofiel van een grondconstructie in zijn afwijkende vorm, bij de overgang naar een duin, hoge gronden of een kunstwerk." ;
+  skos:inScheme <http://wiki.local/index.php/Waterveiligheid> ;
+  skos:partOf <http://wiki.local/index.php/Duin> ;
+  skos:partOf <http://wiki.local/index.php/Hoge_gronden> ;
+  skos:partOf <http://wiki.local/index.php/Kunstwerk> .
+
+<http://wiki.local/index.php/Achterland> rdf:type skos:Concept ;
+  skos:prefLabel "Achterland" ;
+  skos:definition "Het gebied aansluitend aan de landzijde van de waterkering." ;
+  skos:inScheme <http://wiki.local/index.php/Waterveiligheid> ;
+  skos:related <http://wiki.local/index.php/Binnendijks> ;
+  skos:related <http://wiki.local/index.php/Kwelkade> .
+
+<http://wiki.local/index.php/Achterloopsheid> rdf:type skos:Concept ;
+  skos:prefLabel "Achterloopsheid" ;
+  skos:definition "Lekstroom achter een constructie om." ;
+  skos:inScheme <http://wiki.local/index.php/Waterveiligheid> ;
+  skos:broader <http://wiki.local/index.php/Faalmechanisme> .
+
+<http://wiki.local/index.php/Actuele_sterkte> rdf:type skos:Concept ;
+  skos:prefLabel "Actuele sterkte" ;
+  skos:definition "Huidige werkelijke sterkte." ;
+  skos:inScheme <http://wiki.local/index.php/Waterveiligheid> ;
+  skos:related <http://wiki.local/index.php/Waterkering> .
+
+<http://wiki.local/index.php/Afschuiven> rdf:type skos:Concept ;
+  skos:prefLabel "Afschuiven" ;
+  skos:definition "Verplaatsen van een deel van een grondlichaam door overschrijding van het evenwichtsdraagvermogen." ;
+  skos:inScheme <http://wiki.local/index.php/Waterveiligheid> .
+
+<http://wiki.local/index.php/Afschuiven_voorland> rdf:type skos:Concept ;
+  skos:prefLabel "Afschuiven voorland" ;
+  skos:inScheme <http://wiki.local/index.php/Waterveiligheid> ;
+  skos:related <http://wiki.local/index.php/Inscharingslengte> ;
+  skos:broader <http://wiki.local/index.php/Faalmechanisme> .
+
+<http://wiki.local/index.php/Afslaglijn> rdf:type skos:Concept ;
+  skos:prefLabel "Afslaglijn" ;
+  skos:definition "Lijn in lengterichting van de kust die de afslagpunten verbindt." ;
+  skos:inScheme <http://wiki.local/index.php/Waterveiligheid> ;
+  skos:related <http://wiki.local/index.php/Afslagpunt> .
+
+<http://wiki.local/index.php/Afslagprofiel> rdf:type skos:Concept ;
+  skos:prefLabel "Afslagprofiel" ;
+  skos:definition "1. Evenwichtsprofiel van een duin tijdens de maatgevende storm. 2. Resterende profiel van een hoog voorland, inclusief dijk, na aanzienlijke buitendijkse erosie." ;
+  skos:inScheme <http://wiki.local/index.php/Waterveiligheid> ;
+  skos:related <http://wiki.local/index.php/Duinafslag> .
+
+<http://wiki.local/index.php/Afslagpunt> rdf:type skos:Concept ;
+  skos:prefLabel "Afslagpunt" ;
+  skos:definition "Snijpunt van het afgeslagen duinfront met het Rekenpeil. Het kritieke afslagpunt geeft die mate van duinafslag aan waarbij nog juist geen doorbreken optreedt." ;
+  skos:inScheme <http://wiki.local/index.php/Waterveiligheid> ;
+  skos:related <http://wiki.local/index.php/Afslaglijn> ;
+  skos:partOf <http://wiki.local/index.php/Afslagprofiel> .
+
+<http://wiki.local/index.php/Aquifer> rdf:type skos:Concept ;
+  skos:prefLabel "Aquifer" ;
+  skos:definition "Watervoerende zandlaag." ;
+  skos:inScheme <http://wiki.local/index.php/Waterveiligheid> ;
+  skos:related <http://wiki.local/index.php/Grenslaag> .
+
+<http://wiki.local/index.php/Artesisch_water> rdf:type skos:Concept ;
+  skos:prefLabel "Artesisch water" ;
+  skos:definition "(Grond)water met een wateroverspanning ten opzichte van een hydrostatische waterspanningsverdeling waarbij de wateroverspanning het gevolg is van de stijghoogte in het eerste watervoerend pakket." ;
+  skos:inScheme <http://wiki.local/index.php/Waterveiligheid> ;
+  skos:broader <http://wiki.local/index.php/Grondwater> ;
+  skos:partOf <http://wiki.local/index.php/Aquifer> .
+
+<http://wiki.local/index.php/Asfalt> rdf:type skos:Concept ;
+  skos:prefLabel "Asfalt" .
+
+<http://wiki.local/index.php/Astronomisch_getij> rdf:type skos:Concept ;
+  skos:prefLabel "Astronomisch getij" ;
+  skos:definition "Getijbeweging als gevolg van de veranderlijke resultante van de aantrekkingskracht van de maan en de zon op de watermassa’s op aarde, niet gestoord door weerkundige omstandigheden." ;
+  skos:inScheme <http://wiki.local/index.php/Waterveiligheid> ;
+  skos:related <http://wiki.local/index.php/Waterstand> ;
+  skos:related <http://wiki.local/index.php/Zeespiegelstijging> .
+
+<http://wiki.local/index.php/Bandijk> rdf:type skos:Concept ;
+  skos:prefLabel "Bandijk" ;
+  skos:definition "Rivierdijk die het winterbed omsluit." ;
+  skos:inScheme <http://wiki.local/index.php/Waterveiligheid> ;
+  skos:broader <http://wiki.local/index.php/Waterkering> ;
+  skos:partOf <http://wiki.local/index.php/Rivierengebied> .
+
+<http://wiki.local/index.php/Basiskustlijn> rdf:type skos:Concept ;
+  skos:prefLabel "Basiskustlijn" ;
+  skos:definition "Kustlijn die in het kader van de kustlijnzorg zal worden gehandhaafd. In het algemeen de positie van de gemiddelde kustlijn op 1 januari 1990." ;
+  skos:inScheme <http://wiki.local/index.php/Waterveiligheid> ;
+  skos:related <http://wiki.local/index.php/Kustlijn> ;
+  skos:related <http://wiki.local/index.php/Suppletie> ;
+  skos:related <http://wiki.local/index.php/Kustbeheer> .
+
+<http://wiki.local/index.php/Basispeil> rdf:type skos:Concept ;
+  skos:prefLabel "Basispeil" ;
+  skos:definition "Extreme hoogwaterstand met (per definitie) een overschrijdingsfrequentie van 1/10.000 per jaar." ;
+  skos:inScheme <http://wiki.local/index.php/Waterveiligheid> ;
+  skos:related <http://wiki.local/index.php/Veiligheidsnorm> .
+
+<http://wiki.local/index.php/Beheer> rdf:type skos:Concept ;
+  skos:prefLabel "Beheer" ;
+  skos:definition "Geheel van activiteiten dat noodzakelijk is om te waarborgen dat de functies van de waterkering blijven voldoen aan de daarvoor vastgestelde eisen en normen." ;
+  skos:inScheme <http://wiki.local/index.php/Waterveiligheid> ;
+  skos:related <http://wiki.local/index.php/Waterkering> .
+
+<http://wiki.local/index.php/Beheerder> rdf:type skos:Concept ;
+  skos:prefLabel "Beheerder" ;
+  skos:definition "Overheid waarbij de (primaire) waterkering in beheer is." ;
+  skos:inScheme <http://wiki.local/index.php/Waterveiligheid> ;
+  skos:related <http://wiki.local/index.php/Beheersgebied> ;
+  skos:partOf <http://wiki.local/index.php/Beheer> .
+
+<http://wiki.local/index.php/Beheersgebied> rdf:type skos:Concept ;
+  skos:prefLabel "Beheersgebied" ;
+  skos:definition "In de legger gespecificeerd areaal, dat als waterkering wordt aangemerkt en door de waterkeringbeheerder wordt beheerd." ;
+  skos:inScheme <http://wiki.local/index.php/Waterveiligheid> ;
+  skos:related <http://wiki.local/index.php/Beheerder> .
+
+<http://wiki.local/index.php/Beheersregister> rdf:type skos:Concept ;
+  skos:prefLabel "Beheersregister" ;
+  skos:definition "Document met de beschrijving van de feitelijke toestand van de waterkering, met de voor het behoud van het waterkerend vermogen kenmerkende gegevens van de constructie." ;
+  skos:inScheme <http://wiki.local/index.php/Waterveiligheid> ;
+  skos:related <http://wiki.local/index.php/Legger> ;
+  skos:related <http://wiki.local/index.php/Waterkering> .
+
+<http://wiki.local/index.php/Belasting> rdf:type skos:Concept ;
+  skos:prefLabel "Belasting" ;
+  skos:definition "Op een constructie (een waterkering) uitgeoefende in- en uitwendige krachten, ofwel de mate waarin een constructie door in- en uitwendige krachten wordt aangesproken, uitgedrukt in een fysische grootheid." ;
+  skos:inScheme <http://wiki.local/index.php/Waterveiligheid> ;
+  skos:related <http://wiki.local/index.php/Veiligheidstoeslag> ;
+  skos:related <http://wiki.local/index.php/Ontwerp> ;
+  skos:related <http://wiki.local/index.php/Parti%C3%ABle_factor> ;
+  skos:related <http://wiki.local/index.php/Stabiliteitsfactor> .
+
+<http://wiki.local/index.php/Belastinggevallenmethode> rdf:type skos:Concept ;
+  skos:prefLabel "Belastinggevallenmethode" ;
+  skos:inScheme <http://wiki.local/index.php/Waterveiligheid> ;
+  skos:related <http://wiki.local/index.php/Ontwerp> .
+
+<http://wiki.local/index.php/Benedenrivierengebied> rdf:type skos:Concept ;
+  skos:prefLabel "Benedenrivierengebied" ;
+  skos:definition "(1)Door Rijn en Maas gevoede rivierengebied, waarbij tijdens grote afvoergolven de waterstanden een significante invloed ondervinden van de waterstand op de Noordzee als gevolg van een zware storm De getijhoogwaterstijging is hier van belang. (2)Het rivierengebied ten westen van de lijn Schoonhoven -Werkendam Dongemond, inclusief Hollands Diep en Haringvliet, maar zonder de Hollandsche IJssel. De combinatie van waterstanden op zee en rivierafvoeren veroorzaakt in dit gebied de hoge waterstanden." ;
+  skos:inScheme <http://wiki.local/index.php/Waterveiligheid> ;
+  skos:broader <http://wiki.local/index.php/Rivierengebied> .
+
+<http://wiki.local/index.php/Benedenstrooms> rdf:type skos:Concept ;
+  skos:prefLabel "Benedenstrooms" ;
+  skos:definition "Stroomafwaarts." ;
+  skos:inScheme <http://wiki.local/index.php/Waterveiligheid> ;
+  skos:broader <http://wiki.local/index.php/Stroomgebied> .
+
+<http://wiki.local/index.php/Beoordelingsprofiel> rdf:type skos:Concept ;
+  skos:prefLabel "Beoordelingsprofiel" ;
+  skos:definition "Denkbeeldig minimum profiel van gedefinieerde afmetingen dat binnen het werkelijk aanwezige profiel van een dijk moet passen. Dit profiel wordt gebruikt ten behoeve van het beoordelen van de veiligheid van bestaande dijken op de aanwezigheid van niet-waterkerende objecten. Het mag in het algemeen niet worden doorsneden door verstoringzones van niet-waterkerende objecten." ;
+  skos:inScheme <http://wiki.local/index.php/Waterveiligheid> ;
+  skos:related <http://wiki.local/index.php/Dijkbekleding> .
+
+<http://wiki.local/index.php/Beschermingsniveau> rdf:type skos:Concept ;
+  skos:prefLabel "Beschermingsniveau" ;
+  skos:inScheme <http://wiki.local/index.php/Waterveiligheid> ;
+  skos:related <http://wiki.local/index.php/Veiligheidsnorm> .
+
+<http://wiki.local/index.php/Beschermingszone> rdf:type skos:Concept ;
+  skos:prefLabel "Beschermingszone" ;
+  skos:definition "(1)In de legger aangegeven beheerszone ter weerszijde van de waterkering. (2)Stroken grond aan weerszijden van de kernzone, die bijdragen aan de stabiliteit van de waterkering." ;
+  skos:inScheme <http://wiki.local/index.php/Waterveiligheid> ;
+  skos:partOf <http://wiki.local/index.php/Legger> ;
+  skos:partOf <http://wiki.local/index.php/Waterkering> .
+
+<http://wiki.local/index.php/Bestemmingsplan> rdf:type skos:Concept ;
+  skos:prefLabel "Bestemmingsplan" ;
+  skos:definition "Een plan dat beschrijft wat er met de ruimte in een bepaalde gemeente mag gebeuren." ;
+  skos:inScheme <http://wiki.local/index.php/Waterveiligheid> ;
+  skos:related <http://wiki.local/index.php/Ruimte_voor_de_Rivier> .
+
+<http://wiki.local/index.php/Betonzuil> rdf:type skos:Concept ;
+  skos:prefLabel "Betonzuil" ;
+  skos:definition "Waterkerend kunstwerk Constructie die onderdeel uitmaakt van een waterkering of de waterkering vervangt, maar is aangelegd ten behoeve van een andere functie, die de waterkering kruist (bijvoorbeeld schutten, spuien) 1)" .
+
+<http://wiki.local/index.php/Betrekkingslijn> rdf:type skos:Concept ;
+  skos:prefLabel "Betrekkingslijn" ;
+  skos:definition "Lijn die weergeeft welke waterstanden met gelijke overschrijdingsfrequentie aan twee peilstations met elkaar overeenkomen." ;
+  skos:inScheme <http://wiki.local/index.php/Waterveiligheid> ;
+  skos:related <http://wiki.local/index.php/Overschrijdingsfrequentie> ;
+  skos:related <http://wiki.local/index.php/Waterstand> .
+
+<http://wiki.local/index.php/Big_Picture> rdf:type skos:Concept ;
+  skos:prefLabel "Big Picture" ;
+  skos:broader <http://wiki.local/index.php/EMontPatronen> .
+
+<http://wiki.local/index.php/Binnendijks> rdf:type skos:Concept ;
+  skos:prefLabel "Binnendijks" ;
+  skos:definition "(1)Aan de kant van het land of het binnenwater. (2)Gebied landwaarts van de waterkering waarvoor een wettelijke veiligheidsnorm is gedefinieerd. De landwaartse grens van de waterkering is de grens met het dijkringgebied. Ook wel de grens tussen binnendijks en buitendijks genoemd." ;
+  skos:inScheme <http://wiki.local/index.php/Waterveiligheid> ;
+  skos:related <http://wiki.local/index.php/Achterland> ;
+  skos:related <http://wiki.local/index.php/Waterkering> .
+
+<http://wiki.local/index.php/Binnentalud> rdf:type skos:Concept ;
+  skos:prefLabel "Binnentalud" ;
+  skos:definition "(1)Hellend vlak van het dijklichaam aan de binnendijkse zijde van de dijk. (2)Het schuin aflopende deel aan de landzijde van de dijk." ;
+  skos:inScheme <http://wiki.local/index.php/Waterveiligheid> ;
+  skos:broader <http://wiki.local/index.php/Talud> .
+
+<http://wiki.local/index.php/Binnenteen> rdf:type skos:Concept ;
+  skos:prefLabel "Binnenteen" ;
+  skos:definition "Onderrand van het dijklichaam aan de binnendijkse zijde van de dijk (de overgang van dijk naar maaiveld)." ;
+  skos:inScheme <http://wiki.local/index.php/Waterveiligheid> ;
+  skos:partOf <http://wiki.local/index.php/Binnentalud> .
+
+<http://wiki.local/index.php/Binnenwater> rdf:type skos:Concept ;
+  skos:prefLabel "Binnenwater" ;
+  skos:definition "De binnenwateren van een land bestaan uit alle wateren aan de landzijde van de basislijn. Dit ter onderscheid van de zee. De binnenwateren zijn in twee groepen te verdelen: *rivieren, kanalen en meren die voor binnenvaartschepen bevaarbaar zijn (meestal aangeduid als vaarweg); *alle maritieme wateren achter de basislijn: baaien, mondingen en zeehavens." ;
+  skos:inScheme <http://wiki.local/index.php/Waterveiligheid> ;
+  skos:broader <http://wiki.local/index.php/Oppervlaktewater> .
+
+<http://wiki.local/index.php/Bochtwerking> rdf:type skos:Concept ;
+  skos:prefLabel "Bochtwerking" ;
+  skos:definition "Waterstandverhoging ter plaatse van de waterkering als gevolg van scheefstand van het wateroppervlak in een bocht van een rivier" ;
+  skos:inScheme <http://wiki.local/index.php/Waterveiligheid> ;
+  skos:related <http://wiki.local/index.php/Waterstand> ;
+  skos:related <http://wiki.local/index.php/Rivier> .
+
+<http://wiki.local/index.php/Bodem> rdf:type skos:Concept ;
+  skos:prefLabel "Bodem" ;
+  skos:inScheme <http://wiki.local/index.php/Waterveiligheid> ;
+  skos:related <http://wiki.local/index.php/Grondwater> ;
+  skos:related <http://wiki.local/index.php/Infitratie> .
+
+<http://wiki.local/index.php/Bovenrivierengebied> rdf:type skos:Concept ;
+  skos:prefLabel "Bovenrivierengebied" ;
+  skos:definition "(1)Door Rijn en Maas gevoede rivierengebied (inclusief de IJssel), waarbij de waterstanden geen significante invloed ondervinden van de waterstand op de Noordzee en het IJsselmeer als gevolg van een zware storm. De getijhoogwaterstijging speelt hier geen rol. (2)Het door Rijn en Maas gevoede rivierengebied ten oosten van de lijn Schoonhoven - Werkendam – Dongemond. Hoge rivierafvoer veroorzaakt de hoge waterstanden in dit gebied." ;
+  skos:inScheme <http://wiki.local/index.php/Waterveiligheid> ;
+  skos:broader <http://wiki.local/index.php/Rivierengebied> .
+
+<http://wiki.local/index.php/Bovenstrooms> rdf:type skos:Concept ;
+  skos:prefLabel "Bovenstrooms" ;
+  skos:definition "Stroomopwaarts." ;
+  skos:inScheme <http://wiki.local/index.php/Waterveiligheid> ;
+  skos:broader <http://wiki.local/index.php/Stroomgebied> .
+
+<http://wiki.local/index.php/Bres> rdf:type skos:Concept ;
+  skos:prefLabel "Bres" ;
+  skos:definition "Gat in de waterkering." ;
+  skos:inScheme <http://wiki.local/index.php/Waterveiligheid> ;
+  skos:related <http://wiki.local/index.php/(Het)_Bezwijken> .
+
+<http://wiki.local/index.php/Buioscillaties> rdf:type skos:Concept ;
+  skos:prefLabel "Buioscillaties" ;
+  skos:definition "Onregelmatige schommelingen van het wateroppervlak met een wisselende periode die vooral bij zware storm optreden." ;
+  skos:inScheme <http://wiki.local/index.php/Waterveiligheid> ;
+  skos:related <http://wiki.local/index.php/Kruinhoogtemarge> ;
+  skos:related <http://wiki.local/index.php/Waterstand> .
+
+<http://wiki.local/index.php/Buistoot> rdf:type skos:Concept ;
+  skos:prefLabel "Buistoot" ;
+  skos:definition "Afzonderlijk optredende vrij kort durende waterspiegelverheffing als gevolg van een zware bui." ;
+  skos:inScheme <http://wiki.local/index.php/Waterveiligheid> ;
+  skos:broader <http://wiki.local/index.php/Buioscillaties> .
+
+<http://wiki.local/index.php/Buitenberm> rdf:type skos:Concept ;
+  skos:prefLabel "Buitenberm" ;
+  skos:definition "Extra verbreding aan de buitendijkse zijde van de dijk om het dijklichaam extra steun te bieden, om zandmeevoerende wellen te voorkomen en/of om de golfoploop te reduceren." ;
+  skos:inScheme <http://wiki.local/index.php/Waterveiligheid> ;
+  skos:partOf <http://wiki.local/index.php/Buitentalud> .
+
+<http://wiki.local/index.php/Buitendijks> rdf:type skos:Concept ;
+  skos:prefLabel "Buitendijks" ;
+  skos:definition "- *Aan de kant van het te keren (buiten)water 1) *Gebied zeewaarts van de waterkering waarvoor geen wettelijke veiligheidsnorm is gedefinieerd. De landwaartse grens van de waterkering is de grens met het dijkringgebied. Ook wel de grens tussen binnendijks en buitendijks genoemd. 2)" ;
+  skos:inScheme <http://wiki.local/index.php/Waterveiligheid> ;
+  skos:related <http://wiki.local/index.php/Voorland> ;
+  skos:related <http://wiki.local/index.php/Waterkering> .
+
+<http://wiki.local/index.php/Buitenkruinlijn> rdf:type skos:Concept ;
+  skos:prefLabel "Buitenkruinlijn" ;
+  skos:definition "Lijn die de overgang markeert tussen de kruin en het buitentalud, waarlangs de toetsing op hoogte plaatsvindt." ;
+  skos:inScheme <http://wiki.local/index.php/Waterveiligheid> ;
+  skos:partOf <http://wiki.local/index.php/Buitentalud> ;
+  skos:partOf <http://wiki.local/index.php/Kruin> .
+
+<http://wiki.local/index.php/Buitentalud> rdf:type skos:Concept ;
+  skos:prefLabel "Buitentalud" ;
+  skos:definition "(1)Hellend vlak van het dijklichaam aan de kerende zijde. (2)Het schuin aflopende deel aan de rivierzijde van de dijk." ;
+  skos:inScheme <http://wiki.local/index.php/Waterveiligheid> ;
+  skos:broader <http://wiki.local/index.php/Talud> .
+
+<http://wiki.local/index.php/Buitenteen> rdf:type skos:Concept ;
+  skos:prefLabel "Buitenteen" ;
+  skos:definition "Onderrand van het dijklichaam aan de buitendijkse zijde van de dijk (de overgang van dijk naar maaiveld en/of voorland)." ;
+  skos:inScheme <http://wiki.local/index.php/Waterveiligheid> ;
+  skos:partOf <http://wiki.local/index.php/Buitentalud> .
+
+<http://wiki.local/index.php/Buitenwater> rdf:type skos:Concept ;
+  skos:prefLabel "Buitenwater" ;
+  skos:definition "Oppervlaktewater waarvan de waterstand direct onder invloed staat van de waterstand op zee, de grote rivieren, het IJsselmeer of het Markermeer." ;
+  skos:inScheme <http://wiki.local/index.php/Waterveiligheid> ;
+  skos:related <http://wiki.local/index.php/Intreepunt> ;
+  skos:related <http://wiki.local/index.php/Normfrequentie> ;
+  skos:related <http://wiki.local/index.php/Primaire_waterkering> ;
+  skos:broader <http://wiki.local/index.php/Oppervlaktewater> .
+
+<http://wiki.local/index.php/Buitenwaterstand> rdf:type skos:Concept ;
+  skos:prefLabel "Buitenwaterstand" ;
+  skos:definition "Waterstand aan de buitendijkse zijde van een waterkering (bijvoorbeeld een sluis of dijk)" ;
+  skos:inScheme <http://wiki.local/index.php/Waterveiligheid> ;
+  skos:related <http://wiki.local/index.php/Havenslingering> ;
+  skos:broader <http://wiki.local/index.php/Waterstand> ;
+  skos:partOf <http://wiki.local/index.php/Buitenwater> ;
+  skos:partOf <http://wiki.local/index.php/Grote_rivieren> ;
+  skos:partOf <http://wiki.local/index.php/Zee> .
+
+<http://wiki.local/index.php/CTF/PDCA> rdf:type skos:Concept ;
+  skos:prefLabel "CTF/PDCA" ;
+  skos:broader <http://wiki.local/index.php/EMontPatronen> .
+
+<http://wiki.local/index.php/Calamiteit> rdf:type skos:Concept ;
+  skos:prefLabel "Calamiteit" ;
+  skos:definition "Calamiteiten zijn in de Waterstaatswet 1900 niet nader gedefinieerd. Het Hoogheemraadschap van Delfland omschrijft een calamiteit als: een dreigend falen van een waterkering door storm en hoge buitenwaterstand (op zee), een niet meer voldoende hoge of instabiele waterkering." ;
+  skos:inScheme <http://wiki.local/index.php/Waterveiligheid> ;
+  skos:related <http://wiki.local/index.php/(Het)_Bezwijken> ;
+  skos:related <http://wiki.local/index.php/HIS_(Hoogwater_Informatie_Systeem)> ;
+  skos:related <http://wiki.local/index.php/Dijkringbenadering> .
+
+<http://wiki.local/index.php/Calamiteitenplan> rdf:type skos:Concept ;
+  skos:prefLabel "Calamiteitenplan" ;
+  skos:definition "Een draaiboek waarin verschillende acties om de dijk te bewaken (in geval van calamiteit) staan vermeld. Volgens de Waterstaatswet 1900 zijn waterbeheerders verplicht dit op te stellen." ;
+  skos:inScheme <http://wiki.local/index.php/Waterveiligheid> ;
+  skos:partOf <http://wiki.local/index.php/Calamiteit> .
+
+<http://wiki.local/index.php/Cascade-effect> rdf:type skos:Concept ;
+  skos:prefLabel "Cascade-effect" ;
+  skos:definition "Het trapsgewijze verloop van water van hoog naar laag, vertraagt door obstakels in het landschap." ;
+  skos:inScheme <http://wiki.local/index.php/Waterveiligheid> ;
+  skos:partOf <http://wiki.local/index.php/Overstromingsverloop> .
+
+<http://wiki.local/index.php/Compartimentering> rdf:type skos:Concept ;
+  skos:prefLabel "Compartimentering" ;
+  skos:definition "Het opdelen van een grote dijkring in (een aantal) kleinere compartimenten of dijkringen, om de gevolgen van een overstroming te beperken tot een kleiner gebied." ;
+  skos:inScheme <http://wiki.local/index.php/Waterveiligheid> ;
+  skos:partOf <http://wiki.local/index.php/Dijkring> .
+
+<http://wiki.local/index.php/Coupure> rdf:type skos:Concept ;
+  skos:prefLabel "Coupure" ;
+  skos:definition "Onderbreking in de waterkering voor de doorvoer van een (water)weg of spoorweg die bij hoge buitenwaterstanden afsluitbaar is" ;
+  skos:inScheme <http://wiki.local/index.php/Waterveiligheid> ;
+  skos:broader <http://wiki.local/index.php/Kunstwerk> .
+
+<http://wiki.local/index.php/Crisis> rdf:type skos:Concept ;
+  skos:prefLabel "Crisis" ;
+  skos:definition "Een serie gebeurtenissen of rampen. Een crisis tast de economie of de openbare orde ernstig aan. Ze treft vaak een groot gebied en vraagt om zware bestuurlijke coördinatie, beheersing en voorlichting. Voorschriften Toetsen op Veiligheid Primaire Waterkeringen (VTV2006). Ministerie van Verkeer en Waterstaat, september 2007" ;
+  skos:inScheme <http://wiki.local/index.php/Waterveiligheid> ;
+  skos:related <http://wiki.local/index.php/Gevolgen> ;
+  skos:related <http://wiki.local/index.php/Veiligheidsketen> .
+
+<http://wiki.local/index.php/Dam> rdf:type skos:Concept ;
+  skos:prefLabel "Dam" ;
+  skos:inScheme <http://wiki.local/index.php/Waterveiligheid> ;
+  skos:broader <http://wiki.local/index.php/Harde_waterkering> .
+
+<http://wiki.local/index.php/Decimeringshoogte> rdf:type skos:Concept ;
+  skos:prefLabel "Decimeringshoogte" ;
+  skos:definition "Absolute verschil in hoogte tussen het Toetspeil en een waterstand met een overschrijdingsfrequentie, die een factor 10 hoger of lager is dan die van het Toetspeil" ;
+  skos:inScheme <http://wiki.local/index.php/Waterveiligheid> ;
+  skos:related <http://wiki.local/index.php/Toetspeil> ;
+  skos:related <http://wiki.local/index.php/Waterstand> .
+
+<http://wiki.local/index.php/Deining> rdf:type skos:Concept ;
+  skos:prefLabel "Deining" ;
+  skos:definition "Windgeïnduceerde watergolven, die niet meer onder invloed zijn van het windveld dat hen opwekte" ;
+  skos:inScheme <http://wiki.local/index.php/Waterveiligheid> ;
+  skos:broader <http://wiki.local/index.php/Golven> .
+
+<http://wiki.local/index.php/Delta> rdf:type skos:Concept ;
+  skos:prefLabel "Delta" ;
+  skos:definition "(1)Mondingsgebied van rivieren, gekenmerkt door splitsende zijarmen. (2)Uitmonding van een rivier als een stelsel van aftakkingen." ;
+  skos:inScheme <http://wiki.local/index.php/Waterveiligheid> ;
+  skos:partOf <http://wiki.local/index.php/Rivier> ;
+  skos:partOf <http://wiki.local/index.php/Deltagebied> .
+
+<http://wiki.local/index.php/Delta2> rdf:type skos:Concept ;
+  skos:prefLabel "Delta2" ;
+  skos:inScheme <http://wiki.local/index.php/Waterkeringen> ;
+  skos:related <http://wiki.local/index.php/Rivier> ;
+  skos:related <http://wiki.local/index.php/Delta> ;
+  skos:partOf <http://wiki.local/index.php/Rivier> ;
+  skos:partOf <http://wiki.local/index.php/Deltagebied> .
+
+<http://wiki.local/index.php/Deltagebied> rdf:type skos:Concept ;
+  skos:prefLabel "Deltagebied" ;
+  skos:inScheme <http://wiki.local/index.php/Waterveiligheid> ;
+  skos:partOf <http://wiki.local/index.php/Rivierengebied> .
+
+<http://wiki.local/index.php/Deltahoogte> rdf:type skos:Concept ;
+  skos:prefLabel "Deltahoogte" ;
+  skos:definition "Hoogte van een waterkering, die voldoet aan de veiligheidsnorm volgens de Deltawet" ;
+  skos:inScheme <http://wiki.local/index.php/Waterveiligheid> ;
+  skos:related <http://wiki.local/index.php/Deltaveiligheid> ;
+  skos:related <http://wiki.local/index.php/Waterkering> .
+
+<http://wiki.local/index.php/Deltaveiligheid> rdf:type skos:Concept ;
+  skos:prefLabel "Deltaveiligheid" ;
+  skos:definition "Deltaveiligheid Veiligheidsnorm tegen overstroming, zoals vastgelegd in de Deltawet" ;
+  skos:inScheme <http://wiki.local/index.php/Waterveiligheid> ;
+  skos:related <http://wiki.local/index.php/Deltahoogte> ;
+  skos:related <http://wiki.local/index.php/Waterwet> .
+
+<http://wiki.local/index.php/Deterministisch_ontwerpen> rdf:type skos:Concept ;
+  skos:prefLabel "Deterministisch ontwerpen" ;
+  skos:inScheme <http://wiki.local/index.php/Waterveiligheid> ;
+  skos:related <http://wiki.local/index.php/Probabilistisch_ontwerpen> .
+
+<http://wiki.local/index.php/Diffractie> rdf:type skos:Concept ;
+  skos:prefLabel "Diffractie" ;
+  skos:definition "Buiging van golffront/golfstraal in het schaduwgebied van een obstakel" ;
+  skos:inScheme <http://wiki.local/index.php/Waterveiligheid> ;
+  skos:partOf <http://wiki.local/index.php/Golven> .
+
+<http://wiki.local/index.php/Dijk> rdf:type skos:Concept ;
+  skos:prefLabel "Dijk" ;
+  skos:definition "Waterkerend grondlichaam" ;
+  skos:inScheme <http://wiki.local/index.php/Waterveiligheid> ;
+  skos:related <http://wiki.local/index.php/Kopsloot> ;
+  skos:broader <http://wiki.local/index.php/Harde_waterkering> .
+
+<http://wiki.local/index.php/Dijkbekleding> rdf:type skos:Concept ;
+  skos:prefLabel "Dijkbekleding" ;
+  skos:definition "De afdekking van de kern van de dijk ter bescherming tegen golfaanvallen en langsstromend water. De bekleding bestaat uit een erosiebestendige toplaag, inclusief de onderliggende laag." ;
+  skos:inScheme <http://wiki.local/index.php/Waterveiligheid> ;
+  skos:related <http://wiki.local/index.php/Beoordelingsprofiel> ;
+  skos:partOf <http://wiki.local/index.php/Dijk> .
+
+<http://wiki.local/index.php/Dijkring> rdf:type skos:Concept ;
+  skos:prefLabel "Dijkring" ;
+  skos:definition "Een gebied omsloten door een stelsel van waterkeringen of hoge gronden, dat zo is beveiligd tegen overstromingen." ;
+  skos:inScheme <http://wiki.local/index.php/Waterveiligheid> ;
+  skos:related <http://wiki.local/index.php/Dijkringbenadering> ;
+  skos:related <http://wiki.local/index.php/Veiligheidsnorm> ;
+  skos:related <http://wiki.local/index.php/Waterkering> .
+
+<http://wiki.local/index.php/Dijkringbenadering> rdf:type skos:Concept ;
+  skos:prefLabel "Dijkringbenadering" ;
+  skos:definition "Rekenkundige benadering van de overstromingskans voor een dijkring als geheel." ;
+  skos:inScheme <http://wiki.local/index.php/Waterveiligheid> ;
+  skos:related <http://wiki.local/index.php/Calamiteit> ;
+  skos:related <http://wiki.local/index.php/Dijkring> .
+
+<http://wiki.local/index.php/Dijkringgebied> rdf:type skos:Concept ;
+  skos:prefLabel "Dijkringgebied" ;
+  skos:definition "(1)Gebied dat door een stelsel van waterkeringen of hoge gronden moet zijn beveiligd tegen overstroming, in het bijzonder bij hoge stormvloed, bij hoge waterstand op een van de grote rivieren, bij hoog water van het IJsselmeer of Markermeer of bij een combinatie daarvan. (2)Een gebied dat door een stelsel van waterkeringen, of hoge gronden beveiligd moet zijn tegen overstromingen." ;
+  skos:inScheme <http://wiki.local/index.php/Waterveiligheid> ;
+  skos:partOf <http://wiki.local/index.php/Dijkring> .
+
+<http://wiki.local/index.php/Dijkringgebiedscheiding> rdf:type skos:Concept ;
+  skos:prefLabel "Dijkringgebiedscheiding" ;
+  skos:definition "Primaire waterkering, die niet bestemd is tot directe kering van het buitenwater en niet langs oppervlakte water is gelegen, maar deel uitmaakt van een dijkringgebied als gemeenschappelijke scheiding tussen twee aangrenzende dijkringgebieden" ;
+  skos:inScheme <http://wiki.local/index.php/Waterveiligheid> ;
+  skos:related <http://wiki.local/index.php/Scheidingsdijk> .
+
+<http://wiki.local/index.php/Dijksectie> rdf:type skos:Concept ;
+  skos:prefLabel "Dijksectie" ;
+  skos:definition "Deel van een waterkering met min of meer gelijke sterkte-eigenschappen en belasting" ;
+  skos:inScheme <http://wiki.local/index.php/Waterveiligheid> .
+
+<http://wiki.local/index.php/Dijktafelhoogte> rdf:type skos:Concept ;
+  skos:prefLabel "Dijktafelhoogte" ;
+  skos:definition "Minimaal vereiste kruinhoogte, zoals aangegeven in de legger" ;
+  skos:inScheme <http://wiki.local/index.php/Waterveiligheid> ;
+  skos:partOf <http://wiki.local/index.php/Kruin> .
+
+<http://wiki.local/index.php/Dijkvak> rdf:type skos:Concept ;
+  skos:prefLabel "Dijkvak" ;
+  skos:definition "Een deel van een waterkering met uniforme eigenschappen en belasting." ;
+  skos:altLabel "Dijksectie" ;
+  skos:inScheme <http://wiki.local/index.php/Waterveiligheid> ;
+  skos:related <http://wiki.local/index.php/Waterkering> ;
+  skos:partOf <http://wiki.local/index.php/Dijkring> .
+
+<http://wiki.local/index.php/Drijfzandvorming> rdf:type skos:Concept ;
+  skos:prefLabel "Drijfzandvorming" ;
+  skos:inScheme <http://wiki.local/index.php/Waterveiligheid> .
+
+<http://wiki.local/index.php/Drukstaafmethode> rdf:type skos:Concept ;
+  skos:prefLabel "Drukstaafmethode" ;
+  skos:definition "Methode om de stabiliteit van de dijk te benaderen onder inachtneming van de vervorming van het slappe grondpakket achter de dijk, dat hiertoe als een door druk belaste staaf wordt opgevat (opdrijven)" ;
+  skos:inScheme <http://wiki.local/index.php/Waterveiligheid> ;
+  skos:related <http://wiki.local/index.php/Macrostabiliteit> .
+
+<http://wiki.local/index.php/Duin> rdf:type skos:Concept ;
+  skos:prefLabel "Duin" ;
+  skos:definition "Min of meer aansluitende zandheuvels langs de kust, al dan niet door de natuur gevormd, die het waterkerend vermogen ontlenen aan de geometrie en de hoeveelheid zand binnen het dwarsprofiel" ;
+  skos:inScheme <http://wiki.local/index.php/Waterveiligheid> ;
+  skos:related <http://wiki.local/index.php/Kritisch_grensprofiel> ;
+  skos:related <http://wiki.local/index.php/Toetspeil> ;
+  skos:broader <http://wiki.local/index.php/Zachte_waterkering> ;
+  skos:partOf <http://wiki.local/index.php/Duinvak> .
+
+<http://wiki.local/index.php/Duinafslag> rdf:type skos:Concept ;
+  skos:prefLabel "Duinafslag" ;
+  skos:inScheme <http://wiki.local/index.php/Waterveiligheid> ;
+  skos:related <http://wiki.local/index.php/Afslagprofiel> ;
+  skos:broader <http://wiki.local/index.php/Faalmechanisme> .
+
+<http://wiki.local/index.php/Duinsuppletie> rdf:type skos:Concept ;
+  skos:prefLabel "Duinsuppletie" ;
+  skos:inScheme <http://wiki.local/index.php/Waterveiligheid> ;
+  skos:broader <http://wiki.local/index.php/Suppletie> ;
+  skos:partOf <http://wiki.local/index.php/Duinversterking> .
+
+<http://wiki.local/index.php/Duinvak> rdf:type skos:Concept ;
+  skos:prefLabel "Duinvak" ;
+  skos:definition "Een deel van een waterkering met uniforme eigenschappen en belasting." ;
+  skos:inScheme <http://wiki.local/index.php/Waterveiligheid> ;
+  skos:related <http://wiki.local/index.php/Waterkering> ;
+  skos:partOf <http://wiki.local/index.php/Duin> .
+
+<http://wiki.local/index.php/Duinversterking> rdf:type skos:Concept ;
+  skos:prefLabel "Duinversterking" ;
+  skos:inScheme <http://wiki.local/index.php/Waterveiligheid> .
+
+<http://wiki.local/index.php/Duinvoet> rdf:type skos:Concept ;
+  skos:prefLabel "Duinvoet" ;
+  skos:definition "Overgang van strand naar duin. De positie van de duinvoet in een dwarsprofiel wordt door veel beheerders gedefinieerd met behulp van een in de tijd constante hoogtelijn (bijvoorbeeld NAP +3 m). De benedenrand van een duin. Meestal wordt de duinvoet aan de zeezijde bedoeld. Voor de berekening van de Basiskustlijn (BKL) is de duinvoet vastgesteld op NAP + 3 meter." ;
+  skos:inScheme <http://wiki.local/index.php/Waterveiligheid> ;
+  skos:partOf <http://wiki.local/index.php/Duin> .
+
+<http://wiki.local/index.php/Dynamisch_kustbeheer> rdf:type skos:Concept ;
+  skos:prefLabel "Dynamisch kustbeheer" ;
+  skos:definition "Het zodanig beheren van de zandige kust dat natuurlijke processen, al dan niet gestimuleerd, zoveel mogelijk ongestoord verlopen. Hierbij is de veiligheid van het achterliggende gebied gewaarborgd." ;
+  skos:inScheme <http://wiki.local/index.php/Waterveiligheid> ;
+  skos:broader <http://wiki.local/index.php/Kustbeheer> .
+
+<http://wiki.local/index.php/EMontPatronen> rdf:type skos:Concept ;
+  skos:prefLabel "EMontPatronen" ;
+  skos:narrower <http://wiki.local/index.php/Big_Picture> ;
+  skos:narrower <http://wiki.local/index.php/PQR> ;
+  skos:narrower <http://wiki.local/index.php/CTF/PDCA> ;
+  skos:narrower <http://wiki.local/index.php/Experiences/Practices> ;
+  skos:narrower <http://wiki.local/index.php/Facilitation> .
+
+<http://wiki.local/index.php/Economische_schade> rdf:type skos:Concept ;
+  skos:prefLabel "Economische schade" ;
+  skos:definition "De schade die opgelopen is door ontwrichting van economische processen." ;
+  skos:inScheme <http://wiki.local/index.php/Waterveiligheid> ;
+  skos:broader <http://wiki.local/index.php/Schade> .
+
+<http://wiki.local/index.php/Estuarium> rdf:type skos:Concept ;
+  skos:prefLabel "Estuarium" ;
+  skos:definition "(1)Wijde trechtervormige riviermond, waarin het getij zich sterk doet gevoelen. (2)Een overgangsgebied waar rivieren uitmonden in zee en waar de invloed van het getij merkbaar is." ;
+  skos:inScheme <http://wiki.local/index.php/Waterveiligheid> ;
+  skos:related <http://wiki.local/index.php/Kustgebied> ;
+  skos:partOf <http://wiki.local/index.php/Delta> ;
+  skos:partOf <http://wiki.local/index.php/Rivier> ;
+  skos:partOf <http://wiki.local/index.php/Zee> .
+
+<http://wiki.local/index.php/Evacuatie> rdf:type skos:Concept ;
+  skos:prefLabel "Evacuatie" ;
+  skos:definition "Wegzenden van de burgerbevolking (en dieren) uit een bedreigd gebied om slachtoffers te voorkomen." ;
+  skos:inScheme <http://wiki.local/index.php/Waterveiligheid> ;
+  skos:partOf <http://wiki.local/index.php/Preparatie> ;
+  skos:partOf <http://wiki.local/index.php/Respons> .
+
+<http://wiki.local/index.php/Evacuatie_calculator> rdf:type skos:Concept ;
+  skos:prefLabel "Evacuatie calculator" ;
+  skos:inScheme <http://wiki.local/index.php/Waterveiligheid> ;
+  skos:related <http://wiki.local/index.php/Preventieve_evacuatie> .
+
+<http://wiki.local/index.php/Evacuatieplan> rdf:type skos:Concept ;
+  skos:prefLabel "Evacuatieplan" ;
+  skos:definition "Een plan voor de aanpak van een evacuatie bij een dreigende (overstromings)ramp." ;
+  skos:inScheme <http://wiki.local/index.php/Waterveiligheid> ;
+  skos:broader <http://wiki.local/index.php/Rampenbestrijdingsplan> ;
+  skos:partOf <http://wiki.local/index.php/Evacuatie> .
+
+<http://wiki.local/index.php/Evenstandslijn> rdf:type skos:Concept ;
+  skos:prefLabel "Evenstandslijn" ;
+  skos:definition "Lijn die weergeeft hoe plaatselijk een bepaalde waterstand kan ontstaan onder invloed van combinaties van de rivierafvoer en de hoogwaterstand te Hoek van Holland" ;
+  skos:inScheme <http://wiki.local/index.php/Waterveiligheid> ;
+  skos:related <http://wiki.local/index.php/Waterstand> .
+
+<http://wiki.local/index.php/Experiences/Practices> rdf:type skos:Concept ;
+  skos:prefLabel "Experiences/Practices" ;
+  skos:broader <http://wiki.local/index.php/EMontPatronen> .
+
+<http://wiki.local/index.php/Faalmechanisme> rdf:type skos:Concept ;
+  skos:prefLabel "Faalmechanisme" ;
+  skos:definition "Een mechanisme waardoor een dijk kan bezwijken." ;
+  skos:inScheme <http://wiki.local/index.php/Waterveiligheid> ;
+  skos:related <http://wiki.local/index.php/Kernzone> ;
+  skos:related <http://wiki.local/index.php/Ondergrond> ;
+  skos:related <http://wiki.local/index.php/Falen> .
+
+<http://wiki.local/index.php/Falen> rdf:type skos:Concept ;
+  skos:prefLabel "Falen" ;
+  skos:definition "Het niet meer vervullen van de primaire functie (waterkeren) en/of het niet meer voldoen aan de vastgestelde criteria." ;
+  skos:inScheme <http://wiki.local/index.php/Waterveiligheid> ;
+  skos:related <http://wiki.local/index.php/Faalmechanisme> ;
+  skos:broader <http://wiki.local/index.php/(Het)_Bezwijken> .
+
+<http://wiki.local/index.php/Filter> rdf:type skos:Concept ;
+  skos:prefLabel "Filter" ;
+  skos:definition "Tussenlaag in de taludbekleding die uitspoeling van fijnkorrelig materiaal uit de ondergrond door de bovenliggende laag van de bekleding voorkomt." ;
+  skos:inScheme <http://wiki.local/index.php/Waterveiligheid> ;
+  skos:partOf <http://wiki.local/index.php/Dijkbekleding> .
+
+<http://wiki.local/index.php/Flu%C3%AFdisatie> rdf:type skos:Concept ;
+  skos:prefLabel "Fluïdisatie" ;
+  skos:inScheme <http://wiki.local/index.php/Waterveiligheid> .
+
+<http://wiki.local/index.php/Folie> rdf:type skos:Concept ;
+  skos:prefLabel "Folie" ;
+  skos:definition "Plastic deken om een dijk mee in te pakken." ;
+  skos:inScheme <http://wiki.local/index.php/Waterveiligheid> ;
+  skos:broader <http://wiki.local/index.php/Dijkbekleding> .
+
+<http://wiki.local/index.php/Freatisch_vlak> rdf:type skos:Concept ;
+  skos:prefLabel "Freatisch vlak" ;
+  skos:definition "Vrije grondwaterspiegel." ;
+  skos:inScheme <http://wiki.local/index.php/Waterveiligheid> ;
+  skos:partOf <http://wiki.local/index.php/Grondwater> .
+
+<http://wiki.local/index.php/Frequentielijn> rdf:type skos:Concept ;
+  skos:prefLabel "Frequentielijn" ;
+  skos:definition "De relatie tussen de daadwerkelijke rivierafvoer en de rekenkundig bepaalde overschrijdingsfrequentie van deze afvoer." ;
+  skos:inScheme <http://wiki.local/index.php/Waterveiligheid> ;
+  skos:related <http://wiki.local/index.php/Werklijn> .
+
+<http://wiki.local/index.php/Gekantelde_Haringmanblokken> rdf:type skos:Concept ;
+  skos:prefLabel "Gekantelde Haringmanblokken" .
+
+<http://wiki.local/index.php/Getijdebekken> rdf:type skos:Concept ;
+  skos:prefLabel "Getijdebekken" ;
+  skos:inScheme <http://wiki.local/index.php/Waterveiligheid> ;
+  skos:partOf <http://wiki.local/index.php/Estuarium> ;
+  skos:partOf <http://wiki.local/index.php/Lagune> .
+
+<http://wiki.local/index.php/Getijhoogwaterstijging> rdf:type skos:Concept ;
+  skos:prefLabel "Getijhoogwaterstijging" ;
+  skos:definition "De relatieve stijging van de gemiddelde hoogwaterstand (inclusief NAP-daling)" ;
+  skos:inScheme <http://wiki.local/index.php/Waterveiligheid> .
+
+<http://wiki.local/index.php/Getijprisma> rdf:type skos:Concept ;
+  skos:prefLabel "Getijprisma" ;
+  skos:inScheme <http://wiki.local/index.php/Waterveiligheid> ;
+  skos:partOf <http://wiki.local/index.php/Getijdebekken> .
+
+<http://wiki.local/index.php/Getroffene> rdf:type skos:Concept ;
+  skos:prefLabel "Getroffene" ;
+  skos:definition "Een persoon die in het gebied woont, dat bij een overstroming onder water loopt." ;
+  skos:inScheme <http://wiki.local/index.php/Waterveiligheid> ;
+  skos:broader <http://wiki.local/index.php/Gevolgen> .
+
+<http://wiki.local/index.php/Geulwandsuppletie> rdf:type skos:Concept ;
+  skos:prefLabel "Geulwandsuppletie" ;
+  skos:inScheme <http://wiki.local/index.php/Waterveiligheid> ;
+  skos:broader <http://wiki.local/index.php/Suppletie> .
+
+<http://wiki.local/index.php/Gevoeligheidsfactor> rdf:type skos:Concept ;
+  skos:prefLabel "Gevoeligheidsfactor" ;
+  skos:definition "Partiële factor waarin onzekerheden in de berekeningsmethodes zijn verdisconteerd." ;
+  skos:inScheme <http://wiki.local/index.php/Waterveiligheid> ;
+  skos:related <http://wiki.local/index.php/Modelfactor> .
+
+<http://wiki.local/index.php/Gevolgen> rdf:type skos:Concept ;
+  skos:prefLabel "Gevolgen" ;
+  skos:definition "De effecten die een overstroming teweegbrengt: slachtoffers, materiële schade, sociale ontwrichting, effect op gezondheid en welbevinden of effecten op natuur-, landschaps- en cultuurhistorische waarden." ;
+  skos:inScheme <http://wiki.local/index.php/Waterveiligheid> ;
+  skos:related <http://wiki.local/index.php/Crisis> ;
+  skos:related <http://wiki.local/index.php/HIS_(Hoogwater_Informatie_Systeem)> ;
+  skos:related <http://wiki.local/index.php/Nazorg> ;
+  skos:related <http://wiki.local/index.php/Overstromingsrisico> .
+
+<http://wiki.local/index.php/Golfhoogte> rdf:type skos:Concept ;
+  skos:prefLabel "Golfhoogte" ;
+  skos:definition "De verticale afstand tussen dal en top van een golf." ;
+  skos:inScheme <http://wiki.local/index.php/Waterveiligheid> ;
+  skos:related <http://wiki.local/index.php/Strijklengte> ;
+  skos:partOf <http://wiki.local/index.php/Golven> .
+
+<http://wiki.local/index.php/Golflengte> rdf:type skos:Concept ;
+  skos:prefLabel "Golflengte" ;
+  skos:definition "De golflengte (symbool: λ) van een periodiek verschijnsel is de lengte van een golf. Dat wil zeggen de afstand tussen twee opeenvolgende punten met dezelfde fase, zoals de toppen van een sinusvormige golf. Er is een directe relatie tussen de golflengte λ (in m), de frequentie f (in Hz) en de voortplantingssnelheid v van de golf (in m/s) in het betrokken medium." ;
+  skos:inScheme <http://wiki.local/index.php/Waterveiligheid> ;
+  skos:partOf <http://wiki.local/index.php/Hydraulische_condities> ;
+  skos:partOf <http://wiki.local/index.php/Golven> .
+
+<http://wiki.local/index.php/Golfoploop> rdf:type skos:Concept ;
+  skos:prefLabel "Golfoploop" ;
+  skos:definition "(1)Het tegen het talud oplopen van golven. (2)De hoogte van de golven boven de waterstand, die tegen het talud oplopen." ;
+  skos:inScheme <http://wiki.local/index.php/Waterveiligheid> ;
+  skos:related <http://wiki.local/index.php/Talud> .
+
+<http://wiki.local/index.php/Golfoploophoogte> rdf:type skos:Concept ;
+  skos:prefLabel "Golfoploophoogte" ;
+  skos:definition "Dit is het golfoploopniveau, verticaal gemeten ten opzichte van de lokale waterstand, waarbij het aantal oplopen dat dit niveau overschrijdt 2% is van het aantal inkomende golven. Het aantal overschrijdingen wordt hierbij gerelateerd aan het aantal inkomende golven en dus niet aan het aantal oplopen. Het golfoploopniveau van een individuele oploop wordt bepaald door het niveau waarbij de watertong minder dan 2 cm dik wordt." ;
+  skos:inScheme <http://wiki.local/index.php/Waterveiligheid> ;
+  skos:related <http://wiki.local/index.php/Golfoverslag> .
+
+<http://wiki.local/index.php/Golfoverslag> rdf:type skos:Concept ;
+  skos:prefLabel "Golfoverslag" ;
+  skos:definition "(1)Hoeveelheid water die door golven per strekkende meter gemiddeld per tijdseenheid over de waterkering slaat. (2)De hoeveelheid water, die over een waterkering heen slaat." ;
+  skos:inScheme <http://wiki.local/index.php/Waterveiligheid> ;
+  skos:related <http://wiki.local/index.php/Golfoploophoogte> ;
+  skos:related <http://wiki.local/index.php/Waakhoogte> ;
+  skos:broader <http://wiki.local/index.php/Overlopen> .
+
+<http://wiki.local/index.php/Golfoverslagdebiet> rdf:type skos:Concept ;
+  skos:prefLabel "Golfoverslagdebiet" ;
+  skos:definition "De hoeveelheid water per seconde, die over de waterkering kan slaan, zonder dat deze bezwijkt." ;
+  skos:inScheme <http://wiki.local/index.php/Waterveiligheid> ;
+  skos:related <http://wiki.local/index.php/(Het)_Bezwijken> ;
+  skos:related <http://wiki.local/index.php/Golfoverslaghoogte> ;
+  skos:partOf <http://wiki.local/index.php/Golfoverslag> .
+
+<http://wiki.local/index.php/Golfoverslaghoogte> rdf:type skos:Concept ;
+  skos:prefLabel "Golfoverslaghoogte" ;
+  skos:definition "De hoogte ten opzichte van de waterstand, waarbij een bepaald opgegeven debiet optreedt. Iets preciezer gezegd is de golfoverslaghoogte het verschil tussen het niveau van de buitenkruinlijn en de lokale waterstand in de situatie dat de buitenkruinlijn zó hoog ligt dat de overslag daarover precies gelijk is aan het opgegeven debiet." ;
+  skos:inScheme <http://wiki.local/index.php/Waterveiligheid> ;
+  skos:related <http://wiki.local/index.php/Golfoverslagdebiet> ;
+  skos:partOf <http://wiki.local/index.php/Golfoploop> ;
+  skos:partOf <http://wiki.local/index.php/Golfoverslag> .
+
+<http://wiki.local/index.php/Golfperiode> rdf:type skos:Concept ;
+  skos:prefLabel "Golfperiode" ;
+  skos:definition "Tijdsduur tussen twee opeenvolgende neergaande passages van de middenstand van een golf." ;
+  skos:inScheme <http://wiki.local/index.php/Waterveiligheid> ;
+  skos:partOf <http://wiki.local/index.php/Golven> .
+
+<http://wiki.local/index.php/Golfspectrum> rdf:type skos:Concept ;
+  skos:prefLabel "Golfspectrum" ;
+  skos:definition "Verdeling van de golfenergiedichtheid als functie van de periode (bij een breed spectrum zijn de golfperioden van de windgolven onderling sterk verschillend)." ;
+  skos:altLabel "Spectrum" ;
+  skos:inScheme <http://wiki.local/index.php/Waterveiligheid> ;
+  skos:partOf <http://wiki.local/index.php/Golven> .
+
+<http://wiki.local/index.php/Golfsteilheid> rdf:type skos:Concept ;
+  skos:prefLabel "Golfsteilheid" ;
+  skos:definition "Verhouding tussen de hoogte en de lengte van een golf." ;
+  skos:inScheme <http://wiki.local/index.php/Waterveiligheid> ;
+  skos:partOf <http://wiki.local/index.php/Golven> .
+
+<http://wiki.local/index.php/Golven> rdf:type skos:Concept ;
+  skos:prefLabel "Golven" ;
+  skos:definition "Vloeistofdynamica Oppervlaktegolf (vloeistofdynamica), een golf op het wateroppervlak onder invloed van de zwaartekracht en oppervlaktespanning, zoals: *Getijgolf, een golf die ontstaat onder invloed van de zwaartekracht van de Maan en ook wel de Zon *Tsunami, een vloedgolf uit zee die de kuststrook overspoelt *Zeegang en zeedeining, door de wind opgewekt in oceanen en zeeën *Scheepsgolf, boeggolf en hekgolf, golfpatroon opgewekt door een varend schip *Rimpeling of capillaire golf ten gevolge van een steen, regendruppels of een windvlaagje, en onder invloed van oppervlaktespanning" ;
+  skos:inScheme <http://wiki.local/index.php/Waterveiligheid> ;
+  skos:partOf <http://wiki.local/index.php/Hydraulische_condities> ;
+  skos:partOf <http://wiki.local/index.php/Oppervlaktewater> .
+
+<http://wiki.local/index.php/Grenslaag> rdf:type skos:Concept ;
+  skos:prefLabel "Grenslaag" ;
+  skos:definition "Onderste deel van het afdekkende pakket. Bij hoogwater wordt de waterspanning in de grenslaag beïnvloed door de stijghoogte in de onderliggende aquifer" ;
+  skos:inScheme <http://wiki.local/index.php/Waterveiligheid> ;
+  skos:related <http://wiki.local/index.php/Aquifer> .
+
+<http://wiki.local/index.php/Grensmaas> rdf:type skos:Concept ;
+  skos:prefLabel "Grensmaas" ;
+  skos:inScheme <http://wiki.local/index.php/Waterveiligheid> ;
+  skos:partOf <http://wiki.local/index.php/Maaswerken> .
+
+<http://wiki.local/index.php/Grenspotentiaal> rdf:type skos:Concept ;
+  skos:prefLabel "Grenspotentiaal" ;
+  skos:definition "Stijghoogte in de aquifer die in evenwicht is met het gewicht van het afdekkende pakket." ;
+  skos:inScheme <http://wiki.local/index.php/Waterveiligheid> ;
+  skos:related <http://wiki.local/index.php/Opdrijfzone> ;
+  skos:broader <http://wiki.local/index.php/Potentiaal> .
+
+<http://wiki.local/index.php/Grenstoestand> rdf:type skos:Concept ;
+  skos:prefLabel "Grenstoestand" ;
+  skos:definition "Toestand waarin de sterkte van een constructie of een onderdeel daarvan nog juist evenwicht maakt met de daarop werkende belastingen." ;
+  skos:inScheme <http://wiki.local/index.php/Waterveiligheid> ;
+  skos:broader <http://wiki.local/index.php/Actuele_sterkte> .
+
+<http://wiki.local/index.php/Groepsrisico> rdf:type skos:Concept ;
+  skos:prefLabel "Groepsrisico" ;
+  skos:definition "Het verwachte aantal slachtoffers van een (overstromings)ramp." ;
+  skos:inScheme <http://wiki.local/index.php/Waterveiligheid> ;
+  skos:related <http://wiki.local/index.php/Ramp> .
+
+<http://wiki.local/index.php/Grond> rdf:type skos:Concept ;
+  skos:prefLabel "Grond" ;
+  skos:inScheme <http://wiki.local/index.php/Waterveiligheid> ;
+  skos:related <http://wiki.local/index.php/Materiaalfactoren> ;
+  skos:related <http://wiki.local/index.php/Kruip> ;
+  skos:related <http://wiki.local/index.php/Opbarsten> ;
+  skos:related <http://wiki.local/index.php/Zetting> ;
+  skos:related <http://wiki.local/index.php/Proevenverzameling> ;
+  skos:related <http://wiki.local/index.php/Squeezing> .
+
+<http://wiki.local/index.php/Grondwater> rdf:type skos:Concept ;
+  skos:prefLabel "Grondwater" ;
+  skos:definition "Grondwater is al het water dat zich in de ondergrond, in bodems en gesteenten bevindt. Meestal is dit water afkomstig van neerslag, nadat het op het oppervlakte belandt infiltreert het direct of indirect (na zich eerst in meren of rivieren te hebben bevonden). Grondwater afkomstig van neerslag wordt meteorisch water genoemd. Andere bronnen van grondwater zijn het vrijkomen van water bij metamorfe reacties in de diepere delen van de aardkorst of het vrijkomen van water bij het omhoogkomen van magma" ;
+  skos:inScheme <http://wiki.local/index.php/Waterveiligheid> ;
+  skos:related <http://wiki.local/index.php/Kwel> ;
+  skos:related <http://wiki.local/index.php/Bodem> ;
+  skos:related <http://wiki.local/index.php/Intreepunt> ;
+  skos:broader <http://wiki.local/index.php/Water> .
+
+<http://wiki.local/index.php/Grote_rivieren> rdf:type skos:Concept ;
+  skos:prefLabel "Grote rivieren" ;
+  skos:definition "De grote riviren van Nederland: De Rijn, Waal, Maas, IJssel. (Eems en Schelde zijn grensrivieren)" ;
+  skos:inScheme <http://wiki.local/index.php/Waterveiligheid> ;
+  skos:partOf <http://wiki.local/index.php/Rivierengebied> .
+
+<http://wiki.local/index.php/HIS_(Hoogwater_Informatie_Systeem)> rdf:type skos:Concept ;
+  skos:prefLabel "HIS (Hoogwater Informatie Systeem)" ;
+  skos:definition "Een geautomatiseerd informatiesysteem, dat actuele en eenduidige informatie biedt over: de bedreigde plekken in de waterkeringen tijdens een hoogwatersituatie, de mogelijke gevolgen bij het falen van één of meerdere van de bedreigde plekken en de effecten van maatregelen om slachtoffers en schade te beperken." ;
+  skos:inScheme <http://wiki.local/index.php/Waterveiligheid> ;
+  skos:related <http://wiki.local/index.php/Calamiteit> ;
+  skos:related <http://wiki.local/index.php/Gevolgen> .
+
+<http://wiki.local/index.php/Handelingsperspectief> rdf:type skos:Concept ;
+  skos:prefLabel "Handelingsperspectief" ;
+  skos:definition "Voorgestelde acties om in een bepaalde situatie te handelen, bijvoorbeeld bij een overstroming." ;
+  skos:inScheme <http://wiki.local/index.php/Waterveiligheid> ;
+  skos:partOf <http://wiki.local/index.php/Respons> .
+
+<http://wiki.local/index.php/Harde_waterkering> rdf:type skos:Concept ;
+  skos:prefLabel "Harde waterkering" ;
+  skos:inScheme <http://wiki.local/index.php/Waterveiligheid> ;
+  skos:broader <http://wiki.local/index.php/Waterkering> .
+
+<http://wiki.local/index.php/Havenslingering> rdf:type skos:Concept ;
+  skos:prefLabel "Havenslingering" ;
+  skos:definition "Resonantieverschijnsel in bekkens (o.a. havens) als gevolg van laagfrequente variaties van de buitenwaterstand (seiche)." ;
+  skos:inScheme <http://wiki.local/index.php/Waterveiligheid> ;
+  skos:related <http://wiki.local/index.php/Buitenwaterstand> ;
+  skos:related <http://wiki.local/index.php/Kruinhoogtemarge> ;
+  skos:broader <http://wiki.local/index.php/Golven> .
+
+<http://wiki.local/index.php/Heave> rdf:type skos:Concept ;
+  skos:prefLabel "Heave" ;
+  skos:definition "Situatie waarbij verticale korrelspanningen in een zandlaag wegvallen onder invloed van een verticale grondwaterstroming; ook fluïdisatie of de vorming van drijfzand genoemd." ;
+  skos:altLabel "Fluïdisatie" ;
+  skos:altLabel "Drijfzandvorming" ;
+  skos:inScheme <http://wiki.local/index.php/Waterveiligheid> ;
+  skos:related <http://wiki.local/index.php/Verticale_grondwaterstroming> ;
+  skos:related <http://wiki.local/index.php/Kwel> ;
+  skos:related <http://wiki.local/index.php/Hydraulische_grondbreuk> .
+
+<http://wiki.local/index.php/Hoge_gronden> rdf:type skos:Concept ;
+  skos:prefLabel "Hoge gronden" ;
+  skos:definition "(1)Hoge gronden zijn natuurlijke hoge delen van Nederland die niet overstromen bij maatgevend hoogwater én die als zodanig zijn aangegeven op bijlagen I en IA van de Wet op de waterkering. Hoge gronden vormen samen met primaire waterkeringen het stelsel dat een dijkringgebied omsluit. (2)De natuurlijke hoge delen van Nederland. Deze zijn in de Wet op de waterkering vastgelegd." ;
+  skos:inScheme <http://wiki.local/index.php/Waterveiligheid> .
+
+<http://wiki.local/index.php/Hoogwatergolf> rdf:type skos:Concept ;
+  skos:prefLabel "Hoogwatergolf" ;
+  skos:definition "Tijdelijk verhoogde waterstanden in een rivier (met een golfvorm) door een vergrote rivierafvoer. De hoogwatergolf kan enkele uren tot enkele dagen aanblijven." ;
+  skos:inScheme <http://wiki.local/index.php/Waterveiligheid> ;
+  skos:related <http://wiki.local/index.php/Waterstand> ;
+  skos:related <http://wiki.local/index.php/Rivier> .
+
+<http://wiki.local/index.php/Hoogwaterrichtlijn> rdf:type skos:Concept ;
+  skos:prefLabel "Hoogwaterrichtlijn" ;
+  skos:definition "Een EU-richtlijn die voorschrijft dat overstromingsrisico’s op Europees niveau in kaart worden gebracht en dat landen samenwerken om overstromingen te beheersen." ;
+  skos:inScheme <http://wiki.local/index.php/Waterveiligheid> ;
+  skos:related <http://wiki.local/index.php/Veiligheidsnorm> .
+
+<http://wiki.local/index.php/Horizontale_grondwaterstroming> rdf:type skos:Concept ;
+  skos:prefLabel "Horizontale grondwaterstroming" ;
+  skos:inScheme <http://wiki.local/index.php/Waterveiligheid> ;
+  skos:partOf <http://wiki.local/index.php/Grondwater> .
+
+<http://wiki.local/index.php/Hydraulische_belasting> rdf:type skos:Concept ;
+  skos:prefLabel "Hydraulische belasting" ;
+  skos:definition "(1)Belasting op de waterkering als gevolg van de lokale waterstand en bijbehorende golven. (2)De belastende druk die hydraulische condities op een waterkering uitoefenen." ;
+  skos:inScheme <http://wiki.local/index.php/Waterveiligheid> ;
+  skos:related <http://wiki.local/index.php/Waterkering> ;
+  skos:related <http://wiki.local/index.php/Hydraulische_condities> .
+
+<http://wiki.local/index.php/Hydraulische_condities> rdf:type skos:Concept ;
+  skos:prefLabel "Hydraulische condities" ;
+  skos:definition "De condities die bepalend zijn voor de hydraulische belasting. Het betreft onder meer waterstanden, stroming, golfhoogten en golflengten." ;
+  skos:inScheme <http://wiki.local/index.php/Waterveiligheid> ;
+  skos:related <http://wiki.local/index.php/Hydraulische_belasting> ;
+  skos:related <http://wiki.local/index.php/Hydraulische_randvoorwaarden> .
+
+<http://wiki.local/index.php/Hydraulische_grondbreuk> rdf:type skos:Concept ;
+  skos:prefLabel "Hydraulische grondbreuk" ;
+  skos:definition "Verlies van korrelcontact in de grond als gevolg van te hoge wateroverspanningen; in geval van een cohesieve afdekkende grondlaag leidt dit tot opdrijven en opbarsten, in geval van een nietcohesieve grondlaag tot heave. ." ;
+  skos:inScheme <http://wiki.local/index.php/Waterveiligheid> ;
+  skos:related <http://wiki.local/index.php/Heave> .
+
+<http://wiki.local/index.php/Hydraulische_randvoorwaarden> rdf:type skos:Concept ;
+  skos:prefLabel "Hydraulische randvoorwaarden" ;
+  skos:definition "Randvoorwaarden voor het ontwerpen of toetsen van een waterkering, die het gevolg zijn van de lokale waterstand en bijbehorende golven onder extreme omstandigheden." ;
+  skos:inScheme <http://wiki.local/index.php/Waterveiligheid> ;
+  skos:related <http://wiki.local/index.php/Toetsing_op_veiligheid> ;
+  skos:related <http://wiki.local/index.php/Randvoorwaardenlocatie> ;
+  skos:related <http://wiki.local/index.php/Hydraulische_condities> ;
+  skos:broader <http://wiki.local/index.php/Randvoorwaarden> ;
+  skos:partOf <http://wiki.local/index.php/Toetspeil> .
+
+<http://wiki.local/index.php/Hydrostatische_grondwaterspanning> rdf:type skos:Concept ;
+  skos:prefLabel "Hydrostatische grondwaterspanning" ;
+  skos:definition "(Grond)waterspanning in een punt in de waterspanning (onder)grond die overeenkomt met de waterspanning als gevolg van een kolom water vanaf dat punt tot aan de vrije grondwaterspiegel." ;
+  skos:inScheme <http://wiki.local/index.php/Waterveiligheid> ;
+  skos:related <http://wiki.local/index.php/Waterover/onder-spanning> ;
+  skos:broader <http://wiki.local/index.php/Waterspanning> .
+
+<http://wiki.local/index.php/Individueel_risico> rdf:type skos:Concept ;
+  skos:prefLabel "Individueel risico" ;
+  skos:definition "De kans op overlijden voor een individu door deelname aan een activiteit of door een gebeurtenis. Het individuele risico is vaak plaatsgebonden." ;
+  skos:inScheme <http://wiki.local/index.php/Waterveiligheid> ;
+  skos:broader <http://wiki.local/index.php/Groepsrisico> .
+
+<http://wiki.local/index.php/Infitratie> rdf:type skos:Concept ;
+  skos:prefLabel "Infitratie" ;
+  skos:definition "Indringen van water in de bodem of het grondlichaam van bovenaf." ;
+  skos:inScheme <http://wiki.local/index.php/Waterveiligheid> ;
+  skos:related <http://wiki.local/index.php/Bodem> .
+
+<http://wiki.local/index.php/Inlaatsluis> rdf:type skos:Concept ;
+  skos:prefLabel "Inlaatsluis" ;
+  skos:inScheme <http://wiki.local/index.php/Waterveiligheid> ;
+  skos:broader <http://wiki.local/index.php/Kunstwerk> .
+
+<http://wiki.local/index.php/Innundatiesluis> rdf:type skos:Concept ;
+  skos:prefLabel "Innundatiesluis" ;
+  skos:inScheme <http://wiki.local/index.php/Waterveiligheid> ;
+  skos:broader <http://wiki.local/index.php/Kunstwerk> .
+
+<http://wiki.local/index.php/Inscharingslengte> rdf:type skos:Concept ;
+  skos:prefLabel "Inscharingslengte" ;
+  skos:definition "De lengte gerekend vanaf de geulrand waarover het voorland wordt aangetast (afschuiven of vloeien) in het geval van een afschuiving of zettingsvloeiing." ;
+  skos:inScheme <http://wiki.local/index.php/Waterveiligheid> ;
+  skos:related <http://wiki.local/index.php/Afschuiven_voorland> .
+
+<http://wiki.local/index.php/Intergetijdegebied> rdf:type skos:Concept ;
+  skos:prefLabel "Intergetijdegebied" ;
+  skos:definition "Dit is het gebied dat bij laag water droog komt te liggen en bij hoogwater overstroomt." ;
+  skos:inScheme <http://wiki.local/index.php/Waterveiligheid> ;
+  skos:partOf <http://wiki.local/index.php/Estuarium> ;
+  skos:partOf <http://wiki.local/index.php/Kustgebied> .
+
+<http://wiki.local/index.php/Intreepunt> rdf:type skos:Concept ;
+  skos:prefLabel "Intreepunt" ;
+  skos:definition "(Theoretisch) punt waar het buitenwater tot de aquifer toetreedt, als gevolg van het verval over de waterkering." ;
+  skos:inScheme <http://wiki.local/index.php/Waterveiligheid> ;
+  skos:related <http://wiki.local/index.php/Grondwater> ;
+  skos:related <http://wiki.local/index.php/Waterkering> ;
+  skos:related <http://wiki.local/index.php/Buitenwater> .
+
+<http://wiki.local/index.php/Inundatie> rdf:type skos:Concept ;
+  skos:prefLabel "Inundatie" ;
+  skos:definition "Het gecontroleerd overstromen van een gebied. De term heeft een militaire oorsprong." ;
+  skos:inScheme <http://wiki.local/index.php/Waterveiligheid> ;
+  skos:broader <http://wiki.local/index.php/Overstroming> .
+
+<http://wiki.local/index.php/Invloedsgebied> rdf:type skos:Concept ;
+  skos:prefLabel "Invloedsgebied" ;
+  skos:definition "Gebied waarbinnen het bezwijken of falen van een waterkerend kunstwerk, bijzondere constructie of niet-waterkerend object merkbaar is. Denk hierbij aan de ontgrondingkuil rond een bezweken leiding of een ontwortelde boom." ;
+  skos:inScheme <http://wiki.local/index.php/Waterveiligheid> ;
+  skos:related <http://wiki.local/index.php/Invloedslijn> ;
+  skos:related <http://wiki.local/index.php/(Het)_Bezwijken> .
+
+<http://wiki.local/index.php/Invloedslijn> rdf:type skos:Concept ;
+  skos:prefLabel "Invloedslijn" ;
+  skos:definition "Begrenzing van de invloedszone." ;
+  skos:inScheme <http://wiki.local/index.php/Waterveiligheid> ;
+  skos:related <http://wiki.local/index.php/Invloedsgebied> .
+
+<http://wiki.local/index.php/Invloedsstrook> rdf:type skos:Concept ;
+  skos:prefLabel "Invloedsstrook" ;
+  skos:definition "Strook, direct landwaarts van de reserveringsstrook, waar aan gebruiksfuncties beperkingen worden gesteld teneinde de waterkering in stand te houden." ;
+  skos:inScheme <http://wiki.local/index.php/Waterveiligheid> ;
+  skos:partOf <http://wiki.local/index.php/Reserveringsstrook> .
+
+<http://wiki.local/index.php/Invloedszone> rdf:type skos:Concept ;
+  skos:prefLabel "Invloedszone" ;
+  skos:definition "Tot de waterkering behorende gronden, die daadwerkelijk bijdragen aan het waarborgen van de stabiliteit, zowel aan de binnen als aan de buitenzijde van de waterkering." ;
+  skos:inScheme <http://wiki.local/index.php/Waterveiligheid> ;
+  skos:related <http://wiki.local/index.php/Macrostabiliteit> ;
+  skos:partOf <http://wiki.local/index.php/Kernzone> .
+
+<http://wiki.local/index.php/Kade> rdf:type skos:Concept ;
+  skos:prefLabel "Kade" ;
+  skos:definition "Een kleine dijk." ;
+  skos:inScheme <http://wiki.local/index.php/Waterveiligheid> ;
+  skos:related <http://wiki.local/index.php/Open_keerhoogte> ;
+  skos:related <http://wiki.local/index.php/Kadesectie> ;
+  skos:broader <http://wiki.local/index.php/Dijk> .
+
+<http://wiki.local/index.php/Kadesectie> rdf:type skos:Concept ;
+  skos:prefLabel "Kadesectie" ;
+  skos:definition "Deel van een waterkering met min of meer gelijke sterkte-eigenschappen en belasting." ;
+  skos:altLabel "Kadevak" ;
+  skos:inScheme <http://wiki.local/index.php/Waterveiligheid> ;
+  skos:related <http://wiki.local/index.php/Kade> .
+
+<http://wiki.local/index.php/Kadevak> rdf:type skos:Concept ;
+  skos:prefLabel "Kadevak" ;
+  skos:inScheme <http://wiki.local/index.php/Waterveiligheid> .
+
+<http://wiki.local/index.php/Karakteristieke_belasting> rdf:type skos:Concept ;
+  skos:prefLabel "Karakteristieke belasting" ;
+  skos:definition "Belasting met een voorgeschreven onder- of overschrijdingskans, bepaald op grond van een statistische analyse van beschikbare gegevens." ;
+  skos:inScheme <http://wiki.local/index.php/Waterveiligheid> ;
+  skos:broader <http://wiki.local/index.php/Belasting> .
+
+<http://wiki.local/index.php/Karakteristieke_sterkte> rdf:type skos:Concept ;
+  skos:prefLabel "Karakteristieke sterkte" ;
+  skos:definition "Sterkte met een voorgeschreven onder- of overschrijdingskans, bepaald op grond van een statistische analyse van beschikbare gegevens." ;
+  skos:inScheme <http://wiki.local/index.php/Waterveiligheid> ;
+  skos:partOf <http://wiki.local/index.php/Waterkering> .
+
+<http://wiki.local/index.php/Kernzone> rdf:type skos:Concept ;
+  skos:prefLabel "Kernzone" ;
+  skos:definition "(1)Waterkering plus het gebied dat zich uitstrekt tot waar bezwijkmechanismen van de waterkering reiken. Denk hierbij aan het uittreepunt in het maaiveld van een glijcirkel. (2)De belangrijkste zone van de waterkering. Voor de duinen is dit de zone die na een maatgevende storm moet blijven staan. Wettelijke afbakening is opgenomen in de legger." ;
+  skos:inScheme <http://wiki.local/index.php/Waterveiligheid> ;
+  skos:related <http://wiki.local/index.php/Faalmechanisme> ;
+  skos:partOf <http://wiki.local/index.php/Profiel_van_vrije_ruimte> ;
+  skos:partOf <http://wiki.local/index.php/Waterkering> .
+
+<http://wiki.local/index.php/Keur> rdf:type skos:Concept ;
+  skos:prefLabel "Keur" ;
+  skos:definition "(1)Verordening van het waterschap, waarin gebods- en verbodsbepalingen zijn opgenomen en waarvan de naleving door sancties kan worden afgedwongen. (2)Verordening met gebods- en verbodsbepalingen van een waterschap of hoogheemraadschap die gelden in de keurzone." ;
+  skos:inScheme <http://wiki.local/index.php/Waterveiligheid> ;
+  skos:related <http://wiki.local/index.php/Keurzone> ;
+  skos:related <http://wiki.local/index.php/Waterkering> .
+
+<http://wiki.local/index.php/Keurgebied> rdf:type skos:Concept ;
+  skos:prefLabel "Keurgebied" ;
+  skos:definition "Gebied waarop de keur van toepassing is." ;
+  skos:inScheme <http://wiki.local/index.php/Waterveiligheid> .
+
+<http://wiki.local/index.php/Keurzone> rdf:type skos:Concept ;
+  skos:prefLabel "Keurzone" ;
+  skos:definition "Gebied waarop de keur van toepassing is." ;
+  skos:altLabel "Keurgebied" ;
+  skos:altLabel "Waterkeringszone" ;
+  skos:inScheme <http://wiki.local/index.php/Waterveiligheid> ;
+  skos:related <http://wiki.local/index.php/Keur> ;
+  skos:related <http://wiki.local/index.php/Legger> .
+
+<http://wiki.local/index.php/Kopsloot> rdf:type skos:Concept ;
+  skos:prefLabel "Kopsloot" ;
+  skos:definition "(Polder)sloot die dwars op de dijk of kade is gesitueerd." ;
+  skos:inScheme <http://wiki.local/index.php/Waterveiligheid> ;
+  skos:related <http://wiki.local/index.php/Dijk> .
+
+<http://wiki.local/index.php/Kosten-batenanalyse> rdf:type skos:Concept ;
+  skos:prefLabel "Kosten-batenanalyse" ;
+  skos:definition "Een analyse waarbij men de voor- en nadelen van een project of maatregelen vergelijkt, uitgedrukt in geld. Als de baten groter zijn dan de kosten, is het project economisch rendabel." ;
+  skos:inScheme <http://wiki.local/index.php/Waterveiligheid> ;
+  skos:related <http://wiki.local/index.php/Ruimte_voor_de_Rivier> .
+
+<http://wiki.local/index.php/Kreukelberm> rdf:type skos:Concept ;
+  skos:prefLabel "Kreukelberm" ;
+  skos:definition "Horizontaal gedeelte van een dijk, aan de buitenzijde gelegen, als overgang tussen de harde bekleding en de rest van het talud of de vooroever Ook wel ‘kreukelberm’ (Zeeland) of ‘plasberm’ genoemd." ;
+  skos:inScheme <http://wiki.local/index.php/Waterveiligheid> .
+
+<http://wiki.local/index.php/Kritiek_verval> rdf:type skos:Concept ;
+  skos:prefLabel "Kritiek verval" ;
+  skos:definition "Waarde van het verval, c.q. de lengte van de maatgevende kwelweg, waarbij juist geen piping of heave optreedt." ;
+  skos:inScheme <http://wiki.local/index.php/Waterveiligheid> ;
+  skos:partOf <http://wiki.local/index.php/Kwelweg> .
+
+<http://wiki.local/index.php/Kritieke_dichtheid> rdf:type skos:Concept ;
+  skos:prefLabel "Kritieke dichtheid" ;
+  skos:definition "Grenswaarde van de dichtheid van zand tussen losse- en vaste pakking." ;
+  skos:inScheme <http://wiki.local/index.php/Waterveiligheid> ;
+  skos:related <http://wiki.local/index.php/Zand> .
+
+<http://wiki.local/index.php/Kritisch_grensprofiel> rdf:type skos:Concept ;
+  skos:prefLabel "Kritisch grensprofiel" ;
+  skos:definition "Grensprofiel dat aan de landwaartse zijde van het duin is gesitueerd. Als het kritisch grensprofiel doorbreekt, is het duin als totaal bezweken." ;
+  skos:inScheme <http://wiki.local/index.php/Waterveiligheid> ;
+  skos:related <http://wiki.local/index.php/Duin> ;
+  skos:partOf <http://wiki.local/index.php/Reserveringsstrook> .
+
+<http://wiki.local/index.php/Kruin> rdf:type skos:Concept ;
+  skos:prefLabel "Kruin" ;
+  skos:definition "(1) 1. Strook tussen buitenkruinlijn en binnenkruinlijn; 2. Hoogste punt in het dwarsprofiel van het dijklichaam; 3. Buitenkruinlijn (2)Het hoogste punt van het dijklichaam." ;
+  skos:inScheme <http://wiki.local/index.php/Waterveiligheid> ;
+  skos:related <http://wiki.local/index.php/Overlopen> ;
+  skos:partOf <http://wiki.local/index.php/Dijk> .
+
+<http://wiki.local/index.php/Kruinhoogte> rdf:type skos:Concept ;
+  skos:prefLabel "Kruinhoogte" ;
+  skos:definition "Hoogte van de waterkering." ;
+  skos:inScheme <http://wiki.local/index.php/Waterveiligheid> ;
+  skos:partOf <http://wiki.local/index.php/Kruin> .
+
+<http://wiki.local/index.php/Kruinhoogtemarge> rdf:type skos:Concept ;
+  skos:prefLabel "Kruinhoogtemarge" ;
+  skos:definition "Het verschil tussen de kruinhoogte op de peildatum en Toetspeil met lokale toeslagen voor opwaaiing en buistoten, bruioscillaties, seiches of slingeringen" ;
+  skos:inScheme <http://wiki.local/index.php/Waterveiligheid> ;
+  skos:related <http://wiki.local/index.php/Peildatum> ;
+  skos:related <http://wiki.local/index.php/Toetspeil> ;
+  skos:related <http://wiki.local/index.php/Buioscillaties> ;
+  skos:related <http://wiki.local/index.php/Lokale_opwaaiing> ;
+  skos:partOf <http://wiki.local/index.php/Kruinhoogte> .
+
+<http://wiki.local/index.php/Kruip> rdf:type skos:Concept ;
+  skos:prefLabel "Kruip" ;
+  skos:definition "Als functie van de tijd doorgaande verticale vervorming van grondlagen, bij gelijkblijvende korrelspanning." ;
+  skos:inScheme <http://wiki.local/index.php/Waterveiligheid> ;
+  skos:related <http://wiki.local/index.php/Grond> .
+
+<http://wiki.local/index.php/Kunstwerk> rdf:type skos:Concept ;
+  skos:prefLabel "Kunstwerk" ;
+  skos:definition "Een constructie of installatie die in het waterbeheer één of meer functies vervult. Voorbeelden zijn sluizen en gemalen, die als functie water keren, water beheren en scheepvaart begeleiden." ;
+  skos:altLabel "Waterkerend kunstwerk" ;
+  skos:inScheme <http://wiki.local/index.php/Waterveiligheid> ;
+  skos:broader <http://wiki.local/index.php/Harde_waterkering> .
+
+<http://wiki.local/index.php/Kustbeheer> rdf:type skos:Concept ;
+  skos:prefLabel "Kustbeheer" ;
+  skos:definition "kustmanagement" ;
+  skos:inScheme <http://wiki.local/index.php/Waterveiligheid> ;
+  skos:related <http://wiki.local/index.php/Basiskustlijn> ;
+  skos:related <http://wiki.local/index.php/Te_toetsen_kustlijn> ;
+  skos:related <http://wiki.local/index.php/Kustgebied> .
+
+<http://wiki.local/index.php/Kustfundament> rdf:type skos:Concept ;
+  skos:prefLabel "Kustfundament" ;
+  skos:definition "Afbakening of ruimtelijke begrenzing van de kust als één dynamisch systeem. Binnen deze begrenzing zijn de verschillende functies (waterkeren, natuur, recreatie, etc.) op elkaar afgestemd. Samenhangend beheer is hierin noodzakelijk. De zeewaartse grens bestaat uit de doorgaande -20 meter NAP-lijn. Aan de landzijde omvat deze alle duingebieden én alle daarop gelegen harde zeeweringen. De landwaartse grens valt bij smalle duinen en dijken samen met de grens van de waterkering, uitgebreid met de ruimtereservering voor tweehonderd jaar zeespiegelstijging. Daar waar de duinen breder zijn dan de waterkering omvat deze het gehele duingebied." ;
+  skos:inScheme <http://wiki.local/index.php/Waterveiligheid> ;
+  skos:partOf <http://wiki.local/index.php/Kustgebied> .
+
+<http://wiki.local/index.php/Kustgebied> rdf:type skos:Concept ;
+  skos:prefLabel "Kustgebied" ;
+  skos:inScheme <http://wiki.local/index.php/Waterveiligheid> ;
+  skos:related <http://wiki.local/index.php/Estuarium> ;
+  skos:related <http://wiki.local/index.php/Kustbeheer> ;
+  skos:related <http://wiki.local/index.php/Maatgevende_omstandigheden> ;
+  skos:related <http://wiki.local/index.php/Toetspeil> ;
+  skos:partOf <http://wiki.local/index.php/Zee> .
+
+<http://wiki.local/index.php/Kustlijn> rdf:type skos:Concept ;
+  skos:prefLabel "Kustlijn" ;
+  skos:definition "Algemeen begrip om de overgang van zee naar land aan te duiden. Het is de grens tussen het droge en natte deel van de waterkering. Meestal de gemiddelde hoogwaterlijn." ;
+  skos:inScheme <http://wiki.local/index.php/Waterveiligheid> ;
+  skos:related <http://wiki.local/index.php/Basiskustlijn> ;
+  skos:partOf <http://wiki.local/index.php/Kustgebied> .
+
+<http://wiki.local/index.php/Kwel> rdf:type skos:Concept ;
+  skos:prefLabel "Kwel" ;
+  skos:definition "Uittreden van grondwater onder invloed van grotere stijghoogte buiten het beschouwde gebied" ;
+  skos:inScheme <http://wiki.local/index.php/Waterveiligheid> ;
+  skos:related <http://wiki.local/index.php/Kwelwater> ;
+  skos:related <http://wiki.local/index.php/Grondwater> ;
+  skos:related <http://wiki.local/index.php/Heave> ;
+  skos:related <http://wiki.local/index.php/Kwelscherm> ;
+  skos:related <http://wiki.local/index.php/Kwelkade> ;
+  skos:related <http://wiki.local/index.php/Piping> .
+
+<http://wiki.local/index.php/Kwelkade> rdf:type skos:Concept ;
+  skos:prefLabel "Kwelkade" ;
+  skos:definition "In het direct aan de dijk grenzende achterland aangebrachte kade om afstromen van kwelwater te verminderen waarmee wordt getracht het optreden van pipingverschijnselen te voorkomen alsmede wateroverlast binnendijks tijdens hoge rivierafvoeren te beperken" ;
+  skos:inScheme <http://wiki.local/index.php/Waterveiligheid> ;
+  skos:related <http://wiki.local/index.php/Achterland> ;
+  skos:related <http://wiki.local/index.php/Kwel> ;
+  skos:broader <http://wiki.local/index.php/Kade> .
+
+<http://wiki.local/index.php/Kwelscherm> rdf:type skos:Concept ;
+  skos:prefLabel "Kwelscherm" ;
+  skos:definition "Ondoorlatende, in de regel verticale, constructie voor verlenging van de kwelweg." ;
+  skos:inScheme <http://wiki.local/index.php/Waterveiligheid> ;
+  skos:related <http://wiki.local/index.php/Kwel> ;
+  skos:related <http://wiki.local/index.php/Binnendijks> ;
+  skos:related <http://wiki.local/index.php/Kwelweg> .
+
+<http://wiki.local/index.php/Kwelsloot> rdf:type skos:Concept ;
+  skos:prefLabel "Kwelsloot" ;
+  skos:definition "Sloot aan de binnenzijde van de dijk die tot doel heeft kwelwater op te vangen en af te voeren." ;
+  skos:inScheme <http://wiki.local/index.php/Waterveiligheid> ;
+  skos:related <http://wiki.local/index.php/Kwelwater> .
+
+<http://wiki.local/index.php/Kwelwater> rdf:type skos:Concept ;
+  skos:prefLabel "Kwelwater" ;
+  skos:inScheme <http://wiki.local/index.php/Waterveiligheid> ;
+  skos:related <http://wiki.local/index.php/Kwelsloot> ;
+  skos:related <http://wiki.local/index.php/Kwel> .
+
+<http://wiki.local/index.php/Kwelweg> rdf:type skos:Concept ;
+  skos:prefLabel "Kwelweg" ;
+  skos:definition "Mogelijk pad in de grond dat het kwelwater aflegt, van het intreepunt naar het uittreepunt." ;
+  skos:inScheme <http://wiki.local/index.php/Waterveiligheid> ;
+  skos:related <http://wiki.local/index.php/Kwelscherm> .
+
+<http://wiki.local/index.php/Kwelweglengte> rdf:type skos:Concept ;
+  skos:prefLabel "Kwelweglengte" ;
+  skos:definition "Lengte van de kwelweg Ministerie van Verkeer en Waterstaat, Directoraat-Generaal Water; Waterveiligheid, Begrippen begrijpen, november 2007." ;
+  skos:inScheme <http://wiki.local/index.php/Waterveiligheid> ;
+  skos:partOf <http://wiki.local/index.php/Kwelweg> .
+
+<http://wiki.local/index.php/Lagune> rdf:type skos:Concept ;
+  skos:prefLabel "Lagune" ;
+  skos:inScheme <http://wiki.local/index.php/Waterveiligheid> ;
+  skos:partOf <http://wiki.local/index.php/Kustgebied> .
+
+<http://wiki.local/index.php/Legger> rdf:type skos:Concept ;
+  skos:prefLabel "Legger" ;
+  skos:definition "(1)Document, waarin de beschrijving is opgenomen van de minimale eisen waaraan de (primaire) waterkering moet voldoen naar richting, vorm, afmeting en constructie en waarin de keurbegrenzingen worden aangegeven. (2)Een kaart met juridische status die waterkeringbeheerders opstellen. Hierop staat de exacte ligging van de waterkering en de daarin te onderscheiden zones (kernzone, beschermingszone en buitenbeschermingszone)." ;
+  skos:inScheme <http://wiki.local/index.php/Waterveiligheid> ;
+  skos:related <http://wiki.local/index.php/Keurzone> ;
+  skos:related <http://wiki.local/index.php/Waterkering> ;
+  skos:related <http://wiki.local/index.php/Beheersregister> .
+
+<http://wiki.local/index.php/Lokale_opstuwing> rdf:type skos:Concept ;
+  skos:prefLabel "Lokale opstuwing" ;
+  skos:definition "lokale waterstandverhoging ter plaatse van de waterkering als gevolg van obstakels in het rivierbed" ;
+  skos:inScheme <http://wiki.local/index.php/Waterveiligheid> ;
+  skos:related <http://wiki.local/index.php/Waterstand> ;
+  skos:related <http://wiki.local/index.php/Rivier> .
+
+<http://wiki.local/index.php/Lokale_opwaaiing> rdf:type skos:Concept ;
+  skos:prefLabel "Lokale opwaaiing" ;
+  skos:definition "Opwaaiing tussen de locatie waarvoor de hydraulische randvoorwaarde wordt gegeven en de waterkering" ;
+  skos:inScheme <http://wiki.local/index.php/Waterveiligheid> ;
+  skos:related <http://wiki.local/index.php/Waterstand> ;
+  skos:related <http://wiki.local/index.php/Kruinhoogtemarge> .
+
+<http://wiki.local/index.php/Maaskade> rdf:type skos:Concept ;
+  skos:prefLabel "Maaskade" ;
+  skos:definition "Primaire waterkering die deel uitmaakt van het stelsel dat een van de dijkringgebieden 54-95 omsluit en beschermt tegen een hoge waterstand op de Limburgse Maas." ;
+  skos:inScheme <http://wiki.local/index.php/Waterveiligheid> ;
+  skos:partOf <http://wiki.local/index.php/Bovenrivierengebied> ;
+  skos:partOf <http://wiki.local/index.php/Dijkringgebied> .
+
+<http://wiki.local/index.php/Maaswerken> rdf:type skos:Concept ;
+  skos:prefLabel "Maaswerken" ;
+  skos:definition "Omvangrijk infrastructureel poject om de veiligheid in het stroomgebied van de Maas in Limburg, Noord-Brabant en Gelderland te verbeteren. Het project, gestart in 2006, bestaat uit twee delen: Zandmaas en Grensmaas." ;
+  skos:inScheme <http://wiki.local/index.php/Waterveiligheid> ;
+  skos:partOf <http://wiki.local/index.php/Bovenrivierengebied> .
+
+<http://wiki.local/index.php/Maatgevende_afvoer> rdf:type skos:Concept ;
+  skos:prefLabel "Maatgevende afvoer" ;
+  skos:definition "De rivierafvoer die bepalend is voor de maatgevende hoogwaterstanden." ;
+  skos:inScheme <http://wiki.local/index.php/Waterveiligheid> ;
+  skos:related <http://wiki.local/index.php/Maatgevende_omstandigheden> ;
+  skos:related <http://wiki.local/index.php/Maatgevende_waterstand> .
+
+<http://wiki.local/index.php/Maatgevende_omstandigheden> rdf:type skos:Concept ;
+  skos:prefLabel "Maatgevende omstandigheden" ;
+  skos:definition "De omstandigheden (zoals rivierafvoeren, zeewaterstanden, wind en golven) die maatgevend zijn voor de hoogte en sterkte van de waterkeringen." ;
+  skos:inScheme <http://wiki.local/index.php/Waterveiligheid> ;
+  skos:related <http://wiki.local/index.php/Superstorm> ;
+  skos:related <http://wiki.local/index.php/Maatgevende_afvoer> ;
+  skos:related <http://wiki.local/index.php/Ontwerpafslagzone> ;
+  skos:related <http://wiki.local/index.php/Kustgebied> .
+
+<http://wiki.local/index.php/Maatgevende_waterstand> rdf:type skos:Concept ;
+  skos:prefLabel "Maatgevende waterstand" ;
+  skos:definition "De waterstand die maatgevend is voor het bepalen van de lokaal vereiste hoogte van de waterkering." ;
+  skos:inScheme <http://wiki.local/index.php/Waterveiligheid> ;
+  skos:related <http://wiki.local/index.php/Maatgevende_afvoer> ;
+  skos:related <http://wiki.local/index.php/Ontwerp> ;
+  skos:related <http://wiki.local/index.php/Veiligheidsnorm> ;
+  skos:broader <http://wiki.local/index.php/Ontwerpwaterstand> .
+
+<http://wiki.local/index.php/Macrostabiliteit> rdf:type skos:Concept ;
+  skos:prefLabel "Macrostabiliteit" ;
+  skos:definition "Weerstand tegen het optreden van een glijvlak in het talud en de ondergrond" ;
+  skos:altLabel "Afschuiven" ;
+  skos:inScheme <http://wiki.local/index.php/Waterveiligheid> ;
+  skos:related <http://wiki.local/index.php/Drukstaafmethode> ;
+  skos:related <http://wiki.local/index.php/Opdrijfzone> ;
+  skos:related <http://wiki.local/index.php/Invloedszone> ;
+  skos:related <http://wiki.local/index.php/Talud> ;
+  skos:related <http://wiki.local/index.php/Veiligheidszone> ;
+  skos:broader <http://wiki.local/index.php/Faalmechanisme> .
+
+<http://wiki.local/index.php/Materiaalfactoren> rdf:type skos:Concept ;
+  skos:prefLabel "Materiaalfactoren" ;
+  skos:definition "Partiële factoren, die op de karakteristieke materiaalparameters worden toegepast om onzekerheden in de grondeigenschappen te verdisconteren." ;
+  skos:inScheme <http://wiki.local/index.php/Waterveiligheid> ;
+  skos:related <http://wiki.local/index.php/Grond> .
+
+<http://wiki.local/index.php/Materi%C3%ABle_schade> rdf:type skos:Concept ;
+  skos:prefLabel "Materiële schade" ;
+  skos:definition "De kosten van herstel of vervanging van beschadigde goederen. En de kosten van opruiming en verloren productie van goederen en diensten, onder andere door bedrijfsuitval." ;
+  skos:inScheme <http://wiki.local/index.php/Waterveiligheid> ;
+  skos:broader <http://wiki.local/index.php/Economische_schade> .
+
+<http://wiki.local/index.php/Meer> rdf:type skos:Concept ;
+  skos:prefLabel "Meer" ;
+  skos:inScheme <http://wiki.local/index.php/Waterveiligheid> ;
+  skos:related <http://wiki.local/index.php/Toetspeil> .
+
+<http://wiki.local/index.php/Meerdijk> rdf:type skos:Concept ;
+  skos:prefLabel "Meerdijk" ;
+  skos:definition "Primaire waterkering, gelegen langs in het algemeen grote wateren, anders dan rivieren, zonder getijdenwerking." ;
+  skos:inScheme <http://wiki.local/index.php/Waterveiligheid> ;
+  skos:broader <http://wiki.local/index.php/Primaire_waterkering> ;
+  skos:partOf <http://wiki.local/index.php/Meer> .
+
+<http://wiki.local/index.php/Microstabiliteit> rdf:type skos:Concept ;
+  skos:prefLabel "Microstabiliteit" ;
+  skos:definition "Weerstand tegen erosie van het talud als gevolg van uittredend water." ;
+  skos:inScheme <http://wiki.local/index.php/Waterveiligheid> ;
+  skos:related <http://wiki.local/index.php/Talud> ;
+  skos:broader <http://wiki.local/index.php/Faalmechanisme> .
+
+<http://wiki.local/index.php/Mijn_SKOS_Concept> rdf:type skos:Concept ;
+  skos:prefLabel "Mijn SKOS Concept" ;
+  skos:altLabel "def" .
+
+<http://wiki.local/index.php/Modelfactor> rdf:type skos:Concept ;
+  skos:prefLabel "Modelfactor" ;
+  skos:definition "Partiële factor waarin onzekerheden in de berekeningsmethodes zijn verdisconteerd." ;
+  skos:inScheme <http://wiki.local/index.php/Waterveiligheid> ;
+  skos:related <http://wiki.local/index.php/Veiligheidsnorm> ;
+  skos:related <http://wiki.local/index.php/Gevoeligheidsfactor> ;
+  skos:broader <http://wiki.local/index.php/Parti%C3%ABle_factor> .
+
+<http://wiki.local/index.php/Momentane_ligging> rdf:type skos:Concept ;
+  skos:prefLabel "Momentane ligging" ;
+  skos:definition "Gemiddelde positie van het strand en een deel van van de kustlijn de ondiepe vooroever in een bepaald jaar, conform de rekenmethode van de nota ‘De Basiskustlijn’." ;
+  skos:inScheme <http://wiki.local/index.php/Waterveiligheid> ;
+  skos:related <http://wiki.local/index.php/Te_toetsen_kustlijn> ;
+  skos:partOf <http://wiki.local/index.php/Kustlijn> .
+
+<http://wiki.local/index.php/NAP-daling> rdf:type skos:Concept ;
+  skos:prefLabel "NAP-daling" ;
+  skos:definition "Daling van het NAP-vlak als gevolg van onderlinge bewegingen in de aardkorst. Wegens het ontbreken van een meetbaar referentiepunt kan deze daling niet zelfstandig, maar alleen in combinatie met de getijhoogwaterstijging worden gekwantificeerd" ;
+  skos:inScheme <http://wiki.local/index.php/Waterveiligheid> ;
+  skos:related <http://wiki.local/index.php/Zeespiegelstijging> .
+
+<http://wiki.local/index.php/Nazorg> rdf:type skos:Concept ;
+  skos:prefLabel "Nazorg" ;
+  skos:inScheme <http://wiki.local/index.php/Waterveiligheid> ;
+  skos:related <http://wiki.local/index.php/Gevolgen> ;
+  skos:partOf <http://wiki.local/index.php/Veiligheidsketen> .
+
+<http://wiki.local/index.php/Niet_primaire_waterkering> rdf:type skos:Concept ;
+  skos:prefLabel "Niet primaire waterkering" ;
+  skos:definition "Niet-primaire waterkering. Door Gedeputeerde Staten wordt vastgesteld welke niet-primaire waterkeringen worden aangemerkt als regionale kering en aan welke criteria de regionale keringen dienen te voldoen." ;
+  skos:inScheme <http://wiki.local/index.php/Waterveiligheid> .
+
+<http://wiki.local/index.php/Niet-waterkerend_object> rdf:type skos:Concept ;
+  skos:prefLabel "Niet-waterkerend object" ;
+  skos:definition "Object dat in of op de waterkering aanwezig is, maar geen rol speelt in de functie en sterkte van de waterkering. Hierbij moet gedacht worden aan kabels en leidingen; bomen en begroeiing; bouwwerken en woningen." ;
+  skos:inScheme <http://wiki.local/index.php/Waterveiligheid> ;
+  skos:partOf <http://wiki.local/index.php/Waterkering> .
+
+<http://wiki.local/index.php/Noodmaatregelen> rdf:type skos:Concept ;
+  skos:prefLabel "Noodmaatregelen" ;
+  skos:definition "De maatregelen die men treft om een dreigende ramp alsnog te keren en/of de gevolgen zoveel mogelijk te beperken. Norm Zie veiligheidsnorm." ;
+  skos:inScheme <http://wiki.local/index.php/Waterveiligheid> ;
+  skos:partOf <http://wiki.local/index.php/Respons> .
+
+<http://wiki.local/index.php/Normaal_onderhoud> rdf:type skos:Concept ;
+  skos:prefLabel "Normaal onderhoud" ;
+  skos:definition "Vast en variabel onderhoud dat tijdig wordt uitgevoerd door de beheerder, waardoor het kwaliteitsniveau van de onderdelen van de kering boven het vastgestelde minimum blijft." ;
+  skos:inScheme <http://wiki.local/index.php/Waterveiligheid> ;
+  skos:related <http://wiki.local/index.php/Waterkering> .
+
+<http://wiki.local/index.php/Normfrequentie> rdf:type skos:Concept ;
+  skos:prefLabel "Normfrequentie" ;
+  skos:definition "Gemiddelde overschrijdingskans - per jaar - van de hoogste waterstand waarop de tot directe kering van het buitenwater bestemde primaire waterkering moet zijn berekend, zoals bedoeld in het eerste lid van Artikel 3 van de Wet op de waterkering en zoals per dijkringgebied weergegeven in Bijlage II en IIA bij de Wet op de waterkering" ;
+  skos:inScheme <http://wiki.local/index.php/Waterveiligheid> ;
+  skos:related <http://wiki.local/index.php/Buitenwater> ;
+  skos:partOf <http://wiki.local/index.php/Waterstand> .
+
+<http://wiki.local/index.php/Ondergrond> rdf:type skos:Concept ;
+  skos:prefLabel "Ondergrond" ;
+  skos:inScheme <http://wiki.local/index.php/Waterveiligheid> ;
+  skos:related <http://wiki.local/index.php/Talud> ;
+  skos:related <http://wiki.local/index.php/Macrostabiliteit> ;
+  skos:related <http://wiki.local/index.php/Invloedszone> ;
+  skos:broader <http://wiki.local/index.php/Grond> .
+
+<http://wiki.local/index.php/Onderloopsheid> rdf:type skos:Concept ;
+  skos:prefLabel "Onderloopsheid" ;
+  skos:definition "(1)Lekstroom onder een constructie door. (2)De stroming van water onder de dijk door meevoering van zand en aarde. De dijk verliest hierdoor stabiliteit." ;
+  skos:inScheme <http://wiki.local/index.php/Waterveiligheid> .
+
+<http://wiki.local/index.php/Onderwateroever> rdf:type skos:Concept ;
+  skos:prefLabel "Onderwateroever" ;
+  skos:definition "Gedeelte van de kuststrook zeewaarts van de laagwaterlijn tot de zeebodem, ook wel vooroever genoemd." ;
+  skos:inScheme <http://wiki.local/index.php/Waterveiligheid> .
+
+<http://wiki.local/index.php/Onderwatersuppletie> rdf:type skos:Concept ;
+  skos:prefLabel "Onderwatersuppletie" ;
+  skos:inScheme <http://wiki.local/index.php/Waterveiligheid> .
+
+<http://wiki.local/index.php/Ontwerp> rdf:type skos:Concept ;
+  skos:prefLabel "Ontwerp" ;
+  skos:inScheme <http://wiki.local/index.php/Waterveiligheid> ;
+  skos:related <http://wiki.local/index.php/Belasting> ;
+  skos:related <http://wiki.local/index.php/Belastinggevallenmethode> ;
+  skos:related <http://wiki.local/index.php/Stabiliteitsfactor> ;
+  skos:related <http://wiki.local/index.php/Veiligheidstoeslag> ;
+  skos:related <http://wiki.local/index.php/Maatgevende_waterstand> ;
+  skos:related <http://wiki.local/index.php/Ontwerpkwaliteit> ;
+  skos:related <http://wiki.local/index.php/Planperiode> ;
+  skos:related <http://wiki.local/index.php/Randvoorwaarden> .
+
+<http://wiki.local/index.php/Ontwerpafslagzone> rdf:type skos:Concept ;
+  skos:prefLabel "Ontwerpafslagzone" ;
+  skos:definition "Gedeelte van het duingebied dat tijdens ontwerpomstandigheden (ontwerpstormvloed) zal afslaan. Ministerie van Verkeer en Waterstaat, Directoraat-Generaal Water; Waterveiligheid, Begrippen begrijpen, november 2007." ;
+  skos:inScheme <http://wiki.local/index.php/Waterveiligheid> ;
+  skos:related <http://wiki.local/index.php/Maatgevende_omstandigheden> .
+
+<http://wiki.local/index.php/Ontwerpkwaliteit> rdf:type skos:Concept ;
+  skos:prefLabel "Ontwerpkwaliteit" ;
+  skos:definition "Het voldoen aan ontwerpcriteria bij gebruik van vastgestelde uitgangspunten en randvoorwaarden Ontwerpkwaliteit bij toetsen: de waterkering voldoet aan ontwerpcriteria met gebruikmaking van toetsuitgangspunten en toetsrandvoorwaarden Ministerie van Verkeer en Waterstaat, Directoraat-Generaal Water; Waterveiligheid, Begrippen begrijpen, november 2007." ;
+  skos:inScheme <http://wiki.local/index.php/Waterveiligheid> ;
+  skos:related <http://wiki.local/index.php/Ontwerp> .
+
+<http://wiki.local/index.php/Ontwerplevensduur> rdf:type skos:Concept ;
+  skos:prefLabel "Ontwerplevensduur" ;
+  skos:definition "Periode waarvoor de voorziene wijzigingen in omstandigheden worden meegenomen in het ontwerp van een waterkering (voor dijken meestal 50 jaar; voor kunstwerken meestal 100 of 200 jaar)." ;
+  skos:inScheme <http://wiki.local/index.php/Waterveiligheid> ;
+  skos:related <http://wiki.local/index.php/Planperiode> .
+
+<http://wiki.local/index.php/Ontwerppeil> rdf:type skos:Concept ;
+  skos:prefLabel "Ontwerppeil" ;
+  skos:definition "(1)Een waterstand met een bepaalde kans van overschrijden vermeerderd met de verwachte waterstandstijging (inclusief NAP-daling) tot aan het eind van de ontwerplevensduur (planperiode). (2)Ook ontwerp-waterstand of maatgevende hoogwaterstand (MHW) genoemd. Het is een waterstand die eens in de zoveel jaar voorkomt. Een waterstand waarop de waterkeringen zijn ontworpen en waarmee de waterkering aan de norm voldoet." ;
+  skos:inScheme <http://wiki.local/index.php/Waterveiligheid> .
+
+<http://wiki.local/index.php/Ontwerpsterkte> rdf:type skos:Concept ;
+  skos:prefLabel "Ontwerpsterkte" ;
+  skos:definition "Een waterstand met een bepaalde kans van overschrijden vermeerderd met de verwachte waterstandstijging (inclusief NAP-daling) tot aan het eind van de ontwerplevensduur (planperiode)." ;
+  skos:inScheme <http://wiki.local/index.php/Waterveiligheid> ;
+  skos:related <http://wiki.local/index.php/Ontwerpwaarde> .
+
+<http://wiki.local/index.php/Ontwerpwaarde> rdf:type skos:Concept ;
+  skos:prefLabel "Ontwerpwaarde" ;
+  skos:definition "In het ontwerp te hanteren waarde van een belasting- of sterkteparameter (rekenwaarde) Ministerie van Verkeer en Waterstaat, Directoraat-Generaal Water; Waterveiligheid, Begrippen begrijpen, november 2007." ;
+  skos:inScheme <http://wiki.local/index.php/Waterveiligheid> ;
+  skos:related <http://wiki.local/index.php/Ontwerpsterkte> ;
+  skos:partOf <http://wiki.local/index.php/Ontwerp> .
+
+<http://wiki.local/index.php/Ontwerpwaterstand> rdf:type skos:Concept ;
+  skos:prefLabel "Ontwerpwaterstand" ;
+  skos:inScheme <http://wiki.local/index.php/Waterveiligheid> ;
+  skos:broader <http://wiki.local/index.php/Ontwerppeil> .
+
+<http://wiki.local/index.php/Opbarsten> rdf:type skos:Concept ;
+  skos:prefLabel "Opbarsten" ;
+  skos:definition "Bezwijken van de grond, door het ontbreken van verticaal evenwicht in de grond, onder invloed van wateroverdrukken. Ministerie van Verkeer en Waterstaat, Directoraat-Generaal Water; Waterveiligheid, Begrippen begrijpen, november 2007." ;
+  skos:inScheme <http://wiki.local/index.php/Waterveiligheid> ;
+  skos:related <http://wiki.local/index.php/Grond> .
+
+<http://wiki.local/index.php/Opdrijfzone> rdf:type skos:Concept ;
+  skos:prefLabel "Opdrijfzone" ;
+  skos:definition "Zone achter de dijk waar de grenspotentiaal wordt bereikt bij maatgevende omstandigheden." ;
+  skos:inScheme <http://wiki.local/index.php/Waterveiligheid> ;
+  skos:related <http://wiki.local/index.php/Opdrijven> ;
+  skos:related <http://wiki.local/index.php/Macrostabiliteit> ;
+  skos:related <http://wiki.local/index.php/Grenspotentiaal> .
+
+<http://wiki.local/index.php/Opdrijven> rdf:type skos:Concept ;
+  skos:prefLabel "Opdrijven" ;
+  skos:definition "Opdrukken van het afdekkend pakket door het bereiken van de grenspotentiaal." ;
+  skos:inScheme <http://wiki.local/index.php/Waterveiligheid> ;
+  skos:related <http://wiki.local/index.php/Opdrijfzone> .
+
+<http://wiki.local/index.php/Open_keerhoogte> rdf:type skos:Concept ;
+  skos:prefLabel "Open keerhoogte" ;
+  skos:definition "1. De kerende hoogte van een waterkering met beweegbare afsluitmiddelen bij open afsluitmiddel; 2. De kerende hoogte van de kaden langs het achterliggende (binnen)watersysteem wanneer dit bij open afsluitmiddel in directe verbinding staat met het buitenwater." ;
+  skos:inScheme <http://wiki.local/index.php/Waterveiligheid> ;
+  skos:related <http://wiki.local/index.php/Kade> ;
+  skos:related <http://wiki.local/index.php/Stormvloedkering> .
+
+<http://wiki.local/index.php/Open_keerpeil> rdf:type skos:Concept ;
+  skos:prefLabel "Open keerpeil" ;
+  skos:definition "Buitenwaterstand welke bij open afsluitmiddel nog juist niet tot een ontoelaatbaar" ;
+  skos:inScheme <http://wiki.local/index.php/Waterveiligheid> ;
+  skos:related <http://wiki.local/index.php/Stormvloedkering> ;
+  skos:broader <http://wiki.local/index.php/Buitenwaterstand> .
+
+<http://wiki.local/index.php/Oppervlaktewater> rdf:type skos:Concept ;
+  skos:prefLabel "Oppervlaktewater" ;
+  skos:definition "Oppervlaktewater is al het water dat zich in vloeibare vorm aan de oppervlakte van een planeet bevindt. Het staat hiermee in tegenstelling tot het grondwater dat bij bronnen opwelt, het op de polen en in gletsjers in de vorm van ijs gebonden water en waterdamp in de dampkring. Tezamen vormen al deze vormen van water de hydrosfeer van de Aarde. Oppervlaktewateren kunnen natuurlijke of kunstmatige wateren en watergangen zijn. Grote wateren zijn plaatselijk van invloed op de temperatuur en het weer. Hoe groter de oppervlakte, hoe meer de wind kan toenemen, maar ook smallere stroken water kunnen net als bergen een barrière vormen tussen meteorologische weerfronten" ;
+  skos:inScheme <http://wiki.local/index.php/Waterveiligheid> ;
+  skos:broader <http://wiki.local/index.php/Water> .
+
+<http://wiki.local/index.php/Opperwater> rdf:type skos:Concept ;
+  skos:prefLabel "Opperwater" ;
+  skos:definition "Oppervlaktewater waarvan de waterstand direct onder invloed staat van de waterstand op zee, de grote rivieren, het IJsselmeer of het Markermeer." ;
+  skos:altLabel "Buitenwater" ;
+  skos:inScheme <http://wiki.local/index.php/Waterveiligheid> .
+
+<http://wiki.local/index.php/Overbelasting> rdf:type skos:Concept ;
+  skos:prefLabel "Overbelasting" ;
+  skos:definition "Overschrijden van het vastgestelde overslagcriterium." ;
+  skos:inScheme <http://wiki.local/index.php/Waterveiligheid> ;
+  skos:partOf <http://wiki.local/index.php/Belasting> .
+
+<http://wiki.local/index.php/Overhoogte> rdf:type skos:Concept ;
+  skos:prefLabel "Overhoogte" ;
+  skos:definition "(1)Extra hoeveelheid grond die wordt aangebracht met het doel om na zetting van de ondergrond en klink van de aangebrachte grond het gewenste profiel te bereiken. (2)Extra hoogte van een waterkering boven de maatgevende hoogwaterstand, waardoor het beschermingsniveau hoger is dan de norm." ;
+  skos:inScheme <http://wiki.local/index.php/Waterveiligheid> ;
+  skos:partOf <http://wiki.local/index.php/Veiligheidsnorm> .
+
+<http://wiki.local/index.php/Overlopen> rdf:type skos:Concept ;
+  skos:prefLabel "Overlopen" ;
+  skos:definition "(1)Verschijnsel waarbij water over de kruin van de dijk het achterland inloopt omdat de te keren waterstand hoger is dan de kruin. (2)Het over de waterkering heen stromen van water, als de waterstand hoger is dan de waterkering." ;
+  skos:inScheme <http://wiki.local/index.php/Waterveiligheid> ;
+  skos:related <http://wiki.local/index.php/Kruin> .
+
+<http://wiki.local/index.php/Overschrijdingsfrequentie> rdf:type skos:Concept ;
+  skos:prefLabel "Overschrijdingsfrequentie" ;
+  skos:definition "Gemiddeld aantal keren dat in een bepaalde tijd een verschijnsel een zekere waarde bereikt of overschrijdt." ;
+  skos:inScheme <http://wiki.local/index.php/Waterveiligheid> ;
+  skos:related <http://wiki.local/index.php/Betrekkingslijn> ;
+  skos:related <http://wiki.local/index.php/Stormvloed> ;
+  skos:partOf <http://wiki.local/index.php/Overschrijdingskans> .
+
+<http://wiki.local/index.php/Overschrijdingskans> rdf:type skos:Concept ;
+  skos:prefLabel "Overschrijdingskans" ;
+  skos:definition "De kans dat de maatgevende hoogwaterstand wordt overschreden." ;
+  skos:inScheme <http://wiki.local/index.php/Waterveiligheid> ;
+  skos:partOf <http://wiki.local/index.php/Veiligheidsnorm> .
+
+<http://wiki.local/index.php/Overstroming> rdf:type skos:Concept ;
+  skos:prefLabel "Overstroming" ;
+  skos:inScheme <http://wiki.local/index.php/Waterveiligheid> ;
+  skos:related <http://wiki.local/index.php/Stormvloed> ;
+  skos:partOf <http://wiki.local/index.php/(Het)_Bezwijken> .
+
+<http://wiki.local/index.php/Overstromingskans> rdf:type skos:Concept ;
+  skos:prefLabel "Overstromingskans" ;
+  skos:definition "De kans dat een dijk doorbreekt en de dijkring onder water loopt." ;
+  skos:inScheme <http://wiki.local/index.php/Waterveiligheid> ;
+  skos:related <http://wiki.local/index.php/Schaderisico> ;
+  skos:related <http://wiki.local/index.php/Overstromingsrisico> ;
+  skos:related <http://wiki.local/index.php/(Het)_Bezwijken> .
+
+<http://wiki.local/index.php/Overstromingspatroon> rdf:type skos:Concept ;
+  skos:prefLabel "Overstromingspatroon" ;
+  skos:definition "De wijze waarop de overstroming plaatsvindt in ruimte en tijd." ;
+  skos:inScheme <http://wiki.local/index.php/Waterveiligheid> .
+
+<http://wiki.local/index.php/Overstromingsrisico> rdf:type skos:Concept ;
+  skos:prefLabel "Overstromingsrisico" ;
+  skos:definition "De kans op een overstroming vermenigvuldigd met de gevolgen. Het overstromingsrisico neemt toe als de kans, de gevolgen of beide groter worden." ;
+  skos:inScheme <http://wiki.local/index.php/Waterveiligheid> ;
+  skos:related <http://wiki.local/index.php/Gevolgen> ;
+  skos:related <http://wiki.local/index.php/Overstromingskans> .
+
+<http://wiki.local/index.php/Overstromingsscenario> rdf:type skos:Concept ;
+  skos:prefLabel "Overstromingsscenario" ;
+  skos:inScheme <http://wiki.local/index.php/Waterveiligheid> ;
+  skos:related <http://wiki.local/index.php/Overstromingsverloop> .
+
+<http://wiki.local/index.php/Overstromingssimulatie> rdf:type skos:Concept ;
+  skos:prefLabel "Overstromingssimulatie" ;
+  skos:definition "Een berekening met een computermodel om het verloop van een overstroming te bepalen." ;
+  skos:inScheme <http://wiki.local/index.php/Waterveiligheid> ;
+  skos:related <http://wiki.local/index.php/Overstromingsverloop> .
+
+<http://wiki.local/index.php/Overstromingsverloop> rdf:type skos:Concept ;
+  skos:prefLabel "Overstromingsverloop" ;
+  skos:definition "De wijze waarop de overstroming plaatsvindt in ruimte en tijd." ;
+  skos:altLabel "Overstromingspatroon" ;
+  skos:inScheme <http://wiki.local/index.php/Waterveiligheid> ;
+  skos:related <http://wiki.local/index.php/Overstromingsscenario> ;
+  skos:related <http://wiki.local/index.php/Overstromingssimulatie> ;
+  skos:related <http://wiki.local/index.php/Stroomsnelheid> ;
+  skos:partOf <http://wiki.local/index.php/Overstroming> .
+
+<http://wiki.local/index.php/PQR> rdf:type skos:Concept ;
+  skos:prefLabel "PQR" ;
+  skos:broader <http://wiki.local/index.php/EMontPatronen> .
+
+<http://wiki.local/index.php/Parti%C3%ABle_factor> rdf:type skos:Concept ;
+  skos:prefLabel "Partiële factor" ;
+  skos:definition "Factor waarmee een representatieve waarde vermenigvuldigd (of gedeeld) wordt ter verkrijging van de rekenwaarde. De partiële factoren dienen om onzekerheden in belastingen, materiaaleigenschappen, rekenmethodes, gevolgen van falen en de overschrijdingskans van grenstoestanden in rekening te brengen." ;
+  skos:inScheme <http://wiki.local/index.php/Waterveiligheid> ;
+  skos:related <http://wiki.local/index.php/Belasting> ;
+  skos:related <http://wiki.local/index.php/Probabilistisch_ontwerpen> ;
+  skos:related <http://wiki.local/index.php/(Het)_Bezwijken> .
+
+<http://wiki.local/index.php/Peildatum> rdf:type skos:Concept ;
+  skos:prefLabel "Peildatum" ;
+  skos:definition "Datum, vastgesteld door de Minister van Verkeer en Waterstaat, waarop de toetsing van de primaire waterkering betrekking heeft. De (verwachte) toestand op de peildatum wordt getoetst." ;
+  skos:inScheme <http://wiki.local/index.php/Waterveiligheid> ;
+  skos:related <http://wiki.local/index.php/Toetsing_op_veiligheid> ;
+  skos:related <http://wiki.local/index.php/Kruinhoogtemarge> .
+
+<http://wiki.local/index.php/Piping> rdf:type skos:Concept ;
+  skos:prefLabel "Piping" ;
+  skos:definition "(1)Verschijnsel dat onder een waterkering een holle pijpvormige ruimte ontstaat doordat het erosieproces van een zandmeevoerende wel niet stopt. (2)Lekstroom onder een constructie door. (3)De stroming van water onder de dijk door meevoering van zand en aarde. De dijk verliest hierdoor stabiliteit." ;
+  skos:altLabel "Onderloopsheid" ;
+  skos:inScheme <http://wiki.local/index.php/Waterveiligheid> ;
+  skos:related <http://wiki.local/index.php/Kwel> ;
+  skos:broader <http://wiki.local/index.php/Faalmechanisme> .
+
+<http://wiki.local/index.php/Planperiode> rdf:type skos:Concept ;
+  skos:prefLabel "Planperiode" ;
+  skos:definition "Periode waarvoor de voorziene wijzigingen in omstandigheden worden meegenomen in het ontwerp van een waterkering (voor dijken meestal 50 jaar; voor kunstwerken meestal 100 of 200 jaar) Ministerie van Verkeer en Waterstaat, Directoraat-Generaal Water; Waterveiligheid, Begrippen begrijpen, november 2007." ;
+  skos:inScheme <http://wiki.local/index.php/Waterveiligheid> ;
+  skos:related <http://wiki.local/index.php/Ontwerp> ;
+  skos:related <http://wiki.local/index.php/Ontwerplevensduur> .
+
+<http://wiki.local/index.php/Plasberm> rdf:type skos:Concept ;
+  skos:prefLabel "Plasberm" ;
+  skos:definition "Horizontaal gedeelte van een dijk, aan de buitenzijde gelegen, als overgang tussen de harde bekleding en de rest van het talud of de vooroever Ook wel ‘kreukelberm’ (Zeeland) of ‘plasberm’ genoemd." ;
+  skos:inScheme <http://wiki.local/index.php/Waterveiligheid> .
+
+<http://wiki.local/index.php/Polder> rdf:type skos:Concept ;
+  skos:prefLabel "Polder" ;
+  skos:definition "Op de boezem uitslaand of lozend gebied met geregelde waterstand" ;
+  skos:inScheme <http://wiki.local/index.php/Waterveiligheid> ;
+  skos:partOf <http://wiki.local/index.php/Binnenwater> .
+
+<http://wiki.local/index.php/Polderpeil> rdf:type skos:Concept ;
+  skos:prefLabel "Polderpeil" ;
+  skos:definition "Peil van het oppervlaktewater binnen een beheersgebied" ;
+  skos:inScheme <http://wiki.local/index.php/Waterveiligheid> ;
+  skos:broader <http://wiki.local/index.php/Waterstand> ;
+  skos:partOf <http://wiki.local/index.php/Polder> .
+
+<http://wiki.local/index.php/Potentiaal> rdf:type skos:Concept ;
+  skos:prefLabel "Potentiaal" ;
+  skos:definition "Stijghoogte in een aquifer." ;
+  skos:inScheme <http://wiki.local/index.php/Waterveiligheid> ;
+  skos:partOf <http://wiki.local/index.php/Aquifer> .
+
+<http://wiki.local/index.php/Preparatie> rdf:type skos:Concept ;
+  skos:prefLabel "Preparatie" ;
+  skos:inScheme <http://wiki.local/index.php/Waterveiligheid> ;
+  skos:related <http://wiki.local/index.php/Signaleringspeil> ;
+  skos:partOf <http://wiki.local/index.php/Veiligheidsketen> .
+
+<http://wiki.local/index.php/Preventie> rdf:type skos:Concept ;
+  skos:prefLabel "Preventie" ;
+  skos:inScheme <http://wiki.local/index.php/Waterveiligheid> ;
+  skos:related <http://wiki.local/index.php/Rampenbestrijdingsplan> ;
+  skos:partOf <http://wiki.local/index.php/Veiligheidsketen> .
+
+<http://wiki.local/index.php/Preventieve_evacuatie> rdf:type skos:Concept ;
+  skos:prefLabel "Preventieve evacuatie" ;
+  skos:inScheme <http://wiki.local/index.php/Waterveiligheid> ;
+  skos:related <http://wiki.local/index.php/Evacuatie_calculator> ;
+  skos:broader <http://wiki.local/index.php/Evacuatie> .
+
+<http://wiki.local/index.php/Primaire_waterkering> rdf:type skos:Concept ;
+  skos:prefLabel "Primaire waterkering" ;
+  skos:definition "Waterkering, zoals aangegeven op Bijlage I bij de Wet op de waterkering, die beveiliging biedt tegen overstroming doordat deze ofwel behoort tot het stelsel dat een dijkringgebied - al dan niet met hoge gronden - omsluit, ofwel vóór een dijkringgebied is gelegen" ;
+  skos:inScheme <http://wiki.local/index.php/Waterveiligheid> ;
+  skos:related <http://wiki.local/index.php/Buitenwater> ;
+  skos:broader <http://wiki.local/index.php/Waterkering> .
+
+<http://wiki.local/index.php/Primaire_zetting> rdf:type skos:Concept ;
+  skos:prefLabel "Primaire zetting" ;
+  skos:definition "Verticale vervorming van grondlagen tijdens de hydrodynamische periode, hoofdzakelijk als gevolg van een bovenbelasting." ;
+  skos:inScheme <http://wiki.local/index.php/Waterveiligheid> ;
+  skos:broader <http://wiki.local/index.php/Zetting> .
+
+<http://wiki.local/index.php/Pro-actie> rdf:type skos:Concept ;
+  skos:prefLabel "Pro-actie" ;
+  skos:inScheme <http://wiki.local/index.php/Waterveiligheid> ;
+  skos:partOf <http://wiki.local/index.php/Veiligheidsketen> .
+
+<http://wiki.local/index.php/Probabilistisch_ontwerpen> rdf:type skos:Concept ;
+  skos:prefLabel "Probabilistisch ontwerpen" ;
+  skos:inScheme <http://wiki.local/index.php/Waterveiligheid> ;
+  skos:related <http://wiki.local/index.php/Parti%C3%ABle_factor> ;
+  skos:related <http://wiki.local/index.php/Deterministisch_ontwerpen> .
+
+<http://wiki.local/index.php/Proevenverzameling> rdf:type skos:Concept ;
+  skos:prefLabel "Proevenverzameling" ;
+  skos:definition "Verzameling/steekproef van in het terrein gemeten of in het laboratorium bepaalde waarden van grondeigenschappen, ingedeeld naar geologische/ geotechnische formatie." ;
+  skos:inScheme <http://wiki.local/index.php/Waterveiligheid> ;
+  skos:related <http://wiki.local/index.php/Grond> .
+
+<http://wiki.local/index.php/Profiel_van_vrije_ruimte> rdf:type skos:Concept ;
+  skos:prefLabel "Profiel van vrije ruimte" ;
+  skos:definition "Vrij te houden ruimte voor het blijvend kunnen realiseren van de waterkerende functie van een kering, ook in de toekomst." ;
+  skos:inScheme <http://wiki.local/index.php/Waterveiligheid> .
+
+<http://wiki.local/index.php/Ramp> rdf:type skos:Concept ;
+  skos:prefLabel "Ramp" ;
+  skos:definition "Groot, massaal ongeluk" ;
+  skos:inScheme <http://wiki.local/index.php/Waterveiligheid> ;
+  skos:related <http://wiki.local/index.php/Groepsrisico> ;
+  skos:related <http://wiki.local/index.php/Rampenbestrijdingsplan> ;
+  skos:partOf <http://wiki.local/index.php/Crisis> .
+
+<http://wiki.local/index.php/Rampenbestrijdingsplan> rdf:type skos:Concept ;
+  skos:prefLabel "Rampenbestrijdingsplan" ;
+  skos:definition "Een plan waarin het geheel van (bij die ramp of zwaar ongeval) te nemen maatregelen is opgenomen." ;
+  skos:inScheme <http://wiki.local/index.php/Waterveiligheid> ;
+  skos:related <http://wiki.local/index.php/Ramp> ;
+  skos:related <http://wiki.local/index.php/Preventie> ;
+  skos:partOf <http://wiki.local/index.php/Pro-actie> .
+
+<http://wiki.local/index.php/Rampenplan> rdf:type skos:Concept ;
+  skos:prefLabel "Rampenplan" ;
+  skos:definition "Een plan dat overzicht geeft van de betrokken hulpdiensten en overige organisatie. Het bevat een waarschuwings- en afsprakenschema voor het optreden bij alle ramptypen. Belangrijke elementen daarin zijn: de toedeling van verantwoordelijkheden, de samenstelling van de rampenstaf en de plaats van het crisis- en coördinatiecentrum." ;
+  skos:inScheme <http://wiki.local/index.php/Waterveiligheid> ;
+  skos:broader <http://wiki.local/index.php/Rampenbestrijdingsplan> .
+
+<http://wiki.local/index.php/Randvoorwaarden> rdf:type skos:Concept ;
+  skos:prefLabel "Randvoorwaarden" ;
+  skos:inScheme <http://wiki.local/index.php/Waterveiligheid> ;
+  skos:related <http://wiki.local/index.php/Ontwerp> ;
+  skos:related <http://wiki.local/index.php/Toetsing_op_veiligheid> .
+
+<http://wiki.local/index.php/Randvoorwaardenlocatie> rdf:type skos:Concept ;
+  skos:prefLabel "Randvoorwaardenlocatie" ;
+  skos:definition "Locatie waarvoor de hydraulische randvoorwaarden worden gegeven." ;
+  skos:inScheme <http://wiki.local/index.php/Waterveiligheid> ;
+  skos:related <http://wiki.local/index.php/Hydraulische_randvoorwaarden> .
+
+<http://wiki.local/index.php/Refractie> rdf:type skos:Concept ;
+  skos:prefLabel "Refractie" ;
+  skos:definition "Zwenking van golfkammen onder invloed van veranderende bodemdiepte of van stroomgradiënten" ;
+  skos:inScheme <http://wiki.local/index.php/Waterveiligheid> ;
+  skos:related <http://wiki.local/index.php/Stroming> ;
+  skos:related <http://wiki.local/index.php/Waterdiepte> ;
+  skos:partOf <http://wiki.local/index.php/Golven> .
+
+<http://wiki.local/index.php/Regionale_waterkering> rdf:type skos:Concept ;
+  skos:prefLabel "Regionale waterkering" ;
+  skos:definition "Niet-primaire waterkering. Door Gedeputeerde Staten wordt vastgesteld welke niet-primaire waterkeringen worden aangemerkt als regionale kering en aan welke criteria de regionale keringen dienen te voldoen." ;
+  skos:inScheme <http://wiki.local/index.php/Waterveiligheid> .
+
+<http://wiki.local/index.php/Rekenpeil> rdf:type skos:Concept ;
+  skos:prefLabel "Rekenpeil" ;
+  skos:definition "Toetspeil voor duinen vermeerderd met het tweederde deel van de decimeringhoogte." ;
+  skos:inScheme <http://wiki.local/index.php/Waterveiligheid> ;
+  skos:partOf <http://wiki.local/index.php/Toetspeil> .
+
+<http://wiki.local/index.php/Reserveringsstrook> rdf:type skos:Concept ;
+  skos:prefLabel "Reserveringsstrook" ;
+  skos:definition "Strook (duin), direct landwaarts van het grensprofiel, deel uitmakend van de primaire waterkering, onder meer ten behoeve van de opvang van de effecten van de verwachte getijhoogwaterstijging over een periode van 200 jaar." ;
+  skos:inScheme <http://wiki.local/index.php/Waterveiligheid> .
+
+<http://wiki.local/index.php/Respons> rdf:type skos:Concept ;
+  skos:prefLabel "Respons" ;
+  skos:inScheme <http://wiki.local/index.php/Waterveiligheid> ;
+  skos:partOf <http://wiki.local/index.php/Veiligheidsketen> .
+
+<http://wiki.local/index.php/Reststerkte> rdf:type skos:Concept ;
+  skos:prefLabel "Reststerkte" ;
+  skos:definition "De hoogte van de kruin van de waterkering boven het ontwerppeil. De minimale waakhoogte is zodanig dat er geen golven over de dijk slaan." ;
+  skos:inScheme <http://wiki.local/index.php/Waterveiligheid> .
+
+<http://wiki.local/index.php/Retentiegebied> rdf:type skos:Concept ;
+  skos:prefLabel "Retentiegebied" ;
+  skos:definition "In dit gebied bergt men tijdelijk, bij hevige regenval, water. Dit opdat stroomafwaarts gelegen gebieden niet overstromen." ;
+  skos:inScheme <http://wiki.local/index.php/Waterveiligheid> ;
+  skos:partOf <http://wiki.local/index.php/Rivierengebied> .
+
+<http://wiki.local/index.php/Rijksstrandpalenlijn> rdf:type skos:Concept ;
+  skos:prefLabel "Rijksstrandpalenlijn" ;
+  skos:definition "Langs de gehele kust gelegen referentielijn voor meetraaien (hoofdraai)." ;
+  skos:inScheme <http://wiki.local/index.php/Waterveiligheid> ;
+  skos:partOf <http://wiki.local/index.php/Kustlijn> .
+
+<http://wiki.local/index.php/Risicoanalyse> rdf:type skos:Concept ;
+  skos:prefLabel "Risicoanalyse" ;
+  skos:definition "Het nagaan van de kans op een ongewenste gebeurtenis en de gevolgen daarvan." ;
+  skos:inScheme <http://wiki.local/index.php/Waterveiligheid> ;
+  skos:partOf <http://wiki.local/index.php/Schaderisico> .
+
+<http://wiki.local/index.php/Rivier> rdf:type skos:Concept ;
+  skos:prefLabel "Rivier" ;
+  skos:definition "Een rivier is een natuurlijke waterloop en fungeert als het zichtbare afvoersysteem van het overtollige water in een bepaald gebied. Elke rivier ligt in een stroomgebied. Dat is het totale omringende gebied waarbinnen al het overtollige water via die ene rivier wordt afgevoerd." ;
+  skos:inScheme <http://wiki.local/index.php/Waterveiligheid> ;
+  skos:related <http://wiki.local/index.php/Hoogwatergolf> ;
+  skos:related <http://wiki.local/index.php/Bochtwerking> ;
+  skos:related <http://wiki.local/index.php/Lokale_opstuwing> ;
+  skos:related <http://wiki.local/index.php/Toetspeil> ;
+  skos:partOf <http://wiki.local/index.php/Rivierengebied> .
+
+<http://wiki.local/index.php/Rivierdijk> rdf:type skos:Concept ;
+  skos:prefLabel "Rivierdijk" ;
+  skos:definition "Dijk langs een rivier" ;
+  skos:inScheme <http://wiki.local/index.php/Waterveiligheid> ;
+  skos:broader <http://wiki.local/index.php/Waterkering> ;
+  skos:partOf <http://wiki.local/index.php/Rivierengebied> .
+
+<http://wiki.local/index.php/Rivierengebied> rdf:type skos:Concept ;
+  skos:prefLabel "Rivierengebied" ;
+  skos:definition "Het Rivierengebied in Midden-Nederland is het gebied tussen de plaats waar de Rijn vanuit Duitsland Nederland binnenstroomt tot aan de Zuidwestelijke delta aan de Noordzeekust. Door dit gebied stromen de Rijn met zijn zijtakken en de Maas met zijn zijtakken." ;
+  skos:inScheme <http://wiki.local/index.php/Waterveiligheid> ;
+  skos:related <http://wiki.local/index.php/Ruimte_voor_de_Rivier> .
+
+<http://wiki.local/index.php/Ruimte_voor_de_Rivier> rdf:type skos:Concept ;
+  skos:prefLabel "Ruimte voor de Rivier" ;
+  skos:definition "De Planologische Kernbeslissing Ruimte voor de Rivier is in 2006 vastgesteld om Nederland veilig, leefbaar én aantrekkelijk te houden. Doordat de waterstanden lager komen te liggen, is de overstromingskans kleiner." ;
+  skos:inScheme <http://wiki.local/index.php/Waterveiligheid> ;
+  skos:related <http://wiki.local/index.php/Bestemmingsplan> ;
+  skos:related <http://wiki.local/index.php/Kosten-batenanalyse> ;
+  skos:related <http://wiki.local/index.php/Rivierengebied> .
+
+<http://wiki.local/index.php/Schaardijk> rdf:type skos:Concept ;
+  skos:prefLabel "Schaardijk" ;
+  skos:definition "Rivierdijk die onmiddellijk aan het zomerbed grenst." ;
+  skos:inScheme <http://wiki.local/index.php/Waterveiligheid> ;
+  skos:broader <http://wiki.local/index.php/Waterkering> ;
+  skos:partOf <http://wiki.local/index.php/Rivierengebied> .
+
+<http://wiki.local/index.php/Schade> rdf:type skos:Concept ;
+  skos:prefLabel "Schade" ;
+  skos:inScheme <http://wiki.local/index.php/Waterveiligheid> ;
+  skos:related <http://wiki.local/index.php/Schaderisico> ;
+  skos:broader <http://wiki.local/index.php/Gevolgen> .
+
+<http://wiki.local/index.php/Schadefactor> rdf:type skos:Concept ;
+  skos:prefLabel "Schadefactor" ;
+  skos:definition "Partiële factor waarin de gevolgen van bezwijken zijn betrokken." ;
+  skos:inScheme <http://wiki.local/index.php/Waterveiligheid> ;
+  skos:related <http://wiki.local/index.php/(Het)_Bezwijken> ;
+  skos:broader <http://wiki.local/index.php/Parti%C3%ABle_factor> .
+
+<http://wiki.local/index.php/Schaderisico> rdf:type skos:Concept ;
+  skos:prefLabel "Schaderisico" ;
+  skos:definition "De gemiddelde materiële schade, die een overstroming per jaar veroorzaakt. Oftewel: de waarde van de materiële schade door een overstroming maal de kans op een overstroming. Secundaire dijk of waterkering Waterkeringen die bescherming bieden tegen regionale wateren. Deze bevinden zich binnen een dijkring en voorkomen dat het water zich na een overstroming binnen de dijkring verspreidt." ;
+  skos:inScheme <http://wiki.local/index.php/Waterveiligheid> ;
+  skos:related <http://wiki.local/index.php/Schade> ;
+  skos:related <http://wiki.local/index.php/Overstromingskans> .
+
+<http://wiki.local/index.php/Scheidingsdijk> rdf:type skos:Concept ;
+  skos:prefLabel "Scheidingsdijk" ;
+  skos:definition "Primaire waterkering, die niet bestemd is tot directe kering van het buitenwater en niet langs oppervlakte water is gelegen, maar deel uitmaakt van een dijkringgebied als gemeenschappelijke scheiding tussen twee aangrenzende dijkringgebieden." ;
+  skos:inScheme <http://wiki.local/index.php/Waterveiligheid> ;
+  skos:related <http://wiki.local/index.php/Dijkringgebiedscheiding> ;
+  skos:partOf <http://wiki.local/index.php/Dijkringgebied> .
+
+<http://wiki.local/index.php/Schutsluis> rdf:type skos:Concept ;
+  skos:prefLabel "Schutsluis" ;
+  skos:inScheme <http://wiki.local/index.php/Waterveiligheid> ;
+  skos:broader <http://wiki.local/index.php/Kunstwerk> .
+
+<http://wiki.local/index.php/Seculaire_zetting> rdf:type skos:Concept ;
+  skos:prefLabel "Seculaire zetting" ;
+  skos:definition "Verticale vervorming van grondlagen na de hydrodynamische periode. Ook wel ‘seculaire zetting’ genoemd." ;
+  skos:inScheme <http://wiki.local/index.php/Waterveiligheid> .
+
+<http://wiki.local/index.php/Secundaire_waterkering> rdf:type skos:Concept ;
+  skos:prefLabel "Secundaire waterkering" ;
+  skos:altLabel "Niet primaire waterkering" ;
+  skos:altLabel "Regionale waterkering" ;
+  skos:inScheme <http://wiki.local/index.php/Waterveiligheid> ;
+  skos:broader <http://wiki.local/index.php/Waterkering> .
+
+<http://wiki.local/index.php/Secundaire_zetting> rdf:type skos:Concept ;
+  skos:prefLabel "Secundaire zetting" ;
+  skos:definition "Verticale vervorming van grondlagen na de hydrodynamische periode. Ook wel ‘seculaire zetting’ genoemd." ;
+  skos:altLabel "Seculaire zetting" ;
+  skos:inScheme <http://wiki.local/index.php/Waterveiligheid> ;
+  skos:broader <http://wiki.local/index.php/Zetting> .
+
+<http://wiki.local/index.php/Seiche> rdf:type skos:Concept ;
+  skos:prefLabel "Seiche" ;
+  skos:definition "Resonantieverschijnsel in bekkens (o.a. havens) als gevolg van laagfrequente variaties van de buitenwaterstand (seiche)" ;
+  skos:altLabel "Havenslingering" ;
+  skos:inScheme <http://wiki.local/index.php/Waterveiligheid> .
+
+<http://wiki.local/index.php/Signaleringspeil> rdf:type skos:Concept ;
+  skos:prefLabel "Signaleringspeil" ;
+  skos:definition "Verwachte of geconstateerde waterstand, waarbij beheerders worden gewaarschuwd en inlichtingen wordt verschaft, opdat tijdig maatregelen kunnen worden genomen" ;
+  skos:inScheme <http://wiki.local/index.php/Waterveiligheid> ;
+  skos:related <http://wiki.local/index.php/Preparatie> ;
+  skos:broader <http://wiki.local/index.php/Waterstand> .
+
+<http://wiki.local/index.php/Significante_golfhoogte> rdf:type skos:Concept ;
+  skos:prefLabel "Significante golfhoogte" ;
+  skos:definition "Gemiddelde golfhoogte van het hoogste 1/3 deel van de golven" ;
+  skos:inScheme <http://wiki.local/index.php/Waterveiligheid> ;
+  skos:partOf <http://wiki.local/index.php/Golven> .
+
+<http://wiki.local/index.php/Slachtoffer> rdf:type skos:Concept ;
+  skos:prefLabel "Slachtoffer" ;
+  skos:definition "Een persoon die (als gevolg van een overstroming) komt te overlijden." ;
+  skos:inScheme <http://wiki.local/index.php/Waterveiligheid> ;
+  skos:related <http://wiki.local/index.php/Slachtofferrisico> ;
+  skos:broader <http://wiki.local/index.php/Getroffene> .
+
+<http://wiki.local/index.php/Slachtofferrisico> rdf:type skos:Concept ;
+  skos:prefLabel "Slachtofferrisico" ;
+  skos:definition "Het individuele risico op overlijden: de kans op overlijden op een bepaalde plaats als gevolg van (in dit geval) een overstroming." ;
+  skos:inScheme <http://wiki.local/index.php/Waterveiligheid> ;
+  skos:related <http://wiki.local/index.php/Slachtoffer> .
+
+<http://wiki.local/index.php/Sluitpeil> rdf:type skos:Concept ;
+  skos:prefLabel "Sluitpeil" ;
+  skos:definition "Waterstand waarbij de kering wordt gesloten." ;
+  skos:inScheme <http://wiki.local/index.php/Waterveiligheid> ;
+  skos:related <http://wiki.local/index.php/Stormvloedkering> .
+
+<http://wiki.local/index.php/Spectrum> rdf:type skos:Concept ;
+  skos:prefLabel "Spectrum" ;
+  skos:definition "Verdeling van de golfenergiedichtheid als functie van de periode (bij een breed spectrum zijn de golfperioden van de windgolven onderling sterk verschillend)." ;
+  skos:inScheme <http://wiki.local/index.php/Waterveiligheid> .
+
+<http://wiki.local/index.php/Squeezing> rdf:type skos:Concept ;
+  skos:prefLabel "Squeezing" ;
+  skos:definition "Plotseling optredende grote horizontale, van de as van de grondconstructie af gerichte verplaatsingen in de ondergrond onder de grondconstructie." ;
+  skos:inScheme <http://wiki.local/index.php/Waterveiligheid> ;
+  skos:related <http://wiki.local/index.php/Grond> .
+
+<http://wiki.local/index.php/Stabiliteitsfactor> rdf:type skos:Concept ;
+  skos:prefLabel "Stabiliteitsfactor" ;
+  skos:definition "Factor waarin het verschil tussen sterkte en belasting wordt uitgedrukt." ;
+  skos:inScheme <http://wiki.local/index.php/Waterveiligheid> ;
+  skos:related <http://wiki.local/index.php/Belasting> ;
+  skos:related <http://wiki.local/index.php/Ontwerp> .
+
+<http://wiki.local/index.php/Stijghoogte> rdf:type skos:Concept ;
+  skos:prefLabel "Stijghoogte" ;
+  skos:definition "Niveau tot waar het water zou stijgen in een peilbuis met filter ter plaatse van het punt; wordt uitgedrukt in meters waterkolom ten opzichte van een referentievlak." ;
+  skos:inScheme <http://wiki.local/index.php/Waterveiligheid> ;
+  skos:related <http://wiki.local/index.php/Verhang> ;
+  skos:related <http://wiki.local/index.php/Verval> ;
+  skos:partOf <http://wiki.local/index.php/Grondwater> .
+
+<http://wiki.local/index.php/Stijgsnelheid> rdf:type skos:Concept ;
+  skos:prefLabel "Stijgsnelheid" ;
+  skos:definition "De snelheid waarmee de waterdiepte lokaal toeneemt." ;
+  skos:inScheme <http://wiki.local/index.php/Waterveiligheid> ;
+  skos:partOf <http://wiki.local/index.php/Hydraulische_condities> .
+
+<http://wiki.local/index.php/Stochast> rdf:type skos:Concept ;
+  skos:prefLabel "Stochast" ;
+  skos:definition "Statistische verdeling van een onzekere parameter." ;
+  skos:inScheme <http://wiki.local/index.php/Waterveiligheid> ;
+  skos:related <http://wiki.local/index.php/Veiligheidsnorm> .
+
+<http://wiki.local/index.php/Stormopzet> rdf:type skos:Concept ;
+  skos:prefLabel "Stormopzet" ;
+  skos:definition "Lokale waterstandverhoging als gevolg van de door de wind op een watermassa uitgeoefende kracht." ;
+  skos:inScheme <http://wiki.local/index.php/Waterveiligheid> ;
+  skos:broader <http://wiki.local/index.php/Windopzet> .
+
+<http://wiki.local/index.php/Stormvloed> rdf:type skos:Concept ;
+  skos:prefLabel "Stormvloed" ;
+  skos:definition "(1)Hoogwaterperiode waarbij te Hoek van Holland het grenspeil (met een gemiddelde overschrijdingsfrequentie van 0,5 per jaar) wordt bereikt of overschreden (voor het grenspeil: zie getijtafels opgesteld door RIKZ: www.getij.nl) (2)Zeer hoge waterstand. Er is sprake van stormvloed als in één van de hoofdmeetstations voor de kust een bepaalde waterstandnorm wordt overschreden. Deze worden per locatie bepaald." ;
+  skos:inScheme <http://wiki.local/index.php/Waterveiligheid> ;
+  skos:related <http://wiki.local/index.php/Overschrijdingsfrequentie> ;
+  skos:related <http://wiki.local/index.php/Overstroming> ;
+  skos:broader <http://wiki.local/index.php/Waterstand> .
+
+<http://wiki.local/index.php/Stormvloedkering> rdf:type skos:Concept ;
+  skos:prefLabel "Stormvloedkering" ;
+  skos:definition "Een stormvloedkering is een waterbouwkundige constructie die bij stormvloed of springtij moet verhinderen dat er grote hoeveelheden water de monding van een rivier instromen en stroomopwaarts tot overstromingen leiden." ;
+  skos:inScheme <http://wiki.local/index.php/Waterveiligheid> ;
+  skos:related <http://wiki.local/index.php/Open_keerhoogte> ;
+  skos:related <http://wiki.local/index.php/Sluitpeil> ;
+  skos:related <http://wiki.local/index.php/Open_keerpeil> ;
+  skos:broader <http://wiki.local/index.php/Waterkering> .
+
+<http://wiki.local/index.php/Strand> rdf:type skos:Concept ;
+  skos:prefLabel "Strand" ;
+  skos:definition "vlakke strook kiezel- of zandgrond dicht langs de zee of een binnenwater." ;
+  skos:inScheme <http://wiki.local/index.php/Waterveiligheid> ;
+  skos:related <http://wiki.local/index.php/Strandsuppletie> ;
+  skos:partOf <http://wiki.local/index.php/Kustgebied> .
+
+<http://wiki.local/index.php/Strandsuppletie> rdf:type skos:Concept ;
+  skos:prefLabel "Strandsuppletie" ;
+  skos:definition "Kunstmatig aanvullen van zand in een kustprofiel." ;
+  skos:inScheme <http://wiki.local/index.php/Waterveiligheid> ;
+  skos:related <http://wiki.local/index.php/Strand> ;
+  skos:broader <http://wiki.local/index.php/Suppletie> .
+
+<http://wiki.local/index.php/Strijklengte> rdf:type skos:Concept ;
+  skos:prefLabel "Strijklengte" ;
+  skos:definition "Lengte waarover de wind over het wateroppervlak strijkt." ;
+  skos:inScheme <http://wiki.local/index.php/Waterveiligheid> ;
+  skos:related <http://wiki.local/index.php/Golfhoogte> ;
+  skos:related <http://wiki.local/index.php/Windopzet> .
+
+<http://wiki.local/index.php/Stroming> rdf:type skos:Concept ;
+  skos:prefLabel "Stroming" ;
+  skos:definition "Stroming kan verwijzen naar: *Zeestroom, de continue bewegingen van het oceaanwater *Getijde (waterbeweging), de wisselende waterstand veroorzaakt door de getijdenwerking van de zon en de maan *De stroming van water in een rivier, een beek of een andere watergang" ;
+  skos:inScheme <http://wiki.local/index.php/Waterveiligheid> ;
+  skos:related <http://wiki.local/index.php/Refractie> ;
+  skos:partOf <http://wiki.local/index.php/Hydraulische_condities> .
+
+<http://wiki.local/index.php/Stroomgebied> rdf:type skos:Concept ;
+  skos:prefLabel "Stroomgebied" ;
+  skos:definition "Een gebied dat het water via een rivier afvoert naar zee of naar een meer." ;
+  skos:inScheme <http://wiki.local/index.php/Waterveiligheid> ;
+  skos:partOf <http://wiki.local/index.php/Rivier> .
+
+<http://wiki.local/index.php/Stroomsnelheid> rdf:type skos:Concept ;
+  skos:prefLabel "Stroomsnelheid" ;
+  skos:definition "De locale snelheid van het water (in het overstroomde gebied)." ;
+  skos:inScheme <http://wiki.local/index.php/Waterveiligheid> ;
+  skos:related <http://wiki.local/index.php/Overstromingsverloop> .
+
+<http://wiki.local/index.php/Superstorm> rdf:type skos:Concept ;
+  skos:prefLabel "Superstorm" ;
+  skos:definition "Storm die de maatgevende omstandigheden langs de kust tot gevolg heeft." ;
+  skos:inScheme <http://wiki.local/index.php/Waterveiligheid> ;
+  skos:related <http://wiki.local/index.php/Maatgevende_omstandigheden> .
+
+<http://wiki.local/index.php/Suppletie> rdf:type skos:Concept ;
+  skos:prefLabel "Suppletie" ;
+  skos:definition "Het ergens storten van materiaal." ;
+  skos:inScheme <http://wiki.local/index.php/Waterveiligheid> ;
+  skos:related <http://wiki.local/index.php/Basiskustlijn> ;
+  skos:related <http://wiki.local/index.php/Erosie> .
+
+<http://wiki.local/index.php/Systeemwerking> rdf:type skos:Concept ;
+  skos:prefLabel "Systeemwerking" ;
+  skos:definition "De invloed die een overstroming in een dijkring (langs een rivier) op de waterstand bij een andere dijkring uitoefent." ;
+  skos:inScheme <http://wiki.local/index.php/Waterveiligheid> ;
+  skos:partOf <http://wiki.local/index.php/Overstromingsverloop> .
+
+<http://wiki.local/index.php/Talud> rdf:type skos:Concept ;
+  skos:prefLabel "Talud" ;
+  skos:definition "Gedeelte van een dijkprofiel met een helling tussen 1:1 en 1:10. 1) De schuin aflopende zijden aan de binnen- en buitenkant van een dijk. 2)" ;
+  skos:inScheme <http://wiki.local/index.php/Waterveiligheid> ;
+  skos:related <http://wiki.local/index.php/Golfoploop> ;
+  skos:related <http://wiki.local/index.php/Ondergrond> ;
+  skos:related <http://wiki.local/index.php/Microstabiliteit> ;
+  skos:related <http://wiki.local/index.php/Macrostabiliteit> ;
+  skos:partOf <http://wiki.local/index.php/Dijk> .
+
+<http://wiki.local/index.php/Taludbekleding> rdf:type skos:Concept ;
+  skos:prefLabel "Taludbekleding" ;
+  skos:definition "Afdekking van de kern van een dijk ter bescherming tegen golfaanvallen en langsstromend water. De taludbekleding bestaat uit een erosiebestendige toplaag, inclusief de onderliggende vlijlaag, filterlaag, kleilaag en/of geotextiel." ;
+  skos:inScheme <http://wiki.local/index.php/Waterveiligheid> ;
+  skos:broader <http://wiki.local/index.php/Dijkbekleding> ;
+  skos:partOf <http://wiki.local/index.php/Talud> .
+
+<http://wiki.local/index.php/Te_toetsen_kustlijn> rdf:type skos:Concept ;
+  skos:prefLabel "Te toetsen kustlijn" ;
+  skos:definition "Gemiddelde ligging van de kustlijn in een willekeurig jaar na 1990. Het verschil in de posities van de TKL en de BKL is maatgevend in het beleid om de ligging van de kustlijn te handhaven." ;
+  skos:inScheme <http://wiki.local/index.php/Waterveiligheid> ;
+  skos:related <http://wiki.local/index.php/Momentane_ligging> ;
+  skos:related <http://wiki.local/index.php/Kustbeheer> .
+
+<http://wiki.local/index.php/Teenbestorting> rdf:type skos:Concept ;
+  skos:prefLabel "Teenbestorting" ;
+  skos:definition "Horizontaal gedeelte van een dijk, aan de buitenzijde gelegen, als overgang tussen de harde bekleding en de rest van het talud of de vooroever Ook wel ‘kreukelberm’ (Zeeland) of ‘plasberm’ genoemd." ;
+  skos:altLabel "Kreukelberm" ;
+  skos:altLabel "Plasberm" ;
+  skos:inScheme <http://wiki.local/index.php/Waterveiligheid> ;
+  skos:partOf <http://wiki.local/index.php/Buitenteen> .
+
+<http://wiki.local/index.php/Toetsing_op_veiligheid> rdf:type skos:Concept ;
+  skos:prefLabel "Toetsing op veiligheid" ;
+  skos:definition "Eens per vijf jaar toetsen de waterkeringbeheerders de waterkeringen aan de wettelijke veiligheidsnormen." ;
+  skos:inScheme <http://wiki.local/index.php/Waterveiligheid> ;
+  skos:related <http://wiki.local/index.php/Toetspeil> ;
+  skos:related <http://wiki.local/index.php/Peildatum> ;
+  skos:related <http://wiki.local/index.php/Hydraulische_randvoorwaarden> ;
+  skos:related <http://wiki.local/index.php/Randvoorwaarden> ;
+  skos:partOf <http://wiki.local/index.php/Veiligheidsnorm> .
+
+<http://wiki.local/index.php/Toetspeil> rdf:type skos:Concept ;
+  skos:prefLabel "Toetspeil" ;
+  skos:definition "Waterstand, die wordt gebruikt voor het beoordelen van de toestand van de waterkeringen, met een overschrijdingsfrequentie conform Bijlage II en IIA bij de Wet. In het Toetspeil is de verwachte waterstandstijging (inclusief NAP-daling) tot en met de peildatum verwerkt De Toetspeilen voor rivieren zijn gegeven op de as van de rivier; voor meren op enige afstand uit de teen van de waterkering (meestal 200 m), voor duinen op de NAP - 20 m dieptelijn en voor de overige waterkeringen langs de kust en estuaria meestal nabij de teen van de waterkering." ;
+  skos:inScheme <http://wiki.local/index.php/Waterveiligheid> ;
+  skos:related <http://wiki.local/index.php/Kruinhoogtemarge> ;
+  skos:related <http://wiki.local/index.php/Kustgebied> ;
+  skos:related <http://wiki.local/index.php/Meer> ;
+  skos:related <http://wiki.local/index.php/Rivier> ;
+  skos:related <http://wiki.local/index.php/Duin> ;
+  skos:related <http://wiki.local/index.php/Decimeringshoogte> ;
+  skos:related <http://wiki.local/index.php/Toetsing_op_veiligheid> ;
+  skos:broader <http://wiki.local/index.php/Waterstand> .
+
+<http://wiki.local/index.php/Uiterwaard> rdf:type skos:Concept ;
+  skos:prefLabel "Uiterwaard" ;
+  skos:definition "Deel van de rivierbedding tussen zomerbed en bandijk." ;
+  skos:inScheme <http://wiki.local/index.php/Waterveiligheid> ;
+  skos:partOf <http://wiki.local/index.php/Winterbed> .
+
+<http://wiki.local/index.php/Uittreepunt> rdf:type skos:Concept ;
+  skos:prefLabel "Uittreepunt" ;
+  skos:definition "Locatie aan de landzijde waar kwelwater het eerst aan het oppervlak treedt." ;
+  skos:inScheme <http://wiki.local/index.php/Waterveiligheid> ;
+  skos:related <http://wiki.local/index.php/Uittreeverhang> ;
+  skos:partOf <http://wiki.local/index.php/Kwel> .
+
+<http://wiki.local/index.php/Uittreeverhang> rdf:type skos:Concept ;
+  skos:prefLabel "Uittreeverhang" ;
+  skos:definition "Verhang in het grondwater ter plaatse van het uittreepunt." ;
+  skos:inScheme <http://wiki.local/index.php/Waterveiligheid> ;
+  skos:related <http://wiki.local/index.php/Uittreepunt> ;
+  skos:broader <http://wiki.local/index.php/Verhang> .
+
+<http://wiki.local/index.php/Uitwateringssluis> rdf:type skos:Concept ;
+  skos:prefLabel "Uitwateringssluis" ;
+  skos:inScheme <http://wiki.local/index.php/Waterveiligheid> ;
+  skos:broader <http://wiki.local/index.php/Kunstwerk> .
+
+<http://wiki.local/index.php/Veiligheidsketen> rdf:type skos:Concept ;
+  skos:prefLabel "Veiligheidsketen" ;
+  skos:definition "Een systeembenadering voor het omgaan met risico’s, bestaande uit vijf aaneengesloten schakels: pro-actie, preventie, preparatie, respons en nazorg." ;
+  skos:inScheme <http://wiki.local/index.php/Waterveiligheid> ;
+  skos:related <http://wiki.local/index.php/Crisis> .
+
+<http://wiki.local/index.php/Veiligheidsnorm> rdf:type skos:Concept ;
+  skos:prefLabel "Veiligheidsnorm" ;
+  skos:definition "(1)Eis waaraan een primaire waterkering moet voldoen, aangegeven als de gemiddelde overschrijdingskans - per jaar - van de hoogste hoogwaterstand waarop de tot directe kering van het buitenwater bestemde primaire waterkering moet zijn berekend, mede gelet op overige het waterkerend vermogen bepalende factoren. (2)De wettelijke bescherming van een dijkring tegen overstromen. Deze zijn vastgelegd in de Wet op de waterkering. Ten behoeve van het ontwerpen en toetsen van waterkeringen leidt men per dijkringgebied, uitgaande van de norm, een maatgevende hoogwaterstand af. De waterkering moet tegen het optreden van deze waterstand bestand zijn." ;
+  skos:inScheme <http://wiki.local/index.php/Waterveiligheid> ;
+  skos:related <http://wiki.local/index.php/Maatgevende_waterstand> ;
+  skos:related <http://wiki.local/index.php/Werklijn> ;
+  skos:related <http://wiki.local/index.php/Hoogwaterrichtlijn> ;
+  skos:related <http://wiki.local/index.php/Basispeil> ;
+  skos:related <http://wiki.local/index.php/Waterstandsnorm> ;
+  skos:related <http://wiki.local/index.php/Beschermingsniveau> ;
+  skos:related <http://wiki.local/index.php/Stochast> ;
+  skos:related <http://wiki.local/index.php/Modelfactor> ;
+  skos:related <http://wiki.local/index.php/Dijkring> .
+
+<http://wiki.local/index.php/Veiligheidstoeslag> rdf:type skos:Concept ;
+  skos:prefLabel "Veiligheidstoeslag" ;
+  skos:definition "Toeslag op de in rekening te brengen hydraulische belasting bij kunstwerken om de onzekerheid in de bepaling van de hydraulische belasting te compenseren." ;
+  skos:inScheme <http://wiki.local/index.php/Waterveiligheid> ;
+  skos:related <http://wiki.local/index.php/Ontwerp> ;
+  skos:related <http://wiki.local/index.php/Belasting> .
+
+<http://wiki.local/index.php/Veiligheidszone> rdf:type skos:Concept ;
+  skos:prefLabel "Veiligheidszone" ;
+  skos:definition "Tot de waterkering behorende gronden, die daadwerkelijk bijdragen aan het waarborgen van de stabiliteit, zowel aan de binnen- als aan de buitenzijde van de waterkering." ;
+  skos:inScheme <http://wiki.local/index.php/Waterveiligheid> ;
+  skos:related <http://wiki.local/index.php/Macrostabiliteit> ;
+  skos:partOf <http://wiki.local/index.php/Invloedszone> ;
+  skos:partOf <http://wiki.local/index.php/Waterkering> .
+
+<http://wiki.local/index.php/Verhang> rdf:type skos:Concept ;
+  skos:prefLabel "Verhang" ;
+  skos:definition "Verhouding tussen het verschil in stijghoogte tussen twee punten en de afstand tussen die punten; wordt ook gradiënt genoemd." ;
+  skos:inScheme <http://wiki.local/index.php/Waterveiligheid> ;
+  skos:related <http://wiki.local/index.php/Stijghoogte> .
+
+<http://wiki.local/index.php/Verticale_grondwaterstroming> rdf:type skos:Concept ;
+  skos:prefLabel "Verticale grondwaterstroming" ;
+  skos:inScheme <http://wiki.local/index.php/Waterveiligheid> ;
+  skos:related <http://wiki.local/index.php/Heave> ;
+  skos:partOf <http://wiki.local/index.php/Grondwater> .
+
+<http://wiki.local/index.php/Verval> rdf:type skos:Concept ;
+  skos:prefLabel "Verval" ;
+  skos:definition "erschil in stijghoogte tussen twee punten, bijvoorbeeld de twee zijden van een waterkering" ;
+  skos:inScheme <http://wiki.local/index.php/Waterveiligheid> ;
+  skos:related <http://wiki.local/index.php/Stijghoogte> .
+
+<http://wiki.local/index.php/Verweken> rdf:type skos:Concept ;
+  skos:prefLabel "Verweken" ;
+  skos:definition "Verlies aan samenhang van het korrelskelet als gevolg van toename van de waterspanning (in de poriën)." ;
+  skos:inScheme <http://wiki.local/index.php/Waterveiligheid> ;
+  skos:broader <http://wiki.local/index.php/Faalmechanisme> .
+
+<http://wiki.local/index.php/Voorland> rdf:type skos:Concept ;
+  skos:prefLabel "Voorland" ;
+  skos:definition "Het gebied aansluitend aan de buitenzijde van de waterkering. Dit gebied wordt ook wel vooroever genoemd. Ook een diepe steile stroomgeul bij een schaardijk valt onder de definitie van voorland Het voorland kan zowel onder als boven water liggen, en zelfs boven Toetspeil." ;
+  skos:altLabel "Vooroever van een dijk" ;
+  skos:inScheme <http://wiki.local/index.php/Waterveiligheid> ;
+  skos:related <http://wiki.local/index.php/Buitendijks> .
+
+<http://wiki.local/index.php/Vooroever> rdf:type skos:Concept ;
+  skos:prefLabel "Vooroever" ;
+  skos:definition "(1)Waterbodem in de zone vlak voor de teen van een dijk. (2)Gedeelte van de kuststrook zeewaarts van de laagwaterlijn tot de zeebodem, ook wel onderwateroever genoemd." ;
+  skos:altLabel "Onderwateroever" ;
+  skos:inScheme <http://wiki.local/index.php/Waterveiligheid> ;
+  skos:partOf <http://wiki.local/index.php/Kustgebied> .
+
+<http://wiki.local/index.php/Vooroever_van_een_dijk> rdf:type skos:Concept ;
+  skos:prefLabel "Vooroever van een dijk" ;
+  skos:inScheme <http://wiki.local/index.php/Waterveiligheid> .
+
+<http://wiki.local/index.php/Vooroeversuppletie> rdf:type skos:Concept ;
+  skos:prefLabel "Vooroeversuppletie" ;
+  skos:altLabel "Onderwatersuppletie" ;
+  skos:inScheme <http://wiki.local/index.php/Waterveiligheid> ;
+  skos:broader <http://wiki.local/index.php/Suppletie> .
+
+<http://wiki.local/index.php/Waakhoogte> rdf:type skos:Concept ;
+  skos:prefLabel "Waakhoogte" ;
+  skos:definition "De hoogte van de kruin van de waterkering boven het ontwerppeil. De minimale waakhoogte is zodanig dat er geen golven over de dijk slaan." ;
+  skos:altLabel "Reststerkte" ;
+  skos:inScheme <http://wiki.local/index.php/Waterveiligheid> ;
+  skos:related <http://wiki.local/index.php/Golfoverslag> ;
+  skos:partOf <http://wiki.local/index.php/Kruin> .
+
+<http://wiki.local/index.php/Waarschuwingstijd> rdf:type skos:Concept ;
+  skos:prefLabel "Waarschuwingstijd" ;
+  skos:definition "De tijd tussen het tijdstip dat bekend is dat er een hoge waterstand te verwachten is en het moment van daadwerkelijk optreden." ;
+  skos:inScheme <http://wiki.local/index.php/Waterveiligheid> ;
+  skos:partOf <http://wiki.local/index.php/Respons> .
+
+<http://wiki.local/index.php/Water> rdf:type skos:Concept ;
+  skos:prefLabel "Water" ;
+  skos:definition "Water H2O; aqua of aq.; is de chemische verbinding van twee waterstofatomen en een zuurstofatoom. Water komt in de natuur voor in de drie verschillende hoofdfasen: als vloeistof, als vaste stof en als gas. Bij kamertemperatuur is water een vloeistof zonder specifieke kleur en geur. Al het leven op aarde bestaat grotendeels uit en is afhankelijk van water. Water bedekt 71% van het aardoppervlak" ;
+  skos:inScheme <http://wiki.local/index.php/Waterveiligheid> .
+
+<http://wiki.local/index.php/Waterbewust_gedrag> rdf:type skos:Concept ;
+  skos:prefLabel "Waterbewust gedrag" ;
+  skos:definition "Gedrag dat wordt beïnvloed door het besef van kansen en bedreigingen van water." ;
+  skos:inScheme <http://wiki.local/index.php/Waterveiligheid> ;
+  skos:partOf <http://wiki.local/index.php/Waterbewustzijn> .
+
+<http://wiki.local/index.php/Waterbewustzijn> rdf:type skos:Concept ;
+  skos:prefLabel "Waterbewustzijn" ;
+  skos:definition "Het besef van kansen of bedreigingen die te maken hebben met water." ;
+  skos:inScheme <http://wiki.local/index.php/Waterveiligheid> ;
+  skos:partOf <http://wiki.local/index.php/Preventie> .
+
+<http://wiki.local/index.php/Waterbodem> rdf:type skos:Concept ;
+  skos:prefLabel "Waterbodem" ;
+  skos:inScheme <http://wiki.local/index.php/Waterveiligheid> ;
+  skos:related <http://wiki.local/index.php/Morfologie> ;
+  skos:related <http://wiki.local/index.php/Ontgronding> ;
+  skos:partOf <http://wiki.local/index.php/Rivier> ;
+  skos:partOf <http://wiki.local/index.php/Zee> ;
+  skos:partOf <http://wiki.local/index.php/Meer> .
+
+<http://wiki.local/index.php/Waterdiepte> rdf:type skos:Concept ;
+  skos:prefLabel "Waterdiepte" ;
+  skos:definition "De diepte die het water lokaal bereikt." ;
+  skos:inScheme <http://wiki.local/index.php/Waterveiligheid> ;
+  skos:related <http://wiki.local/index.php/Refractie> ;
+  skos:partOf <http://wiki.local/index.php/Hydraulische_condities> .
+
+<http://wiki.local/index.php/Waterkerend_kunstwerk> rdf:type skos:Concept ;
+  skos:prefLabel "Waterkerend kunstwerk" ;
+  skos:definition "Constructie die onderdeel uitmaakt van een waterkering of de waterkering vervangt, maar is aangelegd ten behoeve van een andere functie, die de waterkering kruist (bijvoorbeeld schutten, spuien)." ;
+  skos:inScheme <http://wiki.local/index.php/Waterveiligheid> .
+
+<http://wiki.local/index.php/Waterkering> rdf:type skos:Concept ;
+  skos:prefLabel "Waterkering" ;
+  skos:definition "Twee definities: # Kunstmatige hoogten en die (gedeelten van) natuurlijke hoogten of hooggelegen gronden, met inbegrip van daarin of daaraan aangebrachte werken, die een waterkerende of mede een waterkerende functie hebben, en die als zodanig in de legger zijn aangegeven. # Een natuurlijke of kunstmatige verhoging in het landschap om het achterliggende gebied te beschermen tegen overstroming. Deze zijn primair of secundair." ;
+  skos:inScheme <http://wiki.local/index.php/Waterveiligheid> ;
+  skos:related <http://wiki.local/index.php/Buitendijks> ;
+  skos:related <http://wiki.local/index.php/Binnendijks> ;
+  skos:related <http://wiki.local/index.php/Bres> ;
+  skos:related <http://wiki.local/index.php/(Het)_Bezwijken> ;
+  skos:related <http://wiki.local/index.php/Normaal_onderhoud> ;
+  skos:related <http://wiki.local/index.php/Dijkring> ;
+  skos:related <http://wiki.local/index.php/Intreepunt> ;
+  skos:related <http://wiki.local/index.php/Hydraulische_belasting> ;
+  skos:related <http://wiki.local/index.php/Dijkvak> ;
+  skos:related <http://wiki.local/index.php/Duinvak> ;
+  skos:related <http://wiki.local/index.php/Keur> ;
+  skos:related <http://wiki.local/index.php/Legger> ;
+  skos:related <http://wiki.local/index.php/Actuele_sterkte> ;
+  skos:related <http://wiki.local/index.php/Beheer> ;
+  skos:related <http://wiki.local/index.php/Beheersregister> ;
+  skos:related <http://wiki.local/index.php/Deltahoogte> ;
+  skos:partOf <http://wiki.local/index.php/Kustgebied> .
+
+<http://wiki.local/index.php/Waterkeringszone> rdf:type skos:Concept ;
+  skos:prefLabel "Waterkeringszone" ;
+  skos:definition "Gebied waarop de keur van toepassing is." ;
+  skos:inScheme <http://wiki.local/index.php/Waterveiligheid> .
+
+<http://wiki.local/index.php/Waterover/onder-spanning> rdf:type skos:Concept ;
+  skos:prefLabel "Waterover/onder-spanning" ;
+  skos:definition "Verschil tussen de aanwezige waterspanning en de hydrostatische waterspanning." ;
+  skos:inScheme <http://wiki.local/index.php/Waterveiligheid> ;
+  skos:related <http://wiki.local/index.php/Waterspanning> ;
+  skos:related <http://wiki.local/index.php/Hydrostatische_grondwaterspanning> .
+
+<http://wiki.local/index.php/Waterspanning> rdf:type skos:Concept ;
+  skos:prefLabel "Waterspanning" ;
+  skos:definition "Druk in het grondwater." ;
+  skos:inScheme <http://wiki.local/index.php/Waterveiligheid> ;
+  skos:related <http://wiki.local/index.php/Waterover/onder-spanning> ;
+  skos:partOf <http://wiki.local/index.php/Grondwater> .
+
+<http://wiki.local/index.php/Waterstand> rdf:type skos:Concept ;
+  skos:prefLabel "Waterstand" ;
+  skos:definition "Stand of peil van het water in een meer, rivier of zee." ;
+  skos:inScheme <http://wiki.local/index.php/Waterveiligheid> ;
+  skos:related <http://wiki.local/index.php/Buioscillaties> ;
+  skos:related <http://wiki.local/index.php/Astronomisch_getij> ;
+  skos:related <http://wiki.local/index.php/Lokale_opstuwing> ;
+  skos:related <http://wiki.local/index.php/Hoogwatergolf> ;
+  skos:related <http://wiki.local/index.php/Bochtwerking> ;
+  skos:related <http://wiki.local/index.php/Lokale_opwaaiing> ;
+  skos:related <http://wiki.local/index.php/Windopzet> ;
+  skos:related <http://wiki.local/index.php/Decimeringshoogte> ;
+  skos:related <http://wiki.local/index.php/Evenstandslijn> ;
+  skos:related <http://wiki.local/index.php/Betrekkingslijn> ;
+  skos:partOf <http://wiki.local/index.php/Hydraulische_condities> ;
+  skos:partOf <http://wiki.local/index.php/Oppervlaktewater> .
+
+<http://wiki.local/index.php/Waterstandsnorm> rdf:type skos:Concept ;
+  skos:prefLabel "Waterstandsnorm" ;
+  skos:definition "(1)Eis waaraan een primaire waterkering moet voldoen, aangegeven als de gemiddelde overschrijdingskans - per jaar - van de hoogste hoogwaterstand waarop de tot directe kering van het buitenwater bestemde primaire waterkering moet zijn berekend, mede gelet op overige het waterkerend vermogen bepalende factoren. (2)De wettelijke bescherming van een dijkring tegen overstromen. Deze zijn vastgelegd in de Wet op de waterkering. Ten behoeve van het ontwerpen en toetsen van waterkeringen leidt men per dijkringgebied, uitgaande van de norm, een maatgevende hoogwaterstand af. De waterkering moet tegen het optreden van deze waterstand bestand zijn." ;
+  skos:inScheme <http://wiki.local/index.php/Waterveiligheid> ;
+  skos:related <http://wiki.local/index.php/Veiligheidsnorm> .
+
+<http://wiki.local/index.php/Watertoets> rdf:type skos:Concept ;
+  skos:prefLabel "Watertoets" ;
+  skos:definition "Instrument dat gebruikt moet worden om al in de beginfase van ruimtelijke plannen en besluiten water(beheersing) mee te nemen." ;
+  skos:inScheme <http://wiki.local/index.php/Waterveiligheid> ;
+  skos:partOf <http://wiki.local/index.php/Preventie> .
+
+<http://wiki.local/index.php/Wel> rdf:type skos:Concept ;
+  skos:prefLabel "Wel" ;
+  skos:definition "Geconcentreerde uitstroming van kwelwater." ;
+  skos:inScheme <http://wiki.local/index.php/Waterveiligheid> ;
+  skos:partOf <http://wiki.local/index.php/Kwelwater> .
+
+<http://wiki.local/index.php/Werklijn> rdf:type skos:Concept ;
+  skos:prefLabel "Werklijn" ;
+  skos:definition "(1)Relatie tussen het jaarmaximum van de afvoer en de overschrijdingskans daarvan per jaar. (2)De relatie tussen de daadwerkelijke rivierafvoer en de rekenkundig bepaalde overschrijdingsfrequentie van deze afvoer." ;
+  skos:inScheme <http://wiki.local/index.php/Waterveiligheid> ;
+  skos:related <http://wiki.local/index.php/Frequentielijn> ;
+  skos:related <http://wiki.local/index.php/Veiligheidsnorm> .
+
+<http://wiki.local/index.php/Windgolven> rdf:type skos:Concept ;
+  skos:prefLabel "Windgolven" ;
+  skos:definition "Golven, ontstaan door de wrijving van de lucht over het water." ;
+  skos:inScheme <http://wiki.local/index.php/Waterveiligheid> ;
+  skos:broader <http://wiki.local/index.php/Golven> .
+
+<http://wiki.local/index.php/Windopzet> rdf:type skos:Concept ;
+  skos:prefLabel "Windopzet" ;
+  skos:definition "Lokale waterstandverhoging als gevolg van de door de wind op een watermassa uitgeoefende kracht." ;
+  skos:inScheme <http://wiki.local/index.php/Waterveiligheid> ;
+  skos:related <http://wiki.local/index.php/Waterstand> ;
+  skos:related <http://wiki.local/index.php/Strijklengte> .
+
+<http://wiki.local/index.php/Winterbed> rdf:type skos:Concept ;
+  skos:prefLabel "Winterbed" ;
+  skos:definition "Deel van de rivierbedding tussen zomerbed en bandijk." ;
+  skos:inScheme <http://wiki.local/index.php/Waterveiligheid> ;
+  skos:related <http://wiki.local/index.php/Zomerkade> ;
+  skos:partOf <http://wiki.local/index.php/Rivierengebied> .
+
+<http://wiki.local/index.php/Zachte_waterkering> rdf:type skos:Concept ;
+  skos:prefLabel "Zachte waterkering" ;
+  skos:inScheme <http://wiki.local/index.php/Waterveiligheid> ;
+  skos:broader <http://wiki.local/index.php/Waterkering> .
+
+<http://wiki.local/index.php/Zand> rdf:type skos:Concept ;
+  skos:prefLabel "Zand" ;
+  skos:inScheme <http://wiki.local/index.php/Waterveiligheid> ;
+  skos:related <http://wiki.local/index.php/Kritieke_dichtheid> ;
+  skos:broader <http://wiki.local/index.php/Grond> .
+
+<http://wiki.local/index.php/Zandmaas> rdf:type skos:Concept ;
+  skos:prefLabel "Zandmaas" ;
+  skos:inScheme <http://wiki.local/index.php/Waterveiligheid> ;
+  skos:partOf <http://wiki.local/index.php/Maaswerken> .
+
+<http://wiki.local/index.php/Zandmeevoerende_wel> rdf:type skos:Concept ;
+  skos:prefLabel "Zandmeevoerende wel" ;
+  skos:definition "Wel die zand meevoert uit de ondergrond." ;
+  skos:inScheme <http://wiki.local/index.php/Waterveiligheid> ;
+  skos:broader <http://wiki.local/index.php/Wel> .
+
+<http://wiki.local/index.php/Zee> rdf:type skos:Concept ;
+  skos:prefLabel "Zee" ;
+  skos:definition "Een zee is een grote hoeveelheid water, die in verbinding staat met een andere zee of met een oceaan, die ook als zee kan worden aangeduid, zij het dat een oceaan een zelfstandig geheel vormt met een eigen circulatie (zeestroom). Een zee daarentegen, heeft een bodem die bij een continent behoort (continentaal plat). Als de verbinding tussen zeeën smal is en uit een of meer zeestraten bestaat, spreekt men van een binnenzee. Zeeën worden gevoed door rivieren en door regenwater" ;
+  skos:inScheme <http://wiki.local/index.php/Waterveiligheid> .
+
+<http://wiki.local/index.php/Zeedijk> rdf:type skos:Concept ;
+  skos:prefLabel "Zeedijk" ;
+  skos:definition "Primaire waterkering van de categorie a, die zout water keert." ;
+  skos:inScheme <http://wiki.local/index.php/Waterveiligheid> ;
+  skos:broader <http://wiki.local/index.php/Primaire_waterkering> .
+
+<http://wiki.local/index.php/Zeereep> rdf:type skos:Concept ;
+  skos:prefLabel "Zeereep" ;
+  skos:definition "Eerste doorgaande duinregel, gelegen onmiddellijk langs het strand." ;
+  skos:inScheme <http://wiki.local/index.php/Waterveiligheid> ;
+  skos:partOf <http://wiki.local/index.php/Duin> .
+
+<http://wiki.local/index.php/Zeespiegelstijging> rdf:type skos:Concept ;
+  skos:prefLabel "Zeespiegelstijging" ;
+  skos:definition "De stijging van de gemiddelde zeestand ten opzichte van NAP." ;
+  skos:altLabel "Getijhoogwaterstijging" ;
+  skos:inScheme <http://wiki.local/index.php/Waterveiligheid> ;
+  skos:related <http://wiki.local/index.php/NAP-daling> ;
+  skos:related <http://wiki.local/index.php/Astronomisch_getij> ;
+  skos:partOf <http://wiki.local/index.php/Zeestand> .
+
+<http://wiki.local/index.php/Zeestand> rdf:type skos:Concept ;
+  skos:prefLabel "Zeestand" ;
+  skos:definition "Waterstand op zee, die als gevolg van het getij verandert. Gemiddelde zeestand: middenstand ; gemiddeld zeeniveau Def.: het rekenkundig gemiddelde van het peil in een getijgebied over een bepaalde periode." ;
+  skos:inScheme <http://wiki.local/index.php/Waterveiligheid> ;
+  skos:broader <http://wiki.local/index.php/Waterstand> .
+
+<http://wiki.local/index.php/Zetting> rdf:type skos:Concept ;
+  skos:prefLabel "Zetting" ;
+  skos:definition "Verticale vervorming van grondlagen, hoofdzakelijk als gevolg van een bovenbelasting, de eigen massa en/of het uittreden van water." ;
+  skos:inScheme <http://wiki.local/index.php/Waterveiligheid> ;
+  skos:related <http://wiki.local/index.php/Grond> .
+
+<http://wiki.local/index.php/Zettingsvloeiing> rdf:type skos:Concept ;
+  skos:prefLabel "Zettingsvloeiing" ;
+  skos:definition "Verschijnsel dat een verzadigde zandmassa zich gedraagt als een vloeistof als gevolg van het wegvallen van de korrelspanning." ;
+  skos:inScheme <http://wiki.local/index.php/Waterveiligheid> ;
+  skos:broader <http://wiki.local/index.php/Faalmechanisme> .
+
+<http://wiki.local/index.php/Zomerbed> rdf:type skos:Concept ;
+  skos:prefLabel "Zomerbed" ;
+  skos:definition "Deel van de rivier waar bij normale en lagere waterstanden de rivierafvoer plaatsvindt." ;
+  skos:inScheme <http://wiki.local/index.php/Waterveiligheid> ;
+  skos:related <http://wiki.local/index.php/Zomerkade> ;
+  skos:partOf <http://wiki.local/index.php/Rivierengebied> .
+
+<http://wiki.local/index.php/Zomerkade> rdf:type skos:Concept ;
+  skos:prefLabel "Zomerkade" ;
+  skos:definition "Begrenzing van zomer- en winterbed van de rivier." ;
+  skos:inScheme <http://wiki.local/index.php/Waterveiligheid> ;
+  skos:related <http://wiki.local/index.php/Winterbed> ;
+  skos:related <http://wiki.local/index.php/Zomerbed> .
+

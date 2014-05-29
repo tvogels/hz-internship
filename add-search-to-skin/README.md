@@ -93,9 +93,28 @@ else
 ...
 ```
 
+## Place domain specific ontology file
+
+Move `hzbwnature.n3` to any location on the file system that is readable to Apache. This file is used by ElasticSearch. It can be automatically generated, but the code for that should still be improved.
 
 
+## Prepare building the index
 
+Set three settings in `build_search_index.php`:
 
+```php
+$wiki = "wiki.local"; 
+// url of the wiki
+$elasticIndexDir = "/tmp/elasticindex"; 
+// where can ElasticSearch put some temp files (absolute path)
+$skosN3file = "/Users/thijs/Development/internship/skos/hzbwnature.n3"; 
+// absolute path of the file that was installed in the previous step.
+```
 
+## Build the index
 
+Go to `wikiurl/index.php/BuildSearchIndex` and wait. This goes pretty slow now it is incorporated into the skin. Standalone, it worked faster. We could improve the indexing by changing API calls to PHP instead of using HTTP calls every time.
+
+## Configure search
+
+If ElaticSearch is not running on `localhost:9200`, this should be specified in `search.php`.
