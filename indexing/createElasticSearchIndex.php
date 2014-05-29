@@ -65,6 +65,12 @@
     "type" => "string",
     "index_analyzer" => "my_analyzer",
     "search_analyzer" => "my_analyzer"
+  );  
+  $indexParams['body']['mappings']['_default_']['properties']['suggest'] = array (
+    "type" => "completion",
+    "index_analyzer" => "simple",
+    "search_analyzer" => "simple",
+    "payloads" => true
   );
   $elastic->indices()->create($indexParams);
 
@@ -193,17 +199,41 @@
     // Display
     echo "<dt>" . prettify($c) . "</dt>\n";
 
+    // make a list of terms for auto completion
+    // $autoCompleteInput = explode(" ",$c->fulltext);
+    $autoCompleteInput = array();
+    $autoCompleteInput[] = $c->fulltext;
+
+    // find the VN pages
+    $query = "[[Model link::{$c->fulltext}]]";
+    $vns = $ask->query($query);
+    $vnurls = array();
+    foreach ($vns as $key => $value) {
+      $vnurls[] = $value->fullurl;
+    }
+
     // Add to the index
     $params = array();
-    $root = 'ROOT';
+    $super = 'ROOT';
     if (count($c->printouts->{'Supercontext'}) > 0) 
-      $root = $c->printouts->{'Supercontext'}[0]->fullurl;
+      $super = $c->printouts->{'Supercontext'}[0]->fullurl;
+
+    $super_readable = '';
+    if (count($c->printouts->{'Supercontext'}) > 0) 
+      $super_readable = $c->printouts->{'Supercontext'}[0]->fulltext;
+
     $params['body'] = array(
       'url' => $c->fullurl,
       'name' => $c->fulltext,
-      'supercontext' => $root,
+      'supercontext' => $super,
       'category' => array_map(function ($a) { return $a->fullurl; }, $c->printouts->{'Category'}),
-      'category_readable' => array_map(function ($a) { return $a->fulltext; }, $c->printouts->{'Category'})
+      'category_readable' => array_map(function ($a) { return $a->fulltext; }, $c->printouts->{'Category'}),
+      'vn_pages' => $vnurls,
+      "suggest" => array(
+        "input" => $autoCompleteInput,
+        "output" => $c->fulltext,
+        "payload" => array("url" => $c->fullurl,"context" => $super_readable,'vn_pages' => $vnurls,"type"=>'context')
+      )
     );
     $params['index'] = 'hzbwnature';
     $params['type'] = 'context';
@@ -259,8 +289,10 @@
 
   foreach ($elements as $element) {
     // Skip SKOS Concepts
-    // if ($element->printouts->{'Category'}[0]->fulltext == 'Category:SKOS Concept') continue;
-x§
+
+    $type = "intentional"; // used for term suggestion
+    // if ($element->printouts->{'Category'}[0]->fulltext == 'Category:SKOS Concept') $type = "skos";
+
     $pars = getParagraphs($element->fullurl, $elementPars);
 
     // Display
@@ -281,14 +313,36 @@ x§
         }, 
         $pars
       )," \n");
+
+    // make a list of terms for auto completion
+    // $autoCompleteInput = explode(" ",$element->fulltext);
+    $autoCompleteInput = array();
+    $autoCompleteInput[] = $element->fulltext;
+
+
+    // find the VN pages
+    $query = "[[Model link::{$element->fulltext}]]";
+    $vns = $ask->query($query);
+    $vnurls = array();
+    foreach ($vns as $key => $value) {
+      $vnurls[] = $value->fullurl;
+    }
+
+    $context_readable = implode(array_map(function ($a) { return $a->fulltext; }, $element->printouts->{'Context'}), " ");
     $params['body'] = array(
       "url" => $element->fullurl,
       "title" => $element->fulltext,
       "content" => $content,
       "concerns_readable" => implode(array_map(function ($a) { return $a->fulltext; }, $element->printouts->{'Concerns'}), " "),
       "concerns" => array_map(function ($a) { return $a->fullurl; }, $element->printouts->{'Concerns'}),
-      "context_readable"=> implode(array_map(function ($a) { return $a->fulltext; }, $element->printouts->{'Context'}), " "),
-      "context"=> array_map(function ($a) { return $a->fullurl; }, $element->printouts->{'Context'})
+      "context_readable"=> $context_readable,
+      "context"=> array_map(function ($a) { return $a->fullurl; }, $element->printouts->{'Context'}),
+      "vn_pages" => $vnurls,
+      "suggest" => array(
+        "input" => $autoCompleteInput,
+        "output" => $element->fulltext,
+        "payload" => array("url" => $element->fullurl,"vn_pages" => $vnurls,"context" => $context_readable, "type" => $type)
+      )
     );
     $params['index'] = 'hzbwnature';
     $params['type'] = 'intentional_element';

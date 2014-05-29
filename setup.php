@@ -2,6 +2,7 @@
 
 // N E C E S S A R Y   I N C L U D E S
 
+# a class that allows for sending ASK queries to the wiki
 include_once('classes/AskApi.php');
 include_once('vendor/autoload.php');
 
