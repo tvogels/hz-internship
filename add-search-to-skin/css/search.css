@@ -1,0 +1,125 @@
+#searchform fieldset {
+  z-index: 20;
+}
+
+#searchInput {
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  height:32px;
+}
+
+div#body {
+  padding-bottom:32px;
+}
+
+.suggestions {
+  opacity: 0;
+  transition: opacity .3s ease-out, width .3s ease-out;
+  width: 180px;
+  position: absolute;
+  visibility: hidden;
+  right: 0;top: 31px;
+  z-index: 10;
+  background-color: rgba(50,50,50,0.7);
+  margin: 0;padding: 0;
+  list-style: none;
+  color: white;
+  border-radius: 2px;
+}
+
+.suggestions.focus {
+  width: 320px;
+}
+
+.suggestions.visible {
+  opacity: 1;
+  visibility: visible;
+}
+
+.suggestions li {
+  padding: 8px 14px;
+  cursor: pointer;
+  border-radius: 2px;
+  overflow: hidden;
+}
+.suggestions li.selected {
+  background-color: rgba(20,20,20,.5);
+}
+.suggestions h4, .suggestions p {
+  margin: 0;padding: 0;
+  line-height: 1.4em;
+}
+
+
+
+
+
+.search-results {
+  list-style: none;
+  margin:0 !important;
+  padding:0;
+}
+.search-results li {
+  padding:0;
+}
+.search-results a {
+  text-decoration:none;
+  padding:.5em 0;
+  display:block;
+}
+#page .search-results a:hover h2 {
+  text-decoration: underline;
+}
+#page .search-results h2 {
+  margin:0;padding:0;
+  font-size:1.3em;
+  line-height:1.6em;
+  color: #2691cf;
+  border-bottom:0;
+  font-weight:600;
+}
+.search-results p {
+  margin:0;padding:0;
+  line-height:2em;
+  color: #777;
+}
+
+.search-context-info {
+  margin-top:7em;
+}
+.search-context-info > div {
+  background-color: rgba(255,255,255,.6);
+  padding: 1em;
+}
+
+.search-context-info h2 {
+  color: #444;
+  font-weight: 700;
+  font-size:1em;
+  text-transform: uppercase;
+  padding:0;margin:0;
+}
+.search-context-info h2 a {
+  color: #444;
+}
+.search-context-info li a {
+  color: #ccc;
+}
+.search-context-info a {
+  text-decoration: none;
+}
+.search-context-info p {
+  margin:0;padding:0;
+  color: rgba(0,0,0,0.4);
+}
+
+.search-everywhere {
+  color: #666;
+  display:none;
+}
+
+a[data-context].active {
+  font-weight:bold;
+  color: #2691cf !important;
+}
+
