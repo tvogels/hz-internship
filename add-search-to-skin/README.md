@@ -17,6 +17,7 @@ For example on `http://localhost:9200`.
 * `build_search_index.php`
 * `search.php`
 
+Note: in the PHP files, I use the notation `$bla = ['a','b','c']` for arrays. This is only supported in modern versions of PHP, so possibly this has to be changed to `$bla = array('a','b','c')`.
 
 ## Install required php extensions via composer
 
@@ -67,6 +68,8 @@ else
 
 Maybe you want to put the names of the pages in constants. I just did it like this now, but that can be changed.
 
+Note: I see that since my last checkout, the `helper.php` file has changed a lot. Maybe the implementation of this step should be a little different now, but that should not be too difficult.
+
 
 ## Edit DeltaSkin.skin.php
 
@@ -92,6 +95,35 @@ elseif($subhome)
 else
 ...
 ```
+
+
+## Change code of the search box a little bit
+
+The div `#searchBoxFront` should now look like
+
+```html
+<div id="searchBoxFront">
+    <form action="/index.php/Search" id="searchform" method="GET">
+        <fieldset>
+            <input autocomplete="off" type="search" name="q" id='searchInput' value='<?php echo $_GET['q'] ?>' placeholder="<?php echo $this->translator->translate( 'searchbutton' )?>">
+            <button data-icon="q"><span><?php $this->translator->translate( 'searchbutton' ) ?></span></button>
+        </fieldset>
+        <ul class="suggestions">
+        </ul>
+    </form>
+</div>
+```
+
+
+## Turn off autocomplete by MediaWiki
+
+Change `LocalSettings.php` and add
+
+```php
+// disable standard search suggestions:
+$wgUseAjax = false;
+```
+
 
 ## Place domain specific ontology file
 
