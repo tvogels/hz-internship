@@ -49,6 +49,7 @@ $(function() {
 
   $searchInput.focus(function () {
     $suggestions.addClass('focus');
+    $searchInput.addClass('selected');
     var text = $(this).val();
     if (text.length >= MIN_LENGTH_FOR_SUGGESTIONS)
       $suggestions.addClass('visible');
@@ -57,6 +58,7 @@ $(function() {
   $searchInput.blur(function () {
     $suggestions.removeClass('visible');
     $suggestions.removeClass('focus');
+    $searchInput.removeClass('selected');
   });
 
 
@@ -73,11 +75,13 @@ $(function() {
 
   selectSuggestion = function (i) {
     currentSuggestion = i;
+    $searchInput.removeClass('selected');
     $('.suggestions li').removeClass('selected');
     if (i >= 0) {
       $($('.suggestions li')[i]).addClass('selected');
     } else {
-      $('.suggestions li.normal-search').addClass('selected');
+      console.log('normaal zoeken!');
+      $searchInput.addClass('selected');
     }
   };
 
@@ -95,9 +99,13 @@ $(function() {
     }
   });
 
+  // go back to normal search when the mouse leaves the suggestions
+  // ul.
+  $suggestions.hover(function (e) {}, function (e) {
+    selectSuggestion(-1);
+  });
 
-
-  // This loads the suggestions and updates the 
+  // This loads the suggestions and updates the list
 
   var giveSearchSuggestions = function (event) {
 
@@ -148,14 +156,6 @@ $(function() {
             $suggestions.append(element);
           });
 
-          // add 'normal search' option
-          var element = $("<li class='normal-search'><h4>Zoeken naar '" + text + "' ...</h4></li>");
-          element.mousedown(submitSearch);
-          element.hover(function () {
-            selectSuggestion(-1);
-          });
-          $suggestions.append(element);
-
           // Select normal search as the selected option.
           selectSuggestion(-1);
         }
@@ -179,14 +179,14 @@ $(function() {
       e.preventDefault();
       var next = currentSuggestion-1;
       if (currentSuggestion == -1) {
-        next = $('.suggestions li').length-2;
+        next = $('.suggestions li').length-1;
       }
       selectSuggestion(next);
     } else if (code == ARROW_DOWN_KEY) {
       // down
       e.preventDefault();
       var next = currentSuggestion+1;
-      if (currentSuggestion == $('.suggestions li').length-2) {
+      if (currentSuggestion == $('.suggestions li').length-1) {
         next = -1;
       }
       selectSuggestion(next);
@@ -245,10 +245,9 @@ $(function() {
       var zoekresultaten = 'zoekresultaten';
 
     if (selectedContext != null)
-      $('.count-string').text(count+' '+zoekresultaten+' voor "'+$('#search-query').val()+'" in de context '+$(this).attr('data-context-name')+' ...');
+      $('.count-string').text(count+' '+zoekresultaten+' in de context '+$(this).attr('data-context-name'));
     else
-      $('.count-string').text(count+' '+zoekresultaten+' voor "'+$('#search-query').val()+'" ...');
-
+      $('.count-string').text(count+' '+zoekresultaten+'');
 
   });
 

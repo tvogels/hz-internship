@@ -230,12 +230,12 @@
 <div id="sectionNav"></div>
 <div id="body">
   
-  <h1>Doorzoek DeltaExpertise</h1>
+  <h1>Zoekresultaat ‘<?php echo htmlentities($_GET['q']) ?>’</h1>
 
   <input type="hidden" id="search-query" value="<?php echo htmlentities($_GET['q']) ?>">
 
   <div id="mw-content-text" lang="nl" dir="ltr" class="mw-content-ltr">
-    <p class="count-string"><?php echo count($search_results) ?> zoekresultaten voor "<?php echo $_GET['q'] ?>" ...</p>
+    <p class="count-string"><?php echo count($search_results) ?> zoekresultaten</p>
 
     <div id="page">
       <ul class="search-results">
